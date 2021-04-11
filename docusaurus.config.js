@@ -11,6 +11,9 @@ module.exports = {
   projectName: 'MyPathGuider',
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark'
+    },
     navbar: {
       title: 'MyPathGuider',
       logo: {
