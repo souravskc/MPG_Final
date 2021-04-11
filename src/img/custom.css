@@ -1,0 +1,354 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+:root {
+  --ifm-color-primary: #800080;
+  --ifm-color-primary-dark: #730073;
+  --ifm-color-primary-darker: #6d006d;
+  --ifm-color-primary-darkest: #5a005a;
+  --ifm-color-primary-light: #8d008d;
+  --ifm-color-primary-lighter: #930093;
+  --ifm-color-primary-lightest: #a600a6;
+  --ifm-code-font-size: 95%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.container{
+ 
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.container p{
+  max-width: 500px;
+  margin-bottom: 35px;
+  color: black;
+}
+
+.hero{
+  display:flex;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.heroimage{
+  max-width: 100%;
+  height: auto;
+
+}
+.container h1{
+  color:black;
+  margin-bottom: 30px;
+}
+
+.com_box{
+  text-align: center;
+}
+
+.com_box h1{
+  font-size: 50px;
+}
+
+.com_box p{
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.comm_button{
+  text-align: center;
+  margin:auto;
+  width:200px;
+  height:50px;
+  font-size: 20px;
+  background-color:royalblue;
+  border-radius: 8px;
+
+}
+
+.comm_button:hover{
+  cursor:pointer;
+  background-color: white;
+}
+
+@media screen and (max-width:400px){
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 15px;
+    margin: auto;
+  }
+
+  .container p{
+    text-align: center;
+  }
+
+  .container h1{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .hero{
+    flex-direction: column;
+  }
+  
+  .button{
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+  }
+  }
+
+
+  .feature{
+    height: 93vh;
+    background-image:url("road.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 100%;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width:400px;
+    height: 250px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin:30px 0 0 30px;
+  }
+
+  .content h1{
+    text-align: center;
+  }
+
+  .content p{
+    margin-top: 20px;
+    text-align: center;
+    padding:5px;
+  }
+  
+  .feature1{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .feature2{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+
+  .feature2 .content{
+    margin-right: 25px;
+  }
+
+
+  .feature_img{
+    width:400px;
+    height: 250px;
+    margin:30px;
+  }
+
+  .ftimg{
+    height: 250px;
+    width:400px;
+  }
+
+  .footer-component {
+    background-color: #24598B;
+    /* border: 1px solid #51ad28; */
+    border-width: 0px 0px 8px 0px;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+  }
+  .main-text {
+    margin-bottom: 0px !important;
+    font-size: 16px;
+  }
+  hr {
+    background-color: #fff;
+  }
+  .social-icons-container {
+    font-size: 22px;
+  }
+  .icon {
+    margin: 0px 8px 8px 8px;
+  }
+
+  .discord-icon {
+    margin-left: 2px;
+    margin-right: 2px;
+    color: rgb(115,137,219);
+  }
+  .discord-icon:hover {
+    color: #51ad28;
+  }
+
+  .footer-icon {
+    height: auto;
+    margin: 5px;
+    color: #fff;
+  }
+  .footer-icon:hover {
+    color: #51ad28;
+  }
+  
+
+  /* header section starts */
+
+  .header {
+    text-align: center;
+    font-family: "Roboto";
+  }
+  .header-container {
+    margin: auto;
+    text-align: left;
+    margin-top: 5rem;
+  }
+  .header-h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    vertical-align: middle;
+  }
+  .header-text {
+    margin-top: 3rem;;
+  }
+  .free-word {
+    color: #3289C7;
+  }
+  .header-para {
+    color: #3289C7;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 2rem;
+  }
+  .header-button {
+    background-color: purple;
+    color: white;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+
+  /* header section ends */
+
+  /* community section starts */
+
+  .community {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-family: "Roboto";
+  }
+  .discord-icon {
+    font-size: 35px;
+  }
+
+  /* community section ends */
+
+  /* Feature section starts */
+
+  .feature-div {
+    text-align: center;
+    font-family: "Roboto";
+  }  
+  .feature-row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+
+
+  .featurecard {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-family: "Roboto";
+  }
+
+
+  .feature-para {
+    color: #7B869B;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 2rem;
+  }
+
+  .header-h2 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 50px;
+    vertical-align: middle;
+  }
+
+  .feature-text {
+    margin-top: 3rem;;
+    vertical-align: middle;
+  }
+
+  .image{
+    padding:50px;
+  }
+
+
+  .feedback{
+    padding-left:5rem;
+    padding-right:5rem;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(246,246,246);
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 2rem;
+  }
+
+  .back{
+    background-color:rgb(246,246,246);
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .py{
+    padding-top:5rem;
+    padding-bottom:5rem;
+  }
+
+  [type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .smiley{
+    height:100px
+  }
+  .smiley:hover{
+    color:#ffff;
+  }
+  /* Feature section ends */
