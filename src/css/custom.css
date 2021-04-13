@@ -19,6 +19,25 @@
   --ifm-color-primary-lighter: #1e8bff;
   --ifm-color-primary-lightest: #2e93ff;
   --ifm-code-font-size: 95%;
+  
+}
+
+.admonition-content{
+  padding:2rem;
+  background-color:#1F2937;
+  color:white;
+}
+.admonition-caution > .admonition-heading{
+  color:black;
+  padding-top:1rem;
+  padding-left:2rem;
+}
+
+
+.admonition-caution{
+  border:0;
+  padding:0px;
+  background-color:rgb(212, 209, 19)
 }
 
 
