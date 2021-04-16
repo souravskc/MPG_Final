@@ -21,6 +21,8 @@ import Mentor from '../img/features/mentor.webp'
 import Improv from '../img/features/improv.webp'
 import Step from '../img/features/step.webp'
 
+//import {GrSteps} from 'react-icons/gr'
+
 import FeatureCard from '../components/FeatureCard'
 import Feedback from '../components/Feedback'
 import Footer from '../components/Footer'
@@ -98,7 +100,7 @@ export default function Home() {
               <span className="text-white text-lg lg:text-2xl font-medium pb-4"><Handpick className="fill-current align-middle text-blue-300 h-8 w-auto mr-2 text-2xl" /><span className="text-blue-500 ">Handpicked </span>practice problems</span>
               <span className="text-white text-lg lg:text-2xl font-medium pb-4"><Master className="fill-current align-middle text-blue-300 h-8 w-auto mr-2 text-2xl" />Master the basics from <span className="text-blue-500 ">beginner to advanced</span> </span>
             </div>
-            {/*  <h1 className="header-h1">Get your structured path for <span className="free-word">free</span> resources now.</h1>
+            {/*  <h1 className="header-h1">Get your sstructured path for <span className="free-word">free</span> resources now.</h1>
               <div className="flex"> 
                 <h3 className="header-h3"> 
                   <Typist style={{width:"75%"}} key={count} avgTypingDelay={100} cursor={{show:false}} onTypingDone={() => setCount(0)}>
