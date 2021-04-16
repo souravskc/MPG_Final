@@ -15,7 +15,6 @@ module.exports = {
       'greedy','dp','trees','graph','advanced']
   },
   ],
-
   bootcamp: [
     {
       type: 'category',
@@ -30,6 +29,5 @@ module.exports = {
       label: 'Mission',
       items: ['mission']
   },
-  ]
-    
+  ],    
 };

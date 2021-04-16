@@ -1,5 +1,8 @@
 ---
-title: Thank you!
+id: stacks
+title: Stacks and Queues
+sidebar_label: Stacks and Queues
+---
 ---
 
 Congratulations on making it this far!
