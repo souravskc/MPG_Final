@@ -1,13 +1,21 @@
 import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
 
-import Hero from '../img/hero2.png'
+import Layout from '@theme/Layout';
+
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+/* 
+import clsx from 'clsx';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+import styles from './styles.module.css'; 
 import Banner from "../img/banner.jpeg";
+*/
+import Stepby from '../img/stairs.svg'
+import Master from '../img/certificate.svg'
+import Handpick from '../img/rating.svg'
+import Hero from '../img/hero2.png'
+
 import Learning from '../img/features/learning.webp'
 import Mentor from '../img/features/mentor.webp'
 import Improv from '../img/features/improv.webp'
@@ -84,8 +92,12 @@ export default function Home() {
       <div className="lg:flex lg:ml-36 lg:mr-10 lg:py-24 px-10 py-8">
         <div className="text-center lg:text-left lg:w-1/2">
           <div className="mt-10">
-          <h1 className="font-medium text-3xl lg:text-5xl lg:leading-tight align-middle pb-8 ">Exclusive guide for landing your <span className="text-blue-500 ">Dream Job</span></h1>
-            <span className="text-blue-500 text-lg lg:text-2xl font-medium">Learn Competitive Coding and Ace Technical Interviews </span><br />
+          <h1 className="font-medium text-3xl lg:text-5xl lg:leading-tight align-middle pb-8 ">Exclusive guide for your <span className="text-blue-500 ">learning journey.</span></h1>
+            <div className="grid">
+              <span className="text-white text-lg lg:text-2xl font-medium pb-4"><Stepby className="fill-current align-middle text-blue-300 h-8 w-auto mr-2 text-2xl" />Learn competitive coding <span className="text-blue-500 ">step by step</span> </span>
+              <span className="text-white text-lg lg:text-2xl font-medium pb-4"><Handpick className="fill-current align-middle text-blue-300 h-8 w-auto mr-2 text-2xl" /><span className="text-blue-500 ">Handpicked </span>practice problems</span>
+              <span className="text-white text-lg lg:text-2xl font-medium pb-4"><Master className="fill-current align-middle text-blue-300 h-8 w-auto mr-2 text-2xl" />Master the basics from <span className="text-blue-500 ">beginner to advanced</span> </span>
+            </div>
             {/*  <h1 className="header-h1">Get your structured path for <span className="free-word">free</span> resources now.</h1>
               <div className="flex"> 
                 <h3 className="header-h3"> 
@@ -111,7 +123,7 @@ export default function Home() {
 
               
               <a href="/docs/compi">
-                <button className="bg-blue-600 text-white p-2 px-3 rounded-lg text-xl hover:bg-blue-700" size="lg">
+                <button className="bg-blue-600 text-white p-2 px-3 border-none rounded-lg text-xl hover:bg-blue-700" size="lg">
                 Learn Programming
                 </button>
               </a>

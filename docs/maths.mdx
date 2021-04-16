@@ -5,7 +5,8 @@ sidebar_label: Maths
 ---
 import Card from "../src/components/Card"
 import Question from "../src/components/Question"
-
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 
 
@@ -18,16 +19,37 @@ You already might be knowing about some or all of these, but I recommend you not
 
 :::
 
+
+
 ## TC( Amortised, Average, Best, Worst )
-<Card title="TC (Amortised, Average, Best, Worst)" url="https://www.basicsbehind.com/2016/12/18/analysis-of-algorithms/" />
-
-<Question  list={[{ name:'SoloLearn OP',link:'https://sololearn.com/',desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit labore et dolore magna aliqua.'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'}]}/>
-<Question resource="true" list={[{ name:'hello there there there there',link:'https://sololearn.com/',desc:'there there there there there there there therethere there there therethere therethere therethere there'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'}]} />
-
-<!-- [Link](https://www.basicsbehind.com/2016/12/18/analysis-of-algorithms/) -->
 
 <br/>
-The TC analysis is the most basic of concepts that you will use throughout your programming career and it will help you judge the performance of your code.
+<Card title="TC (Amortised, Average, Best, Worst)" url="https://www.basicsbehind.com/2016/12/18/analysis-of-algorithms/" />
+
+
+
+<Tabs
+  defaultValue="easy"
+  values={[
+    {label: 'Easy', value: 'easy'},
+    {label: 'Medium', value: 'medium'},
+    {label: 'Hard', value: 'hard'},
+  ]}>
+  <TabItem value="easy">
+      <Question  list={[{ name:'SoloLearn OP',link:'https://sololearn.com/',desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit labore et dolore magna aliqua.'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'}]}/>
+  </TabItem>
+
+  <TabItem value="medium">
+      <Question resource="true" list={[{ name:'hello there there there there',link:'https://sololearn.com/',desc:'there there there there there there there therethere there there therethere therethere therethere there'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'}]} />
+
+  </TabItem>
+  <TabItem value="hard">This is a banana 🍌</TabItem>
+</Tabs>
+
+<br/>
+The TC analysis is the most basic of concepts that you will use throughout your programming career and it will help you judge the performance of your code.<br/>
+
+<br/>
 
 :::caution
 Understand the basics here, you will develop a deeper understanding of analysing TC as you learn more about various algorithms and practice more questions.
