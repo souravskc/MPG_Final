@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import {Form,Button} from 'react-bootstrap'
 import axios from 'axios';
 import jwt_decode from 'jwt-decode'
+import { window, document } from 'ssr-window';
 
 const Register = () => {
     var history = useHistory();
