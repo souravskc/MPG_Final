@@ -8,7 +8,7 @@ function LoginCard() {
                 <Form onSubmit={onSubmit()}>
                         <div className="">
                             <h1 className="text-center text-white">Login / Signup</h1>
-                            <Form.Group>
+                            <Form.Group className=''>
                                 <Form.Control className="my-2 p-3 w-full border-none rounded-lg mb-5" type="email" name="email" placeholder="Email" required />
                             </Form.Group>
                         </div>
