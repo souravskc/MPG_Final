@@ -23,6 +23,8 @@ const Register = () => {
       
         return isSsr;
     }
+    const isSsr = useIsSsr();
+    if (isSsr) return null;
     
 
 
@@ -60,8 +62,7 @@ const Register = () => {
         alert("You have successfully logged out");
         window.open("/","_self")
     }
-    const isSsr = useIsSsr();
-    if (isSsr) return null;
+    
 
     if(token.login === "False"){
         return (

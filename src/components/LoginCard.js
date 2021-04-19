@@ -19,7 +19,9 @@ const LoginCard = () => {
         }, []);
       
         return isSsr;
-    } 
+    }
+    const isSsr = useIsSsr();
+    if (isSsr) return null;
       
 
     if(window.localStorage.getItem("token")){
@@ -53,8 +55,7 @@ const LoginCard = () => {
         alert("You have successfully logged out");
         window.open("/","_self")
     }
-    const isSsr = useIsSsr();
-    if (isSsr) return null;
+    
         if(token.login === "False"){
             return (
                 <div className="bg-gray-800 rounded-lg lg:ml-96 p-16">
