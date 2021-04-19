@@ -1,10 +1,25 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import { useHistory } from "react-router-dom";
 import {Form,Button} from 'react-bootstrap'
 import axios from 'axios';
 import jwt_decode from 'jwt-decode'
 
 const LoginCard = () => {
+
+     const useIsSsr = () => {
+        // we always start off in "SSR mode", to ensure our initial browser render
+        // matches the SSR render
+        const [isSsr, setIsSsr] = useState(true);
+      
+        useEffect(() => {
+          // `useEffect` never runs on the server, so we must be on the client if
+          // we hit this block
+          setIsSsr(false);
+        }, []);
+      
+        return isSsr;
+    } 
+      
 
     if(window.localStorage.getItem("token")){
         var token = jwt_decode(window.localStorage.getItem("token"))
@@ -31,11 +46,14 @@ const LoginCard = () => {
             }
         });
     }
+    
     async function Logout(){
         window.localStorage.removeItem("token")
         alert("You have successfully logged out");
         window.open("/","_self")
     }
+    const isSsr = useIsSsr();
+    if (isSsr) return null;
         if(token.login === "False"){
             return (
                 <div className="bg-gray-800 rounded-lg lg:ml-96 p-16">

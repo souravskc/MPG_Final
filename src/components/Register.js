@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import { useHistory } from "react-router-dom";
 import {Form,Button} from 'react-bootstrap'
 import axios from 'axios';
@@ -8,6 +8,23 @@ const Register = () => {
     var history = useHistory();
     const [email,setEmail] = useState()
     const [pass,setPass] = useState()
+
+    const useIsSsr = () => {
+        // we always start off in "SSR mode", to ensure our initial browser render
+        // matches the SSR render
+        const [isSsr, setIsSsr] = useState(true);
+      
+        useEffect(() => {
+          // `useEffect` never runs on the server, so we must be on the client if
+          // we hit this block
+          setIsSsr(false);
+        }, []);
+      
+        return isSsr;
+    }
+    
+
+
     if(window.localStorage.getItem("token")){
         var token = jwt_decode(window.localStorage.getItem("token"))
       }
@@ -42,6 +59,8 @@ const Register = () => {
         alert("You have successfully logged out");
         window.open("/","_self")
     }
+    const isSsr = useIsSsr();
+    if (isSsr) return null;
 
     if(token.login === "False"){
         return (
