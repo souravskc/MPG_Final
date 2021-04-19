@@ -21,7 +21,8 @@ const LoginCard = () => {
         async function onSubmit(){
             
             await axios.post("https://us-central1-mpg-backend.cloudfunctions.net/mpg/auth",{"email":email,"pass":pass}).then(function(response){
-                alert(JSON.stringify(response));
+                //alert(JSON.stringify(response));
+                alert("Verifying credentials ...")
                 if(response.status === 200){
                     window.localStorage.setItem("token",response.data.token)
                     alert("Login Successful")
