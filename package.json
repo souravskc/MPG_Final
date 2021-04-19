@@ -19,6 +19,7 @@
     "@mdx-js/react": "^1.6.21",
     "bootstrap": "^4.6.0",
     "clsx": "^1.1.1",
+    "mongodb": "^3.6.6",
     "my-loaders": "file:plugins/my-loaders",
     "postcss-import": "^14.0.1",
     "react": "^17.0.1",
