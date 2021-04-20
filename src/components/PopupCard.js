@@ -3,14 +3,21 @@ import LoginCard from './LoginCard'
 import jwt_decode from 'jwt-decode'
 
 function PopupCard() {
-    const [show, setShow] = useState(true);
-    const handleClose = () => setShow(false);
+    //const [show, setShow] = useState(true);
+    var show = true;
 
 
     if (typeof window !== "undefined") {
 
         if(window.localStorage.getItem("token")){
             var token = jwt_decode(window.localStorage.getItem("token"))
+            if(token.login === "False"){
+                show=true;
+            }
+            else{
+                show=false
+                console.log(show)
+            }
         }
         else{
             var token = {"login":"False"}
@@ -18,10 +25,10 @@ function PopupCard() {
 
         useEffect(()=>{
             if(token.login === "False"){
-                setShow(true);
+                show=true;
             }
             else{
-                setShow(false);console.log(show)
+                show=false;;console.log(show)
             }
         })
         

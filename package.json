@@ -30,7 +30,8 @@
     "react-icons": "^4.2.0",
     "reactjs-popup": "^2.0.4",
     "ssr-window": "^3.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "use-sse": "^2.0.1"
   },
   "browserslist": {
     "production": [
