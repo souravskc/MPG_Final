@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </header> */}
 
-      <PopupCard />
+      {/* <PopupCard /> */}
       
       {/* Hero Start */}
       
