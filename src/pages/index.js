@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+
 import Stepby from '../img/stairs.svg'
 import Master from '../img/certificate.svg'
 import Handpick from '../img/rating.svg'
@@ -63,7 +64,7 @@ export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
 
-  return (
+  return (    
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
@@ -83,13 +84,8 @@ export default function Home() {
           </div>
         </div>
       </header> */}
-      <BrowserOnly
-      fallback={<div>The fallback content to display on prerendering</div>}>
-      {() => {
-        <PopupCard />
-      }}
-    </BrowserOnly>
-      {/*  */}
+
+      <PopupCard />
       
       {/* Hero Start */}
       
