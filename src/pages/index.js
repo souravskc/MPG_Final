@@ -83,9 +83,12 @@ export default function Home() {
           </div>
         </div>
       </header> */}
-      <BrowserOnly>
+      <BrowserOnly
+      fallback={<div>The fallback content to display on prerendering</div>}>
+      {() => {
         <PopupCard />
-      </BrowserOnly>
+      }}
+    </BrowserOnly>
       {/*  */}
       
       {/* Hero Start */}
