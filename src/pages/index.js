@@ -63,10 +63,6 @@ export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
 
-  const [show, setShow] = useState(true);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

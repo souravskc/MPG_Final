@@ -74,7 +74,6 @@ const LoginCard = () => {
             alert("You have successfully logged out");
             window.open("/","_self")
         }
-        if(token.login === "False"){
             return(
                 <Tabs defaultValue="login"
                 values={[
@@ -138,7 +137,7 @@ const LoginCard = () => {
                     </TabItem>
                 </Tabs>
                 )
-            }
+            /* }
             else{
                 return (
                     <div className="bg-gray-800 rounded-lg lg:ml-96 p-16 ">
@@ -146,13 +145,11 @@ const LoginCard = () => {
                             <div className="flex items-center self-center justify-center justify-self-center"><Button type="submit" variant="primary" className="bg-blue-600 text-white p-2 px-3 rounded-md hover:bg-blue-700 border-none" onClick={() => Logout()}>Logout</Button></div>
                     </div>
                 )
-            }
+            } */
       }
       else{
           return null
       }
 }
-
-
 
 export default LoginCard
