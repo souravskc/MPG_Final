@@ -31,12 +31,12 @@ const LoginCard = () => {
                     window.localStorage.setItem("token",response.data.token)
                     alert("Login Successful")
                     setShow(false);
-                    history.push('/');
+                    window.open("/","_self")
                 }
                 else{
                     alert("Wrong Username or Password")
                     setShow(false);
-                    history.push('/');
+                    window.open("/","_self")
                 }
             });
         }
@@ -50,23 +50,23 @@ const LoginCard = () => {
                         if(res.status == 200){
                             alert("Account Creation Successful");
                             setShow(false);
-                            history.push('/');
+                            window.open("/","_self")
                         }
                         else{
                             alert("Account Creation Error");
                             setShow(false);
-                            history.push('/');
+                            window.open("/","_self")
                         }
                     })
                 }
                 else{
                     alert("Account already exists")
                     setShow(false);
-                    history.push('/');
+                    window.open("/","_self")
                 }
             });
             setShow(false);
-            history.push('/')
+            window.open("/","_self")
         }
 
         async function Logout(){
