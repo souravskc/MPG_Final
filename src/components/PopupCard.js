@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import LoginCard from './LoginCard'
 import jwt_decode from 'jwt-decode'
 
@@ -22,16 +22,6 @@ function PopupCard() {
         else{
             var token = {"login":"False"}
         }
-
-        useEffect(()=>{
-            if(token.login === "False"){
-                show=true;
-            }
-            else{
-                show=false;;console.log(show)
-            }
-        })
-        
 
         return (
             <div className={show ? " w-full h-full z-10 fixed align flex items-center self-center justify-center justify-self-center bg-gray-900 bg-opacity-75 lg:-my-10" : "hidden"} >
