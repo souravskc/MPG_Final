@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 import Layout from '@theme/Layout';
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import Stepby from '../img/stairs.svg'
 import Master from '../img/certificate.svg'
 import Handpick from '../img/rating.svg'
@@ -83,8 +83,10 @@ export default function Home() {
           </div>
         </div>
       </header> */}
-
-      {/* <PopupCard /> */}
+      <BrowserOnly>
+        <PopupCard />
+      </BrowserOnly>
+      {/*  */}
       
       {/* Hero Start */}
       
