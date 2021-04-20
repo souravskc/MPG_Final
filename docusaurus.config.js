@@ -35,13 +35,6 @@ module.exports = {
           to: 'docs/bootcamp',
           activeBasePath: 'docs',
         },
-        {
-          label:"Login",
-          docId: 'login',
-          position:"right",
-          to: 'docs/login',
-          activeBasePath: 'docs',
-        },
       ],
     },
   },
