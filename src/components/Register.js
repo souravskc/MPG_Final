@@ -9,9 +9,6 @@ const Register = () => {
         var history = useHistory();
         const [email,setEmail] = useState()
         const [pass,setPass] = useState()
-        
-        
-
 
         if(window.localStorage.getItem("token")){
             var token = jwt_decode(window.localStorage.getItem("token"))
@@ -67,7 +64,7 @@ const Register = () => {
                             <Button type="submit" variant="primary" className="bg-blue-600 text-white p-2 px-3 rounded-md hover:bg-blue-700 border-none" onClick={() => onSubmit()}>Send</Button>
                         </div>
                     </div>
-            </div>
+                </div>
             )
         }
         else{

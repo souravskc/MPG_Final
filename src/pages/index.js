@@ -1,16 +1,9 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 import Layout from '@theme/Layout';
 
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-/* 
-import clsx from 'clsx';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import Link from '@docusaurus/Link';
-import styles from './styles.module.css'; 
-import Banner from "../img/banner.jpeg";
-*/
 import Stepby from '../img/stairs.svg'
 import Master from '../img/certificate.svg'
 import Handpick from '../img/rating.svg'
@@ -21,7 +14,8 @@ import Mentor from '../img/features/mentor.webp'
 import Improv from '../img/features/improv.webp'
 import Step from '../img/features/step.webp'
 
-//import {GrSteps} from 'react-icons/gr'
+import PopupCard from '../components/PopupCard'
+
 
 import FeatureCard from '../components/FeatureCard'
 import Feedback from '../components/Feedback'
@@ -68,6 +62,11 @@ const features = [
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+
+  const [show, setShow] = useState(true);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -88,10 +87,13 @@ export default function Home() {
           </div>
         </div>
       </header> */}
+
+      <PopupCard />
       
       {/* Hero Start */}
+      
 
-      <div className="lg:flex lg:ml-36 lg:mr-10 lg:py-24 px-10 py-8">
+      <div className="lg:flex lg:ml-36 lg:mr-10 lg:py-24 px-10 py-8 ">
         <div className="text-center lg:text-left lg:w-1/2">
           <div className="mt-10">
           <h1 className="font-medium text-3xl lg:text-5xl lg:leading-tight align-middle pb-8 ">Exclusive guide for your <span className="text-blue-500 ">learning journey.</span></h1>
