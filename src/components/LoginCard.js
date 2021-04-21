@@ -101,7 +101,7 @@ const LoginCard = () => {
                                 <Form.Control className="my-2 p-3 w-full border-none rounded-lg mb-5" type="password" name="pass" placeholder="Password" value={pass} onChange={({target}) => setPass(target.value)} required />
                             </Form.Group>
                         <div className="flex items-center self-center justify-center justify-self-center">
-                        <Button type="submit" variant="primary" className="bg-blue-600 text-white p-3 px-4 rounded-md hover:bg-blue-700 border-none" onClick={() => {setShow(true);onSubmit()}}>Send</Button>
+                        <Button type="submit" variant="primary" className="bg-blue-600 text-white p-2 px-4 rounded-md hover:bg-blue-700 border-none " onClick={() => {setShow(true);onSubmit2()}}><div className="text-lg">Submit</div></Button>
                         
                         </div>
                         
@@ -129,7 +129,7 @@ const LoginCard = () => {
                                     <Form.Control className="my-2 p-3 w-full border-none rounded-lg mb-5" type="password" name="pass" placeholder="Password" value={pass} onChange={({target}) => setPass(target.value)} required />
                                 </Form.Group>
                                 <div className="flex items-center self-center justify-center justify-self-center">
-                                    <Button type="submit" variant="primary" className="bg-blue-600 text-white p-3 px-4 rounded-md hover:bg-blue-700 border-none" onClick={() => {setShow(true);onSubmit2()}}>Send</Button>
+                                    <Button type="submit" variant="primary" className="bg-blue-600 text-white p-2 px-4 rounded-md hover:bg-blue-700 border-none " onClick={() => {setShow(true);onSubmit2()}}><div className="text-lg">Submit</div></Button>
                                 </div>
                             </div>
                         </div>
