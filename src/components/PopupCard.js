@@ -4,7 +4,7 @@ import jwt_decode from 'jwt-decode'
 
 function PopupCard() {
     //const [show, setShow] = useState(true);
-    var show = true;
+    var show;
 
 
     if (typeof window !== "undefined") {
@@ -21,6 +21,7 @@ function PopupCard() {
         }
         else{
             var token = {"login":"False"}
+            show=true;
         }
 
         return (
