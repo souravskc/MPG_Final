@@ -9,7 +9,7 @@ function PopupCard() {
 
     if (typeof window !== "undefined") {
 
-        if(window.localStorage.getItem("token")){
+        /* if(window.localStorage.getItem("token")){
             var token = jwt_decode(window.localStorage.getItem("token"))
             if(token.login === "False"){
                 show=true;
@@ -22,7 +22,7 @@ function PopupCard() {
         else{
             var token = {"login":"False"}
             show=true;
-        }
+        } */
 
         return (
             <div className={" w-full h-full z-10 fixed align flex items-center self-center justify-center justify-self-center bg-gray-900 bg-opacity-75 lg:-my-10" } >
