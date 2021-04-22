@@ -4,6 +4,7 @@ import {Form,Button} from 'react-bootstrap'
 import axios from 'axios';
 import jwt_decode from 'jwt-decode'
 
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 //import { window, document } from 'ssr-window';
@@ -42,12 +43,14 @@ const LoginCard = () => {
         }
 
         async function onSubmit2(){
-            await axios.post("https://us-central1-mpg-backend.cloudfunctions.net/mpg/auth",{"email":email,"pass":pass}).then(function(response){
+            await axios.post("https://us-central1-mpg-backend.cloudfunctions.net/mpg/auth",{"email":email,"pass":pass}).then(async function(response){
                 //alert(JSON.stringify(response));
                 alert("Registering Account");
                 if(response.status === 204){
-                    axios.post("https://us-central1-mpg-backend.cloudfunctions.net/mpg/users",{"email":email,"pass":pass}).then(function(res){
+                    await axios.post("https://us-central1-mpg-backend.cloudfunctions.net/mpg/users",{"email":email,"pass":pass}).then( function(res){
+                        alert(JSON.stringify(res));
                         if(res.status == 200){
+                            
                             alert("Account Creation Successful");
                             setShow(false);
                             window.open("/","_self")
@@ -128,6 +131,7 @@ const LoginCard = () => {
                                 <Form.Group>
                                     <Form.Control className="my-2 p-3 w-full border-none rounded-lg mb-5" type="password" name="pass" placeholder="Password" value={pass} onChange={({target}) => setPass(target.value)} required />
                                 </Form.Group>
+                               
                                 <div className="flex items-center self-center justify-center justify-self-center">
                                     <Button type="submit" variant="primary" className="bg-blue-600 text-white p-2 px-4 rounded-md hover:bg-blue-700 border-none " onClick={() => {setShow(true);onSubmit2()}}><div className="text-lg">Submit</div></Button>
                                 </div>
