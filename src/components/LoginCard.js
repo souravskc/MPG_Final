@@ -10,10 +10,9 @@ import TabItem from '@theme/TabItem';
 //import { window, document } from 'ssr-window';
 
 const LoginCard = () => {
-    if (typeof window !== "undefined") {
-
-        if(window.localStorage.getItem("token")){
-            var token = jwt_decode(window.localStorage.getItem("token"))
+    if (typeof window !== "undefined") {                                              // TO DISABLE SSR FOR THIS MODULE
+        if(window.sessionStorage.getItem("token")){
+            var token = jwt_decode(window.sessionStorage.getItem("token"))
         }
         else{
             var token = {"login":"False"}
@@ -29,7 +28,7 @@ const LoginCard = () => {
                 //alert(JSON.stringify(response));
                 alert("Verifying credentials ...")
                 if(response.status === 200){
-                    window.localStorage.setItem("token",response.data.token)
+                    window.sessionStorage.setItem("token",response.data.token)
                     alert("Login Successful")
                     setShow(false);
                     window.open("/","_self")
@@ -73,7 +72,7 @@ const LoginCard = () => {
         }
 
         async function Logout(){
-            window.localStorage.removeItem("token")
+            window.sessionStorage.removeItem("token")
             alert("You have successfully logged out");
             window.open("/","_self")
         }
@@ -115,7 +114,7 @@ const LoginCard = () => {
                     <TabItem value='register'>
                         <div className="bg-gray-800 rounded-lg lg:mx-36 lg:my-16 lg:ml-0 p-5 w-full">
                             <div>
-                                <h1 className="text-center text-blue-500 lg:text-5xl pb-5">Signup</h1>
+                                <h1 className="text-center text-white lg:text-5xl pb-5">Signup</h1>
                                     <div className={show ? "flex items-center self-center justify-center justify-self-center pb-5" :"hidden"}>
                                         <button type="button" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-rose-500 focus:border-rose-700 active:bg-rose-700 transition ease-in-out duration-150 cursor-not-allowed" disabled="">
                                             <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
