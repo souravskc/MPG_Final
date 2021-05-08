@@ -26,24 +26,6 @@ You already might be knowing about some or all of these, but I recommend you not
 
 <Card title="TC (Amortised, Average, Best, Worst)" url="https://www.basicsbehind.com/2016/12/18/analysis-of-algorithms/" /><br />
 
-<Tabs
-  defaultValue="easy"
-  values={[
-    {label: 'Easy', value: 'easy'},
-    {label: 'Medium', value: 'medium'},
-    {label: 'Hard', value: 'hard'},
-  ]}>
-  <TabItem value="easy">
-      <Question  list={[{ name:'SoloLearn OP',link:'https://sololearn.com/',desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit labore et dolore magna aliqua.'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'}]}/>
-  </TabItem>
-
-  <TabItem value="medium">
-      <Question resource="true" list={[{ name:'Link 1 here',link:'https://sololearn.com/',desc:'Question on topic 1 with some description random stuff here'},{ name:'general',link:'https://sololearn.com/',desc:'kenobi'}]} />
-
-  </TabItem>
-  <TabItem value="hard">This is a banana 🍌</TabItem>
-</Tabs>
-
 <br/>
 The TC analysis is the most basic of concepts that you will use throughout your programming career and it will help you judge the performance of your code.<br/>
 
@@ -77,6 +59,28 @@ Output expected:<br/>
 9 4 3 2 3 8<br/>
 8 3 2 3 4 9 
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[{name:"Reverse Integer",link:"https://www.interviewbit.com/problems/reverse-integer/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Excel Column Title",link:"https://www.interviewbit.com/problems/excel-column-title/"},{name:"Trailing Zeros In Factorial",link:"https://www.interviewbit.com/problems/trailing-zeros-in-factorial/"},{name:"Rearrange Array",link:"https://www.interviewbit.com/problems/rearrange-array/"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
+
 ## Bitwise Operators
 
 
@@ -86,7 +90,27 @@ Though very trivial but then again very fast and useful. Some of the advanced al
 
 
 <!-- [Link](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) -->
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[{name:"Bit Difference",link:"https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1"},{name:"Find Position Of Set Bit",link:"https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1"},]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Sum Of Pairwise Hamming Distance",link:"https://www.interviewbit.com/problems/sum-of-pairwise-hamming-distance/"},{name:"Divide Integers",link:"https://www.interviewbit.com/problems/divide-integers/"},{name:"Copy Set Bits In A Range",link:"https://www.geeksforgeeks.org/copy-set-bits-in-a-range/"},{name:"Calculate Square Of A Number Without Using And Pow",link:"https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/#:~:text=Given%20an%20integer%20n%2C%20calculate,*%2C%20%2F%20and%20pow%28%29.&text=A%20Simple%20Solution%20is%20to%20repeatedly%20add%20n%20to%20result"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[{name:"Single Number ii",link:"https://www.interviewbit.com/problems/single-number-ii/"},{name:"Palindromic Binary Representation",link:"https://www.interviewbit.com/problems/palindromic-binary-representation/"},]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
 
+<br/>
 
 
 ## GCD with TC
@@ -132,6 +156,27 @@ Use the inbuilt GCD method to avoid mistakes, save time and speed up your algori
 
 :::
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Largest Coprime Divisor",link:"https://www.interviewbit.com/problems/largest-coprime-divisor/"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
 
 ## Calculating Power
 
@@ -148,14 +193,77 @@ Do you still need the answer why it’s so cool, hoping you got your answer.
 
 Do understand carefully the concept of Binary Exponentiation and remember how it works in helping you find the power in logarithmic time. 
 :::
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[{name:"Implement Power Function",link:"https://www.interviewbit.com/problems/implement-power-function/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Count Total Set Bits",link:"https://www.interviewbit.com/problems/count-total-set-bits/"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
 
 ## PnC
 [Read here for PnC](https://www.hackerearth.com/practice/math/combinatorics/basics-of-combinatorics/tutorial/)
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[{name:"Sorted Permutation Rank",link:"https://www.interviewbit.com/problems/sorted-permutation-rank/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Sorted Permutation Rank With Repeats",link:"https://www.interviewbit.com/problems/sorted-permutation-rank-with-repeats/"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
+
 ## Inclusion Exclusion Principle
 [Read here for this](https://www.hackerearth.com/practice/math/combinatorics/inclusion-exclusion/tutorial/)
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
 
+<br/>
 
 
 ## Euler Totient function 
@@ -169,12 +277,54 @@ It’s application in finding the modular multiplicative inverse is a must know 
 
 Post reading this article you should have a clear understanding of the Euler Totient function. 
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
 
 
 
 ## Prime factorization 
 [Binge read here to know about it](https://www.youtube.com/watch?v=6PDtgHhpCHo&feature=player_embedded_uturn)
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[{name:"Prime Sum",link:"https://www.interviewbit.com/problems/prime-sum/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Power Of Two Integers",link:"https://www.interviewbit.com/problems/power-of-two-integers/"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
 
 ## Sieve of Eratosthenes 
 In brief, this algorithm enables you to find all the prime numbers in a range from 1 to n, now this is not the noteworthy point here , the point to note is it lets you do so in O(Nlog(logN)). This algorithm will save your solution from TLE in a lot many questions , read in depth about this useful approach.
@@ -188,13 +338,54 @@ The proof of the time complexity is a little complex and not needed, it suffices
 The concept of Segmented SOE is a slightly advanced topic and not recommended if you are preparing for any company interview but in case if you are gearing up for top ranks in CP it is good for you to know the concept.
 :::
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
 
+<br/>
 
 
 ## Concept of modulo 
 As a simple trick to make your life difficult and the questions more challenging is to give large inputs , as a CP enthusiast you must know how to deal with such scenarios and modulo is something that will come to your aid, so read and understand to use the concept of modulo properly.<br/>
 [Link](https://www.hackerearth.com/practice/notes/abhinav92003/why-output-the-answer-modulo-109-7/)
 
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+
+<br/>
 
 ## Modular Multiplicative inverse of a number
 
@@ -204,3 +395,47 @@ As mentioned earlier in many questions you will be doing modulo operations, it i
 It is not necessary to read about the Extended Euclidean approach to finding the MMI
 [Know here](https://cp-algorithms.com/algebra/module-inverse.html)
 :::
+
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+<br/>
+
+## Random
+
+<Tabs
+	defaultValue="basic"
+	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"}]}>
+	<TabItem value="basic">
+		<Question  list={[]}/>
+	</TabItem>
+	<TabItem value="easy">
+		<Question  list={[{name:"Next Similar Number",link:"https://www.interviewbit.com/problems/next-similar-number/"},{name:"Repeat And Missing Number Array",link:"https://www.interviewbit.com/problems/repeat-and-missing-number-array/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question list={[{name:"Next Smallest Palindrome",link:"https://www.interviewbit.com/problems/next-smallest-palindrome/"},]} />
+	</TabItem>
+	<TabItem value="hard">
+		<Question list={[]} />
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[]}/>
+	</TabItem>
+</Tabs>
+<br/>
