@@ -3,6 +3,10 @@ id: graph
 title: Graph
 sidebar_label: Graph
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Concept
 Tree as you have seen and read is basically a graph with a well defined root node, in other words graph is an extension of trees, and are useful to represent real world connections and scenarios, for ex: connections on facebook or linkedin is a graph where you are a node and you are connected to other nodes in the graph. In order to get started with graphs you must first know the basic terminology of graphs and build a visual picture of what a graph looks like, the following articles will help you do so.
@@ -39,17 +43,59 @@ While performing DFS, you can store the arrival and departure times of a node/ve
 2. [Link 2](https://www.techiedelight.com/types-edges-involved-dfs-relation/)
 
 
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Valid Path",link:"https://www.interviewbit.com/problems/valid-path/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question  list={[{name:"Stepping Numbers",link:"https://www.interviewbit.com/problems/stepping-numbers/"},{name:"Path With Good Nodes",link:"https://www.interviewbit.com/problems/path-with-good-nodes/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Delete Edge",link:"https://www.interviewbit.com/problems/delete-edge/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
 ## BFS
 You have studied about DFS, now you are going to study about BFS which is another graph traversal algorithm. The questions that you have answered for DFS, the same questions must be answered for BFS, which are, what is BFS ? What is the basic principle behind BFS ? How is it implemented ? What is the time complexity ? What are the applications of BFS ? So you better start reading.
 
 1. [Link 1](https://cp-algorithms.com/graph/breadth-first-search.html)
 2. [Link 2](https://www.programiz.com/dsa/graph-bfs)
 
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Knight On Chess Board",link:"https://www.interviewbit.com/problems/knight-on-chess-board/"},{name:"Steps By Knight5927",link:"https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question  list={[{name:"Capture Regions On Board",link:"https://www.interviewbit.com/problems/capture-regions-on-board/"},{name:"Clone Graph",link:"https://www.interviewbit.com/problems/clone-graph/"},{name:"Description",link:"https://leetcode.com/problems/cheapest-flights-within-k-stops/description/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Smallest Multiple With 0 And 1",link:"https://www.interviewbit.com/problems/smallest-multiple-with-0-and-1/"},{name:"Word Ladder I",link:"https://www.interviewbit.com/problems/word-ladder-i/"},{name:"Snake Ladder Problem",link:"https://www.interviewbit.com/problems/snake-ladder-problem/"},{name:"Water Jug Problem Using Bfs",link:"https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"},{name: "Min Cost Path" , link: "https://www.interviewbit.com/problems/min-cost-path/"}]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Connected Components :
 
 [Link 1](https://cp-algorithms.com/graph/search-for-connected-components.html)
-
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Permutation Swaps",link:"https://www.interviewbit.com/problems/permutation-swaps/"},{name:"Strongly Connected Components Kosarajus Algo",link:"https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Finding bridges
 [Link 1](https://cp-algorithms.com/graph/bridge-searching.html)
@@ -76,6 +122,17 @@ The basic use case of an edge is to connect two vertices, but if you see it’s 
 2. [Link 2](https://codeforces.com/edu/course/2)
 3. [Link 3](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Cycle In Undirected Graph",link:"https://www.interviewbit.com/problems/cycle-in-undirected-graph/"},]}/>
+	</TabItem>
+	
+</Tabs>
+
+<br/>
 
 ## Dijkstra’s
 How does uber know the shortest distance between your pick up point and your drop off point ? Dijkstra’s algorithm will be used whenever you want to find the shortest distance path from the source or starting vertex to all other vertices in the graph. Now that you know what Dijkstra is there are few other questions left to answer which are, what is the basic principle behind dijkstra ? how is it implemented ? What is the time complexity ? All of these questions you must be able to answer after reading these wonderful articles.
@@ -92,14 +149,32 @@ https://visualgo.net/en/sssp
 :::note
 Dijkstra’s algorithm does not work when the edge weights can have negative values.
 :::
-
-
+<br/>
+<Tabs
+	defaultValue="hard"
+	values={[{label: "Hard", value: "hard"},]}>
+	<TabItem value="hard">
+		<Question  list={[{name:"Useful Extra Edges",link:"https://www.interviewbit.com/problems/useful-extra-edges/"},{name:"Minimum Edges Reverse Make Path Source Destination",link:"https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## 0-1 BFS
 It so happens that finding the single source shortest path using dijkstra’s can be an overkill if the edge weights contain one of only two possible values. For this special scenario 0-1 BFS can be deployed to find the SSSP ,which is easier to understand and code. So why does having this one special condition make it possible to use BFS ? The answer you will find in this articles but you must read on.
 
 [Link 1](https://cp-algorithms.com/graph/01_bfs.html)
 
+<br/>
+<Tabs
+	defaultValue="hard"
+	values={[{label: "Hard", value: "hard"},]}>
+	<TabItem value="hard">
+		<Question  list={[{name:"Min Cost Path",link:"ttps://www.interviewbit.com/problems/min-cost-path/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Dijkstra’s on sparse graphs
 When it comes to graphs based on its representation adjacency matrix or adjacency list, the dijkstra’s algorithm has different time complexity , here you will learn about the time complexity and implementation of dijkstra for sparse graphs which are represented using adjacency lists.
@@ -133,7 +208,16 @@ So far you have learned algorithms that find the shortest path from a single sou
 Spanning Tree is a type of graph which is a tree, in the sense that all the vertices will be connected and the number of edges will be one less than the vertex, building a spanning tree is usually a sub-problem to more difficult and challenging problems, but how do you build a spanning tree ? Is there any other useful variation to a spanning tree ? all  these questions will be answered, you have to just read on stay on track.
 
 [Link 1](https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree)
-
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Commutable Islands",link:"https://www.interviewbit.com/problems/commutable-islands/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Kruskal’s Algo
 You have learned about spanning tree and minimum spanning tree. Now you will learn how to create a minimum spanning tree from a graph. So what is the principle behind Kruskal’s algorithm ? How is it implemented ? What is the time complexity ? All these questions you must be able to answer after reading these wonderful articles. As a spoiler, Kruskal’s algorithm uses a greedy approach alongside union-find to find the minimum spanning tree. 
@@ -160,3 +244,50 @@ For DAG, or Directed Acyclic Graphs you can come up with a special ordering of t
 2. [Link 2](https://cp-algorithms.com/graph/topological-sort.html)
 3. [Link 3](https://www.interviewcake.com/concept/java/topological-sort)
 4. [Link 4](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/)
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Possibility Of Finishing All Courses Given Prerequisites",link:"https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Alien Dictionary",link:"https://practice.geeksforgeeks.org/problems/alien-dictionary/1"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
+
+## Questions
+
+### BIPARTITE
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Two Teams",link:"https://www.interviewbit.com/problems/two-teams/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
+
+### Random
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Largest Distance Between Nodes Of A Tree",link:"https://www.interviewbit.com/problems/largest-distance-between-nodes-of-a-tree/"},{name:"Rat In A Maze Problem",link:"https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"},{name:"M Coloring Problem 1587115620",link:"https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"},{name:"The Celebrity Problem",link:"https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Sum Of Fibonacci Numbers",link:"https://www.interviewbit.com/problems/sum-of-fibonacci-numbers/"},{name:"Minimize Cash Flow Among Given Set Friends Borrowed Money",link:"https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>

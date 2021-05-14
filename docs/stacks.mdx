@@ -3,6 +3,10 @@ id: stacks
 title: Stacks and Queues
 sidebar_label: Stacks and Queues
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Stack 
 It’s time to learn about some more basic data structures that have a wide range of applications. Stack is a data structure that follows the LIFO or Last In First Out principle. You would find the use of stack extremely critical to solving some problems which otherwise would have become a nightmare, so before you are ready to use it , first learn about it.
@@ -18,7 +22,19 @@ The following STL utilities for Stack in C++ are a must know : empty(), size(), 
 
 ### Try It Yourself :
 Can you implement basic Stack operations using linked lists ? What is the TC of the basic operations in your implementation ?
-
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Maxspprod",link:"https://www.interviewbit.com/problems/maxspprod/"},{name:"Nearest Smaller Element",link:"https://www.interviewbit.com/problems/nearest-smaller-element/"},{name:"Largest Rectangle In Histogram",link:"https://www.interviewbit.com/problems/largest-rectangle-in-histogram/"},{name:"Redundant Braces",link:"https://www.interviewbit.com/problems/redundant-braces/"},{name:"Evaluate Expression",link:"https://www.interviewbit.com/problems/evaluate-expression/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Rain Water Trapped",link:"https://www.interviewbit.com/problems/rain-water-trapped/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Queue 
 Queue is another useful and a must know data structure, that you will be applying in several other algorithms that you will study later, so it is important that you have a clear cut understanding of the First In First Out principle of queue and its basic operations.
@@ -39,6 +55,17 @@ Can you implement basic Queue operations using linked lists ? What is the TC of 
 You can use STL Queues and Stacks with your custom data type.
 :::
 
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Circular Tour",link:"https://practice.geeksforgeeks.org/problems/circular-tour/1"},{name:"Queue Based Approach For First Non Repeating Character In A Stream",link:"https://www.geeksforgeeks.org/queue-based-approach-for-first-non-repeating-character-in-a-stream/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
 ## Dequeue
 Dequeue comes as a variation to Queue, compared to Queue which is single ended meaning that elements can be pushed only from the back, Dequeue is designed to allow pushing of elements both from the front and from the back, this speciality of dequeues can be utilised in solving some tricky questions, but first learn in depth about it.
 
@@ -49,9 +76,32 @@ The following STL utilities for Deque in C++ are a must know : empty(), size(), 
 [Link 1](https://www.geeksforgeeks.org/deque-cpp-stl/)<br/>
 [Link 2](https://www.programiz.com/dsa/deque)
 
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Sliding Window Maximum",link:"https://www.interviewbit.com/problems/sliding-window-maximum/"},{name:"First Negative Integer In Every Window Of Size K3345",link:"https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Sum Minimum Maximum Elements Subarrays Size K",link:"https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
 ## Minimum Stack / Minimum Queue
 This world would be boring without variety, same goes for DS and Algo, here are other useful variations of Stack and Queue. Knowing these would definitely come in handy, so what are you waiting for, aren’t you a little bit curious ?
 
 [Link 1](https://cp-algorithms.com/data_structures/stack_queue_modification.html)
 
-
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Min Stack",link:"https://www.interviewbit.com/problems/min-stack/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>

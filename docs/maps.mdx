@@ -3,6 +3,10 @@ id: maps
 title: Maps and Sets
 sidebar_label: Maps and Sets
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Introduction
 Maps and Sets are two of the most useful data structures used for storing and fetching key or key, value pairs. The idea is pretty simple for both, Maps allow to retrieve and store data corresponding to any key efficiently,  while sets allow to store and maintain a unique set of keys. Both of these data structures or containers as they are called in STL, will help you in optimising your code and are much needed for more complex and advanced level algorithms to work efficiently and properly.
@@ -50,7 +54,19 @@ For using STL map and unordered_map containers for custom data types and hash fu
 [Link 1](https://www.techiedelight.com/use-custom-objects-keys-std-map-cpp/)<br/>
 [Link 2](https://www.techiedelight.com/use-struct-key-std-unordered_map-cpp/)
 :::
-
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Largest Continuous Sequence Zero Sum",link:"https://www.interviewbit.com/problems/largest-continuous-sequence-zero-sum/"},{name:"Valid Sudoku",link:"https://www.interviewbit.com/problems/valid-sudoku/"},{name:"Anagrams",link:"https://www.interviewbit.com/problems/anagrams/"},{name:"Equal",link:"https://www.interviewbit.com/problems/equal/"},{name:"Fraction",link:"https://www.interviewbit.com/problems/fraction/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"4 Sum",link:"https://www.interviewbit.com/problems/4-sum/"},{name:"Points On The Straight Line",link:"https://www.interviewbit.com/problems/points-on-the-straight-line/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 ## Set
 So now you have a fair enough knowledge about maps, it’s time to learn how to use STL provided set
 

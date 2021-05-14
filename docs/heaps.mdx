@@ -3,6 +3,10 @@ id: heaps
 title: Heaps and Priority Queues
 sidebar_label: Heaps and Priority Queues
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Heapify, TC of insert , delete and search
 
@@ -23,7 +27,22 @@ QnA : Can you workout the time complexity of building a heap. Is it O(n) or O(nl
 [KNOW HERE!!](https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/)
 
 QnA : Can you answer why to use heap, when the purpose of heap can also be served by maintaining the elements in a sorted manner?
-
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Minimum Cost Of Ropes 1587115620",link:"https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1"},{name:"Magician And Chocolates",link:"https://www.interviewbit.com/problems/magician-and-chocolates/"},{name:"Minimum Sum Squares Characters Counts Given String Removing K Characters",link:"https://www.geeksforgeeks.org/minimum-sum-squares-characters-counts-given-string-removing-k-characters/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question  list={[{name:"N Max Pair Combinations",link:"https://www.interviewbit.com/problems/n-max-pair-combinations/"},{name:"Merge K Sorted Lists",link:"https://www.interviewbit.com/problems/merge-k-sorted-lists/"},{name:"K Largest Elements",link:"https://www.interviewbit.com/problems/k-largest-elements/"},{name:"Convert Bst Min Heap",link:"https://www.geeksforgeeks.org/convert-bst-min-heap/"},{name:"Find Smallest Range Containing Elements From K Lists",link:"https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Ways To Form Max Heap",link:"https://www.interviewbit.com/problems/ways-to-form-max-heap/"},{name:"Find Median In A Stream 1587115620",link:"https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Priority Queue
 

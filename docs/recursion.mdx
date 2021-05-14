@@ -3,6 +3,11 @@ id: recursion
 title: Recursion and Linked List
 sidebar_label: Recursion and Linked List
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 
 ## Recursion 
 You have already seen application of Recursion in merge sort algorithm, so you know it’s definitely worth learning, because not just merge sort there are many many algorithms that deploy recursion, moreover unless you have a good grasp on this topic you will not be doing well in the DP section, it is guaranteed for sure. Here you have some of the best articles for you to learn and understand about recursion, don’t just sit still, start learning.
@@ -21,6 +26,19 @@ It is something you would have done if you didn’t have MyPathGuider, you would
 [Link 1](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)<br/>
 [Link 2](https://www.programiz.com/dsa/backtracking-algorithm)
 
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Subset",link:"https://www.interviewbit.com/problems/subset/"},{name:"Combination Sum",link:"https://www.interviewbit.com/problems/combination-sum/"},{name:"Letter Phone",link:"https://www.interviewbit.com/problems/letter-phone/"},{name:"Problems",link:"https://www.interviewbit.com/problems/permutations"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Palindrome Partitioning",link:"https://www.interviewbit.com/problems/palindrome-partitioning/"},{name:"Generate All Parentheses Ii",link:"https://www.interviewbit.com/problems/generate-all-parentheses-ii/"},{name:"Gray Code",link:"https://www.interviewbit.com/problems/gray-code/"},{name:"Nqueens",link:"https://www.interviewbit.com/problems/nqueens/"},{name:"The Knights Tour Problem Backtracking 1",link:"https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
 
 ## Linked Lists :
 
@@ -47,3 +65,21 @@ QnA : Can you think of the differences between LL and Array ?
 Now that you have learned about both it’s about time to bring up a comparison between the two that will aid you in your choice of data structure for a particular problem.
 
 [Know from here](https://www.studytonight.com/data-structures/linked-list-vs-array)
+
+<br/>
+
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Palindrome List",link:"https://www.interviewbit.com/problems/palindrome-list/"},{name:"Remove Duplicates From Sorted List Ii",link:"https://www.interviewbit.com/problems/remove-duplicates-from-sorted-list-ii/"},{name:"Merge Two Sorted Lists",link:"https://www.interviewbit.com/problems/merge-two-sorted-lists/"},{name:"Add Two Numbers As Lists",link:"https://www.interviewbit.com/problems/add-two-numbers-as-lists/"},{name:"Nth Node From End Of Linked List",link:"https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question  list={[{name:"K Reverse Linked List",link:"https://www.interviewbit.com/problems/k-reverse-linked-list/"},{name:"List Cycle",link:"https://www.interviewbit.com/problems/list-cycle/"},{name:"Partition List",link:"https://www.interviewbit.com/problems/partition-list/"},{name:"Sort List",link:"https://www.interviewbit.com/problems/sort-list/"},{name:"Reorder List",link:"https://www.interviewbit.com/problems/reorder-list/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Lru Cache",link:"https://www.interviewbit.com/problems/lru-cache/"},{name:"Clone A Linked List With Next And Random Pointer",link:"https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1"},]}/>
+	</TabItem>
+</Tabs>
+
+<br/>

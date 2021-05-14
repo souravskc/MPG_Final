@@ -3,6 +3,10 @@ id: trie
 title: Trie
 sidebar_label: Trie
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Concept
 Trie is a tree based data structure used in a specific context of retrieval of some value, generally a string. So, how is a trie implemented, how does it aid in retrieval and what are the tradeoffs of using trie instead of other data structures ? These are some questions whose answer you shall find from reading these wonderfully written articles on trie.
@@ -16,3 +20,17 @@ Trie is a tree based data structure used in a specific context of retrieval of s
 Hoping that by now you have a clear understanding of Trie and have found the answers to the questions. It’s time to move ahead , here is an efficient implementation of Trie which you should practice and remember, though this is not the only way, you should first go ahead and try to implement Trie on your own, then compare your implementation with this.
 
 [Link 1](https://www.techiedelight.com/memory-efficient-trie-implementation-using-map-insert-search-delete/)
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Shortest Unique Prefix",link:"https://www.interviewbit.com/problems/shortest-unique-prefix/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Hotel Reviews",link:"https://www.interviewbit.com/problems/hotel-reviews/"},{name:"Xor Between Two Arrays",link:"https://www.interviewbit.com/problems/xor-between-two-arrays/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>

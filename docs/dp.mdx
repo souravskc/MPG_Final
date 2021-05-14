@@ -1,0 +1,119 @@
+---
+id: dp
+title: Dynamic Programming
+sidebar_label: Dynamic Programming
+---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Basic concept
+
+Now comes one of the most feared topics of competitive programming but also one of the most interesting and useful. To optimise the time complexity of your code can sometimes be the most challenging task at hand and that is when you will start looking to optimise your code with the help of Dynamic Programming. So how does dynamic programming help you in optimisation of your code? What are the trade offs? When, where and how to apply dynamic programming? If these are the questions that come to your mind, then don’t worry, you are at the correct place, all your queries will be answered, read and learn from these wonderful articles. It is recommended that you go through each till the end.
+
+[Link 1](https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/)<br/>
+[Link 2](https://www.youtube.com/watch?v=OQ5jsbhAv_M)<br/>
+[Link 3](https://www.youtube.com/watch?v=ENyox7kNKeY)<br/>
+[Link 4](https://www.youtube.com/watch?v=ocZMDMZwhCY)<br/>
+[Link 5](https://www.youtube.com/watch?v=tp4_UXaVyx8)
+
+:::tip
+Applying DP to a problem starts with looking at the choices that you can make that will take you from one definite state to another, then you must define and give a meaningful definition to your state. Sometimes these choices are clearly given in a problem, but sometimes you have to figure out the choices you can make.
+:::
+
+
+
+## State Space Reduction
+
+DP is an optimisation technique, but there is a second level optimisation to DP as well and it is called state space reduction where you eliminate the unnecessary elements from your DP state. Constraints on a problem can be tough sometimes so adding unnecessary elements to your state will still give you a TLE, to avoid it you must continue reading to know about it.
+
+[Link 1](https://www.hackerearth.com/practice/algorithms/dynamic-programming/state-space-reduction/tutorial/)<br/>
+[Link 2](https://codeforces.com/blog/entry/49691)<br/>
+[Link 3](https://apps.topcoder.com/forums/?module=Thread&threadID=697925&start=0)
+
+
+## Practice and learn
+
+[Link 1 (MUST PRACTICE)](https://drive.google.com/file/d/1C8f4G_bOwuEs9d-FlzMxWeA9MFqxyhHy/view)<br/>
+[Link 2](https://codeforces.com/blog/entry/43256)<br/>
+[Link 3](https://drive.google.com/file/d/1C8f4G_bOwuEs9d-FlzMxWeA9MFqxyhHy/view)<br/>
+[Link 4](https://www.youtube.com/watch?v=FAQxdm0bTaw)
+
+
+## Some of the well known patterns :
+[Link 1](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+
+:::tip
+https://codeforces.com/blog/entry/47764
+:::
+
+
+## Questions
+
+### 1D/2D
+
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Length Of Longest Subsequence",link:"https://www.interviewbit.com/problems/length-of-longest-subsequence/"},{name:"Min Sum Path In Triangle",link:"https://www.interviewbit.com/problems/min-sum-path-in-triangle/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question  list={[{name:"Intersecting Chords In A Circle",link:"https://www.interviewbit.com/problems/intersecting-chords-in-a-circle/"},{name:"Min Jumps Array",link:"https://www.interviewbit.com/problems/min-jumps-array/"},{name:"N Digit Numbers With Digit Sum S ",link:"https://www.interviewbit.com/problems/n-digit-numbers-with-digit-sum-s-/"},{name:"Longest Valid Parentheses",link:"https://www.interviewbit.com/problems/longest-valid-parentheses/"},{name:"Kingdom War",link:"https://www.interviewbit.com/problems/kingdom-war/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Largest Area Of Rectangle With Permutations",link:"https://www.interviewbit.com/problems/largest-area-of-rectangle-with-permutations/"},{name:"Longest Arithmetic Progression",link:"https://www.interviewbit.com/problems/longest-arithmetic-progression/"},{name:"Ways To Color A 3Xn Board",link:"https://www.interviewbit.com/problems/ways-to-color-a-3xn-board/"},{name:"Kth Manhattan Distance Neighbourhood",link:"https://www.interviewbit.com/problems/kth-manhattan-distance-neighbourhood/"},{name:"Best Time To Buy And Sell Stock Atmost B Times",link:"https://www.interviewbit.com/problems/best-time-to-buy-and-sell-stock-atmost-b-times/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
+### String
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Longest Common Subsequence",link:"https://www.interviewbit.com/problems/longest-common-subsequence/"},{name:"Longest Palindromic Subsequence",link:"https://www.interviewbit.com/problems/longest-palindromic-subsequence/"},{name:"Edit Distance",link:"https://www.interviewbit.com/problems/edit-distance/"},{name:"Repeating Subsequence",link:"https://www.interviewbit.com/problems/repeating-subsequence/"},{name:"Distinct Subsequences",link:"https://www.interviewbit.com/problems/distinct-subsequences/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Scramble String",link:"https://www.interviewbit.com/problems/scramble-string/"},{name:"Regular Expression Match",link:"https://www.interviewbit.com/problems/regular-expression-match/"},{name:"Lcs Of Three Strings0028",link:"https://practice.geeksforgeeks.org/problems/lcs-of-three-strings0028/1"},]}/>
+	</TabItem>
+	<TabItem value="expert">
+		<Question  list={[{name:"Shortest Common Superstring",link:"https://www.interviewbit.com/problems/shortest-common-superstring/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
+### Tree DP
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Max Sum Path In Binary Tree",link:"https://www.interviewbit.com/problems/max-sum-path-in-binary-tree/"},{name:"Unique Binary Search Trees Ii",link:"https://www.interviewbit.com/problems/unique-binary-search-trees-ii/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
+
+### Random
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Word Search Board",link:"https://www.interviewbit.com/problems/word-search-board/"},{name:"Smallest Sequence With Given Primes",link:"https://www.interviewbit.com/problems/smallest-sequence-with-given-primes/"},{name:"Mobile Numeric Keypad5456",link:"https://practice.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Egg Drop Problem",link:"https://www.interviewbit.com/problems/egg-drop-problem/"},{name:"Diehard",link:"https://www.spoj.com/problems/DIEHARD/"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>

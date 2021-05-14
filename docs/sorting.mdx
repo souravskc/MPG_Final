@@ -3,6 +3,12 @@ id: sorting
 title: Searching and Sorting
 sidebar_label: Searching and Sorting
 ---
+import Card from "../src/components/Card"
+import Question from "../src/components/Question"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
 ## Binary Search
 
 Binary Search, give some respect, it is one of the underdogs algorithm that is about to become one of your favourites, everyone who knows a little amount of coding knows this algorithm but fails to understand the potential of it, here you will unlock the potential of binary search for yourself but only if you read completely and understand thoroughly.
@@ -28,6 +34,22 @@ Learn to identify the pattern of questions and scenarios that can be solved by a
 In C++, using the STL you can easily apply binary search to find the lower bound and upper bound of an element in a container. So what is lower bound and upper bound, you ask, don’t ask just read on.
 
 [Link](https://www.geeksforgeeks.org/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/)
+
+<br/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Square Root Of Integer",link:"https://www.interviewbit.com/problems/square-root-of-integer/"},]}/>
+	</TabItem>
+	<TabItem value="medium">
+		<Question  list={[{name:"Matrix Median",link:"https://www.interviewbit.com/problems/matrix-median/"},{name:"Eko",link:"https://www.spoj.com/problems/EKO/"},{name:"Aggrcow",link:"https://www.spoj.com/problems/AGGRCOW/"},{name:"Search In Rotated Sorted Array",link:"https://leetcode.com/problems/search-in-rotated-sorted-array/"},]}/>
+	</TabItem>
+	<TabItem value="hard">
+		<Question  list={[{name:"Painters Partition Problem",link:"https://www.interviewbit.com/problems/painters-partition-problem/"},{name:"Simple Queries",link:"https://www.interviewbit.com/problems/simple-queries/"},{name:"Subsums",link:"https://www.spoj.com/problems/SUBSUMS/"},{name:"Prata",link:"https://www.spoj.com/problems/PRATA/"},{name:"Weighted Job Scheduling Log N Time",link:"https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/"},]}/>
+	</TabItem>
+</Tabs>
+<br/>
 
 ## Sorting
 
@@ -78,3 +100,14 @@ So far you have seen sorting applied to primitive data types but what if you hav
 [STL GeeksForGeeks](https://www.tutorialspoint.com/Sorting-a-vector-of-custom-objects-using-Cplusplus-STL)
 
 [Sort Vector in C](https://www.geeksforgeeks.org/sorting-a-vector-in-c/)
+
+<br/>
+<Tabs
+	defaultValue="medium"
+	values={[{label: "Medium", value: "medium"},]}>
+	<TabItem value="medium">
+		<Question  list={[{name:"Inversion Of Array 1587115620",link:"https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1"},{name:"Minimum Swaps",link:"https://practice.geeksforgeeks.org/problems/minimum-swaps/1"},]}/>
+	</TabItem>
+	
+</Tabs>
+<br/>
