@@ -16,10 +16,9 @@ If you are someone not new to CP, a quick overview of the introduction should do
 The following STL utilities for vectors in C++ are  a must know : resize(), size(), push_back(), pop_back(), begin(), end(), sort(). Do read about what they do while learning about vectors.
 ::::
 
-1. [Link 1](https://www.bitdegree.org/learn/c-plus-plus-vector)
-2. [Link 2](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
-3. [Link 3](https://www.bitdegree.org/learn/c-plus-plus-array)
-4. [Link 4](https://www.programiz.com/cpp-programming/arrays)
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"C Plus Plus Vector",link:"https://www.bitdegree.org/learn/c-plus-plus-vector/"},{name:"Vector In Cpp Stl",link:"https://www.geeksforgeeks.org/vector-in-cpp-stl/"},{name:"C Plus Plus Array",link:"https://www.bitdegree.org/learn/c-plus-plus-array/"},{name:"Arrays",link:"https://www.programiz.com/cpp-programming/arrays/"},]}/>
+</TabItem>
 
 :::tip
 Vectors compared to arrays are more versatile and flexible, along with the utilities provided for vectors by STL makes them easy to work with, hence they are the preferred choice of programmers.
@@ -30,9 +29,9 @@ Vectors compared to arrays are more versatile and flexible, along with the utili
 
 Now you know what a vector is, but do you know about the time complexity of insert operation in vectors. For arrays it is but simple O(1), is it the same case for vectors, what do you think ? Well here is a spoiler, the TC is not exactly O(1) but the amortised TC is O(1). So what does it mean and what is its significance, read on and you will find out, here is first a little introduction of Amortised TC and then TC of insert in vectors.
 
-1. [Link 1](https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/)
-2. [Link 2](https://people.engr.tamu.edu/andreas-klappenecker/csce411-s14/csce411-amortized2.pdf)
-
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"Analysis Algorithm Set 5 Amortized Analysis Introduction",link:"https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/"},{name:"Vectors",link:"https://people.engr.tamu.edu/andreas-klappenecker/csce411-s14/csce411-amortized2.pdf"},]}/>
+</TabItem>
 QnA:
 What is the TC of delete in vectors ?
 If you have understood well enough you should be able to answer this.
@@ -45,8 +44,9 @@ From what you have learnt so far about arrays, you know how you can declare arra
 
 This may seem very trivial, but doing this trivial thing properly will save you multiple lines of code to a single line, and improve your coding speed, unless you don’t wanna be left behind in a competition it is advised to go through and read about the various ways of vector initialisation.
 
-[Read 1](https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/)<br/>
-[Read 2](https://thispointer.com/c-how-to-initialize-two-dimensional-vector-initializing-2d-vectors-matrix/)
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"Initialize A Vector In Cpp Different Ways",link:"https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/"},{name:"C How To Initialize Two Dimensional Vector Initializing 2D Vectors Matrix",link:"https://thispointer.com/c-how-to-initialize-two-dimensional-vector-initializing-2d-vectors-matrix/"},]}/>
+</TabItem>
 
 :::tip
 Initialise the vector with default values during its declaration, whenever possible.
@@ -57,19 +57,18 @@ Initialise the vector with default values during its declaration, whenever possi
 ## Pass by reference vs value vs pointers
 
 Passing parameters to functions is something you will do all the time, to be able to do it correctly and obtain the correct result from your method you will need to know and understand this fundamental concept. Here you will learn about these concepts from C++ point of view. <br/>
-[Educative Link](https://www.educative.io/edpresso/pass-by-value-vs-pass-by-reference)<br/>
-[IBM Knowledge Center PassByValue](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_value.htm)<br/>
-[IBM Knowledge Center PassByPointer](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_pointer.htm)<br/>
-[IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/cplr233.htm)<br/>
-
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"Pass By Value Vs Pass By Reference",link:"https://www.educative.io/edpresso/pass-by-value-vs-pass-by-reference/"},{name:"Pass by Value",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_value.htm"},{name:"Pass by Pointer",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_pointer.htm"},{name:"IBM Knowledge Center",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/cplr233.htm"},]}/>
+</TabItem>
 Q. What will happen when you pass an array to a function by value ?
 Ponder over this, find the answer and remember it.
 
 ## Passing of Array and Vectors into methods
 
 Now that you have learnt about the differences between pass by reference , value and pointer, here you will learn about passing of arrays and vectors into methods. <br/>
-[First read this.](https://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/)<br/>
-[Then this](https://www.techiedelight.com/pass-2d-array-function-parameter-cpp/)
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"How Arrays Are Passed To Functions In Cc",link:"https://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/"},{name:"Pass 2D Array Function Parameter Cpp",link:"https://www.techiedelight.com/pass-2d-array-function-parameter-cpp/"},]}/>
+</TabItem>
 
 Passing an array by value is a little tricky so understand clearly what happens when you pass an array by value, well at least you think you are passing by value, but is it really being passed by value ? [Read on to find out](https://www.techiedelight.com/pass-array-by-value-to-function/)
 
