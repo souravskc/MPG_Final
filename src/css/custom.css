@@ -37,7 +37,24 @@
 .admonition-caution{
   border:0;
   padding:0px;
-  background-color:rgb(212, 209, 19)
+  background-color:#FF8E2B
+}
+.admonition-important > .admonition-heading{
+  color:black;
+  padding-top:1rem;
+  padding-left:1rem;
+}
+
+
+.admonition-important{
+  border:0;
+  padding:0px;
+  background-color:#FF8E2B
+}
+
+.admonition-important > .admonition-content{
+  background-color: #433B3B;
+  color: #FFFFFF
 }
 
 
