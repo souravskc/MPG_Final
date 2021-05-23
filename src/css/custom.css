@@ -10,6 +10,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x: hidden !important;
+}
 :root {
   --ifm-color-primary: #007afc;
   --ifm-color-primary-dark: #005abb;
