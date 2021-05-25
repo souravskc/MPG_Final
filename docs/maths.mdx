@@ -20,7 +20,7 @@ You already might be knowing about some or all of these, but I recommend you not
 
 
 
-## TC( Amortised, Average, Best, Worst )
+## Time Complexity(TC)
 
 
 
@@ -33,33 +33,32 @@ The TC analysis is the most basic of concepts that you will use throughout your 
 
 <br/>
 
-:::caution
+:::important
 Understand the basics here, you will develop a deeper understanding of analysing TC as you learn more about various algorithms and practice more questions.
 :::
 
 
-## Remainder and Quotient : 
+## Remainder and Quotient :
 Two of the most used operators and basic maths operation, the remainder ‘%’ or the modulo operator gives the remainder when any number a is divided by number b. The ‘ / ‘ or the quotient operator gives the quotient when number a is divided by b.
 
-### Q1. Count the number of digits
 
-<Card title="Problem 1 - Count the number of digits" link='false' titles="Very Easy" description="Go through the method 1 or the iterative method of counting the number of digits."/>
+<Tabs
+	defaultValue="easy"
+	values={[{label: "Easy", value: "easy"}]}>
+	<TabItem value="easy">
+		<Question  list={[{name:"Count the number of digits",link:"https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods"},]}/>
+	</TabItem>
+</Tabs>
 
-<br />
-
-<Card title="Problem 1 - Count the number of digits"  url="https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/" />
-
-<!-- [Question Link](https://www.geeksforgeeks.org/program-count-digits-integer-3-different-methods/)<br/>
-Go through the method 1 or the iterative method of counting the number of digits. -->
 
 ### Do it yourself
 
 Q2. Print all the digits in any number ’n’ from front and reverse.<br/>
-ex: n = 934238<br/>
+ex: n = 943238<br/>
 
 Output expected:<br/>
 9 4 3 2 3 8<br/>
-8 3 2 3 4 9 
+8 3 2 3 4 9
 
 <Tabs
 	defaultValue="easy"
@@ -94,7 +93,7 @@ Though very trivial but then again very fast and useful. Some of the advanced al
 		<Question list={[{name:"Sum Of Pairwise Hamming Distance",link:"https://www.interviewbit.com/problems/sum-of-pairwise-hamming-distance/"},{name:"Divide Integers",link:"https://www.interviewbit.com/problems/divide-integers/"},{name:"Copy Set Bits In A Range",link:"https://www.geeksforgeeks.org/copy-set-bits-in-a-range/"},{name:"Calculate Square Of A Number Without Using And Pow",link:"https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/#:~:text=Given%20an%20integer%20n%2C%20calculate,*%2C%20%2F%20and%20pow%28%29.&text=A%20Simple%20Solution%20is%20to%20repeatedly%20add%20n%20to%20result"},]} />
 	</TabItem>
 	<TabItem value="hard">
-		<Question list={[{name:"Single Number ii",link:"https://www.interviewbit.com/problems/single-number-ii/"},{name:"Palindromic Binary Representation",link:"https://www.interviewbit.com/problems/palindromic-binary-representation/"},]} />
+		<Question list={[{name:"Single Number Adv.",link:"https://www.interviewbit.com/problems/single-number-ii/"},{name:"Palindromic Binary Representation",link:"https://www.interviewbit.com/problems/palindromic-binary-representation/"},]} />
 	</TabItem>
 </Tabs>
 
@@ -113,8 +112,6 @@ Nothing great about Greatest Common Divisor a.k.a GCD we already know about it f
 
 <!-- [First Link](https://codeforces.com/blog/entry/46457#:~:text=Theorem%201%20%3A%20let%20'a',%3D9%20and%20b%3D2.) -->
 
-This is the content for euclid
-
 
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Euclid Algorithm",link:"http://cp-algorithms.com/algebra/euclid-algorithm.html"},]}/>
@@ -123,7 +120,7 @@ This is the content for euclid
 
 <!-- [Second Link](http://cp-algorithms.com/algebra/euclid-algorithm.html) -->
 
-So you know now the TC of finding GCD is O(logN) but can you prove it, congo you have good analysis skills if you could prove it, don’t get discouraged if you didn’t, here is a proof, so read on 
+So you know now the TC of finding GCD is O(logN) but can you prove it, congo you have good analysis skills if you could prove it, don’t get discouraged if you didn’t, here is a proof, so read on
 
 
 <TabItem value="resource">
@@ -134,15 +131,15 @@ So you know now the TC of finding GCD is O(logN) but can you prove it, congo you
 
 <br />
 
-:::danger 
+:::caution
 
 The inbuilt gcd function in C++ is very helpful to know and easy to use
 
-<Card title="stdgcd c inbuilt function finding gcd"  url="https://www.geeksforgeeks.org/stdgcd-c-inbuilt-function-finding-gcd/" />
+<Card title="Inbuilt function for finding GCD"  url="https://www.geeksforgeeks.org/stdgcd-c-inbuilt-function-finding-gcd/" />
 
 :::
 
-:::tip
+:::caution
 
 Use the inbuilt GCD method to avoid mistakes, save time and speed up your algorithm whenever needed
 
@@ -164,14 +161,19 @@ I assume you must be mocking MyPathGuider, why do I say so? Well even a class 6 
 
 QnA : What’s so cool about calculating power in O(logN) TC ?
 Great question, you will get the answer to this question post reading
-[THIS](https://cp-algorithms.com/algebra/binary-exp.html)
+
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"Calculating Power in logN",link:"(https://cp-algorithms.com/algebra/binary-exp.html"},]}/>
+</TabItem>
+<br />
+
 
 Do you still need the answer why it’s so cool, hoping you got your answer.
 
 
 :::caution
 
-Do understand carefully the concept of Binary Exponentiation and remember how it works in helping you find the power in logarithmic time. 
+Do understand carefully the concept of Binary Exponentiation and remember how it works in helping you find the power in logarithmic time.
 :::
 <Tabs
 	defaultValue="easy"
@@ -210,10 +212,10 @@ Do understand carefully the concept of Binary Exponentiation and remember how it
 </TabItem>
 
 
-## Euler Totient function 
+## Euler Totient function
 Now this something not taught to you in your school days but something that you will learn only if you are solving some coding question and realise you need to find the modular multiplicative inverse of a number. So what is this function and why is it important and where is it used ? Wanna find out, what are you waiting for, deep dive into this wonderful article
 
-:::caution 
+:::caution
 It’s application in finding the modular multiplicative inverse is a must know for any CP enthusiast, the generalization of the concept will be rarely used so go ahead reading that section on your own discretion but for now it not a must know, you can always come back and seek guidance on MyPathGuider for the same.
 :::
 
@@ -221,14 +223,14 @@ It’s application in finding the modular multiplicative inverse is a must know 
 	<Question resource = "true" list={[{name:"Phi Function",link:"https://cp-algorithms.com/algebra/phi-function.html"},]}/>
 </TabItem>
 
-Post reading this article you should have a clear understanding of the Euler Totient function. 
+Post reading this article you should have a clear understanding of the Euler Totient function.
 
 
 
 
-## Prime factorization 
+## Prime factorization
 <TabItem value="resource">
-	<Question resource = "true" list={[{name:"Youtube link",link:"https://www.youtube.com/watch?v=6PDtgHhpCHo&feature=player_embedded_uturn"},]}/>
+	<Question resource = "true" list={[{name:" Prime factorization (Youtube link)",link:"https://www.youtube.com/watch?v=6PDtgHhpCHo&feature=player_embedded_uturn"},]}/>
 </TabItem>
 
 <Tabs
