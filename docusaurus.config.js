@@ -8,17 +8,17 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'souravskc', // Usually your GitHub org/user name.
-  projectName: 'MPG_Final',
+  projectName: 'MyPathGuider',
 
   themeConfig: {
-    // colorMode: {
-    //   defaultMode: 'dark'
-    // },
+    colorMode: {
+      defaultMode: 'dark'
+    },
     navbar: {
       title: 'MyPathGuider',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/mpglogo.png'
+        src: 'img/favicon.png'
       },
       items: [
         {

@@ -25,7 +25,6 @@ import Footer from '../components/Footer'
 const features = [
   {
     titlesm:'Free Resources',
-    bgcolor: "#E9EAFF",
     title: 'Learn for FREE from FREE resources',
     imgUrl: Learning,
     description:( <div> We empower you to learn from good quality resources available for FREE on the web. Now, there is no more need to spend your hard-earned money for buying that course or that book .  </div>),
@@ -34,7 +33,6 @@ const features = [
   },
   {
     titlesm:'Advancement',
-    bgcolor:"#FCC79A",
     title: 'Step by Step advancement',
     imgUrl: Step,
     description: (<div>Our pathway of learning has been designed by experienced professionals, who have selectively chosen the best resources and curated the pathway to make your learning journey smoother and easier.<br/><br/>You learn to face bigger challenges and solve tough problems by breaking them down into smaller easier ones.</div>),
@@ -43,7 +41,6 @@ const features = [
   },
   {
     titlesm:'Mentor',
-    bgcolor: "#E9EAFF",
     title: 'Mentor like Guidance',
     imgUrl: Mentor,
     description: ( <div>Having a mentor is valuable and we know it. That’s why we provide you with mentor-like guidance, to help you keep track of your progress.<br /><br/>Just as a good mentor,we become your partner to help you overcome roadblocks in your journey and highlight the important points you should always keep in mind, to be the best.</div>),
@@ -53,7 +50,6 @@ const features = [
   },
   {
     titlesm:'Improvement',
-    bgcolor:"#FCC79A",
     title: 'Tried, Tested and constantly Improving',
     imgUrl: Improv,
     description:( <div>We aim for becoming better and better each day, so our methods are constantly evolving to best suit the needs of our learners.We curate our paths to best cater to the requirements of the constantly-evolving tech industry.</div>),
@@ -154,7 +150,7 @@ export default function Home() {
         features.map((value,index)=>{
           return(
             <div>
-              <FeatureCard id={value.id} imgUrl={value.imgUrl} title={value.title} description={value.description} more={value.more} bgcolor={value.bgcolor} />
+              <FeatureCard id={value.id} imgUrl={value.imgUrl} title={value.title} description={value.description} more={value.more} />
             </div>
           )
         })
