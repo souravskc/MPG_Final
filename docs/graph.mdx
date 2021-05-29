@@ -9,48 +9,38 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ## Concept
-Tree as you have seen and read is basically a graph with a well defined root node, in other words graph is an extension of trees, and are useful to represent real world connections and scenarios, for ex: connections on facebook or linkedin is a graph where you are a node and you are connected to other nodes in the graph. In order to get started with graphs you must first know the basic terminology of graphs and build a visual picture of what a graph looks like, the following articles will help you do so.
+Graph is an extension of trees, where there is no root node, and is used to represent real world connections and scenarios, for ex: connections on facebook or linkedin is a graph where you are a node and you are connected to other nodes in the graph. In order to get started with graphs you must first know the basic terminology of graphs and build a visual picture of what a graph looks like, the following articles will help you do so.
 
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Terminology And Representations Of Graphs",link:"https://www.techiedelight.com/terminology-and-representations-of-graphs/"},{name:"Graph",link:"https://www.programiz.com/dsa/graph/"},]}/>
 </TabItem>
 
 
-## Representation of a graph
+## Representating a Graph
+There are 2 ways to represent graphs, you will have to learn about them in detail, each having their own advantage and disadvantage. To know you must read on, be sure to learn the basics properly.
 
-After knowing what a graph is , it’s important that you know how you can code a graph. There are 2 ways to represent graphs and you will have to learn about them in detail, each have their own advantages and disadvantages. To know you must read on, be sure to learn the basics properly.
-
-Adjacency Matrix :
 <TabItem value="resource">
-	<Question resource = "true" list={[{name:"Graph Adjacency Matrix",link:"https://www.programiz.com/dsa/graph-adjacency-matrix/"},]}/>
+	<Question resource = "true" list={[{name:"Graph Adjacency Matrix",link:"https://www.programiz.com/dsa/graph-adjacency-matrix/"},{name:"Graph Adjacency List",link:"https://www.programiz.com/dsa/graph-adjacency-list/"},]}/>
 </TabItem>
-
-Adjacency List :
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Graph Adjacency List",link:"https://www.programiz.com/dsa/graph-adjacency-list/"},]}/>
-</TabItem>
-
-
 
 
 ## DFS
+DFS or depth first search is an algorithm for graph traversal, just like you have learnt tree traversal previously, this time you will learn about graph traversals, which are a must know because they help in solving more difficult advance level graph questions. So what is DFS? What is the basic principle behind DFS? How is it implemented? What is the time complexity? What are the applications of DFS? All of these are important questions you should be able to answer once you have read about it from these good articles.
 
-DFS or depth first search is an algorithm for graph traversal, just like you have learnt tree traversal previously, this time you will learn about graph traversals, which are a must know because they help in solving more difficult and advanced level graph questions. So what is DFS ? What is the basic principle behind DFS ? How is it implemented ? What is the time complexity ? What are the applications of DFS ? All of these are important questions you should be able to answer once you have read about it from these good articles.
 <TabItem value="resource">
-	<Question resource = "true" list={[{name:"Depth First Search",link:"https://cp-algorithms.com/graph/depth-first-search.html"},{name:"Graph Dfs",link:"https://www.programiz.com/dsa/graph-dfs/"},]}/>
+	<Question resource = "true" list={[{name:"Depth First Search",link:"https://cp-algorithms.com/graph/depth-first-search.html"},{name:"Graph DFS",link:"https://www.programiz.com/dsa/graph-dfs/"},]}/>
 </TabItem>
 
-QnA : Can you use stack to implement DFS ?
+Q: Can you use implement DFS using stack?
+
 
 ## Types of edges in DFS 
-While performing DFS, you can store the arrival and departure times of a node/vertex which can be used to explore the type of edge between two vertices, this perspective of DFS will be critical and useful to your problem solving analysis. So don’t you wanna know the different types of edges ? if you do, you must read on.
+While performing DFS, you can store the arrival and departure times of a node/vertex which can be used to explore the type of edge between two vertices, this perspective of DFS will be critical and useful to your problem solving analysis.
 
 <TabItem value="resource">
-	<Question resource = "true" list={[{name:"Arrival Departure Time Vertices Dfs",link:"https://www.techiedelight.com/arrival-departure-time-vertices-dfs/"},{name:"Types Edges Involved Dfs Relation",link:"https://www.techiedelight.com/types-edges-involved-dfs-relation/"},]}/>
+	<Question resource = "true" list={[{name:"Arrival Departure Time Vertices DFS",link:"https://www.techiedelight.com/arrival-departure-time-vertices-dfs/"},{name:"Types Edges Involved DFS Relation",link:"https://www.techiedelight.com/types-edges-involved-dfs-relation/"},]}/>
 </TabItem>
 
-
-<br/>
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
@@ -65,16 +55,15 @@ While performing DFS, you can store the arrival and departure times of a node/ve
 	</TabItem>
 	
 </Tabs>
-<br/>
+
 
 ## BFS
-You have studied about DFS, now you are going to study about BFS which is another graph traversal algorithm. The questions that you have answered for DFS, the same questions must be answered for BFS, which are, what is BFS ? What is the basic principle behind BFS ? How is it implemented ? What is the time complexity ? What are the applications of BFS ? So you better start reading.
+You have studied about DFS, now you are going to study about BFS which is another graph traversal algorithm. The questions that you have answered for DFS, the same questions must be answered for BFS, which are, what is BFS? What is the basic principle behind BFS? How is it implemented? What is the time complexity? What are the applications of BFS? So you better start reading.
 
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Breadth First Search",link:"https://cp-algorithms.com/graph/breadth-first-search.html"},{name:"Graph Bfs",link:"https://www.programiz.com/dsa/graph-bfs/"},]}/>
 </TabItem>
 
-<br/>
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
@@ -89,9 +78,9 @@ You have studied about DFS, now you are going to study about BFS which is anothe
 	</TabItem>
 	
 </Tabs>
-<br/>
 
-## Connected Components :
+
+## Connected Components
 
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Search For Connected Components",link:"https://cp-algorithms.com/graph/search-for-connected-components.html"},]}/>
@@ -106,39 +95,42 @@ You have studied about DFS, now you are going to study about BFS which is anothe
 	</TabItem>
 	
 </Tabs>
-<br/>
 
-## Finding bridges
+
+## Finding Bridges
+
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Bridge Searching",link:"https://cp-algorithms.com/graph/bridge-searching.html"},]}/>
 </TabItem>
 
 
-## Finding bridges online
+## Finding Bridges Online
+
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Bridge Searching Online",link:"https://cp-algorithms.com/graph/bridge-searching-online.html"},]}/>
 </TabItem>
 
 
-## Finding articulation points
+## Finding Articulation Points
+
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Articulation Points And Bridges",link:"https://www.hackerearth.com/practice/algorithms/graphs/articulation-points-and-bridges/tutorial"},{name:"Cutpoints",link:"https://cp-algorithms.com/graph/cutpoints.html"},]}/>
 </TabItem>
 
 
-## Finding strongly connected component
+## Finding Strongly Connected Component
+
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Strongly Connected Components",link:"https://cp-algorithms.com/graph/strongly-connected-components.html"},{name:"Strongly Connected Components",link:"https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/tutorial"},]}/>
 </TabItem>
 
-## Union-Find 
-The basic use case of an edge is to connect two vertices, but if you see it’s not just connecting two vertices but all other vertices connected to these two vertices are now connected to each other via this edge, as if a union has happened. Union-find as you will see is a very useful algorithm that relates to union of two vertices whenever an edge is added between them, it helps to solve a specific pattern of questions very easily. So what is this union-find algorithm? What is the time complexity ? and how is it implemented ? All of these questions you must be able to answer after reading these wonderful articles .
+## Union-Find
+The basic use case of an edge is to connect two vertices, but if observe closely it is not just connecting two vertices but all other vertices connected to these two vertices are now connected to each other via this edge, as if a union has happened. Suppose given two vertices with no direct edge between them, you are asked to find if the two vertices are connected in O(1) time, one approach is to use DFS/BFS but it will give you O(n) time complexity, the solution lies in the concept of Union-Find which helps in solving a specific pattern of questions very easily, just like this one. So what is this union-find algorithm? What is the time complexity? and how is it implemented? All of these questions you must be able to answer after reading these wonderful articles .
 
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Disjoint_Set_Union",link:"https://cp-algorithms.com/data_structures/disjoint_set_union.html", desc: "Read upto time complexity inclusive"},{name:"Course",link:"https://codeforces.com/edu/course/2"},{name:"Disjoint Set Union Union Find",link:"https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/"},]}/>
 </TabItem>
 
-<br/>
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},]}>
@@ -148,7 +140,6 @@ The basic use case of an edge is to connect two vertices, but if you see it’s 
 	
 </Tabs>
 
-<br/>
 
 ## Dijkstra’s
 How does uber know the shortest distance between your pick up point and your drop off point ? Dijkstra’s algorithm will be used whenever you want to find the shortest distance path from the source or starting vertex to all other vertices in the graph. Now that you know what Dijkstra is there are few other questions left to answer which are, what is the basic principle behind dijkstra ? how is it implemented ? What is the time complexity ? All of these questions you must be able to answer after reading these wonderful articles.
