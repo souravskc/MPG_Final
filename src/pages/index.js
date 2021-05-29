@@ -17,7 +17,7 @@ import Step from '../img/features/step.webp'
 
 import PopupCard from '../components/PopupCard'
 
-
+import Free from '../img/features/REE.png'
 import FeatureCard from '../components/FeatureCard'
 import Feedback from '../components/Feedback'
 import Footer from '../components/Footer'
@@ -27,7 +27,7 @@ const features = [
     titlesm:'Free Resources',
     bgcolor: "#E9EAFF",
     title: 'Learn for FREE from FREE resources',
-    imgUrl: Learning,
+    imgUrl: Free,
     description:( <div> We empower you to learn from good quality resources available for FREE on the web. Now, there is no more need to spend your hard-earned money for buying that course or that book .  </div>),
     id:true,
     more:( <div> Lack of money won’t be a problem anymore, so you never have to stop your learning. We at MPG always strive to provide you with the best learning experience for free. </div> ) 
