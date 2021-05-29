@@ -16,6 +16,7 @@ export class SideCard extends Component {
              {this.props.description}
             </Text>
           </TipsColumn>
+
           </RectGreen>
       </Container>
             </div>
@@ -28,7 +29,7 @@ export class SideCard extends Component {
 
 const Container = styled.div`
    width: 850px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255,255,254,1);
   border-radius: 8px;
   border-width: 1px;
   border-color: rgba(150,144,144,1);
