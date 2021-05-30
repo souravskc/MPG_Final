@@ -9,11 +9,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ## Introduction
-Maps and Sets are two of the most useful data structures used for storing and fetching key or key, value pairs. The idea is pretty simple for both, Maps allow to retrieve and store data corresponding to any key efficiently,  while sets allow to store and maintain a unique set of keys. Both of these data structures or containers as they are called in STL, will help you in optimising your code and are much needed for more complex and advanced level algorithms to work efficiently and properly.
-
+Map and Set are used for storing and fetching data. The idea is pretty simple for both, Map allows to retrieve and store data corresponding to any key efficiently,  while sets allow to store and maintain a unique set of keys. Both of these data structures or containers as they are called in STL, will help you in optimising your code and are much needed for more complex and advanced level algorithms to work efficiently and properly.
 
 ## Hashing
-To tell you in brief, hashing is a general concept to convert your original value in one domain to obtain a value in the required domain,  via any suitable intermediate method or function, which is usually a black box for the outside people and known only to you. Why to do hashing and how to do hashing ? These are some of the questions you should be able to answer post reading these wonderful articles.
+To tell you in brief, hashing is a techique to convert your original value in the domain to obtain a value in the range via any suitable intermediate method or function, which is usually a black box known only to you. Why to do hashing and how to do hashing? These are some of the questions you should be able to answer post reading these wonderful articles.
 
 <TabItem value="resource">
 	<Question resource = "true" list={[{name:"Basics Of Hash Tables",link:"https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial"},{name:"Hash Table",link:"https://www.programiz.com/dsa/hash-table/"},]}/>
@@ -29,35 +28,26 @@ Hashing of strings is usually considered more complex than simple integers, so h
 
 
 ## Map
-It’s time you became familiar with the STL provided Map, after all this is the real deal and something that you will be using instead of implementing and writing your own map, so don’t just stare at the screen and start reading.
+It is about time you became familiar with the STL provided Map container, you will use it instead of implementing and writing your own map. The STL containers are very flexible, they allow you to define map and unordered_map for custom data types and hash functions, for that you need to do some operator overloading similar to priority queue. So don’t just stare at the screen, start reading. 
 
-:::important
-The following STL utilities for maps in C++ are a must know : size(), insert(), erase(), begin(), end(), find(), pair insert() .
+:::caution
+The following STL utilities for maps in C++ are a must know : size(), insert(), erase(), begin(), end(), find(), pair_insert()
 :::
 
 <TabItem value="resource">
-	<Question resource = "true" list={[{name:"Map Associative Containers The C Standard Template Library Stl",link:"https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/"},{name:"Unordered_Map In Cpp Stl",link:"https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/"},{name:"Map Insert In C Stl",link:"https://www.geeksforgeeks.org/map-insert-in-c-stl/"},]}/>
+	<Question resource = "true" list={[{name:"Map Associative Containers The C Standard Template Library Stl",link:"https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/"},{name:"Unordered_Map In Cpp Stl",link:"https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/"},{name:"Map Insert In C Stl",link:"https://www.geeksforgeeks.org/map-insert-in-c-stl/"},{name:"Use Custom Objects Keys Std Map Cpp",link:"https://www.techiedelight.com/use-custom-objects-keys-std-map-cpp/"},{name:"Use Struct Key Std Unordered_Map Cpp",link:"https://www.techiedelight.com/use-struct-key-std-unordered_map-cpp/"},]}/>
 </TabItem>
 
-:::important
-If you are wondering how maps compare with unordered_map, you have good affinity for knowledge. Go ahead, read about it and satisfy your hunger. The main differentiating factor comes with how they are implemented, different data structures are used, which results in different time complexities for the same operation, all of these and much more is there for you to know, so read on.
+If you are wondering how maps compare with unordered_map, you have good affinity for knowledge. The main differentiating factor comes with how they are implemented. Different data structures are used in their implementation, which results in different time complexities for the same operation, all of this and much more is there for you to know, so read on.
 
-<Card title="Map Vs Unordered_Map C"  url="https://www.geeksforgeeks.org/map-vs-unordered_map-c/" />
-<Card title="Entry"  url="https://codeforces.com/blog/entry/21853" />
-:::
-
-
-:::important
-Remember the worst case time complexities of insert , delete and search operations in map and unordered_map
-:::
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"Map Vs Unordered_Map",link:"https://www.geeksforgeeks.org/map-vs-unordered_map-c/"},{name:"CodeForces Blog",link:"https://codeforces.com/blog/entry/21853"},]}/>
+</TabItem>
 
 :::tip
-For using STL map and unordered_map containers for custom data types and hash functions, you need to do some operator overloading similar to priority queues.
-
-<Card title="Use Custom Objects Keys Std Map Cpp"  url="https://www.techiedelight.com/use-custom-objects-keys-std-map-cpp/" />
-<Card title="Use Struct Key Std Unordered_Map Cpp"  url="https://www.techiedelight.com/use-struct-key-std-unordered_map-cpp/" />
+Remember the worst case time complexities of insert, delete and search operations in map and unordered_map
 :::
-<br/>
+
 <Tabs
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
@@ -69,26 +59,21 @@ For using STL map and unordered_map containers for custom data types and hash fu
 	</TabItem>
 	
 </Tabs>
-<br/>
-## Set
-So now you have a fair enough knowledge about maps, it’s time to learn how to use STL provided set
 
-:::important 
-The following STL utilities for maps in C++ are a must know : size(), insert(), erase(), begin(), end(), find().
+
+## Set
+Moving on from Map, let's learn how to use STL provided Set. The STL Set Container can also be used for custom data types which makes it very versatile and handy, read on and you will learn how to do so.
+
+:::caution
+The following STL utilities for maps in C++ are a must know : size(), insert(), erase(), begin(), end(), find()
 :::
 
 <TabItem value="resource">
-	<Question resource = "true" list={[{name:"Set In Cpp Stl",link:"https://www.geeksforgeeks.org/set-in-cpp-stl/"},{name:"Unordered_Set In Cpp Stl",link:"https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/"},]}/>
+	<Question resource = "true" list={[{name:"Set In Cpp Stl",link:"https://www.geeksforgeeks.org/set-in-cpp-stl/"},{name:"Unordered_Set In Cpp Stl",link:"https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/"},{name:"Set For User Define Data Type",link:"https://www.geeksforgeeks.org/cpp-set-for-user-define-data-type/"},]}/>
 </TabItem>
 
-:::important
-You should know the specific advantages of set and unordered_set over one another to be able to use the more appropriate container in your code. Similar to the case with map and unordered_map, set and unordered_set deploy different data structures which gives different time complexity for the insert, delete and search operations, to know about the data structure used, the time complexity of insert, delete and search and other differences, read on.
-<Card title="Set Vs Unordered_Set C Stl"  url="https://www.geeksforgeeks.org/set-vs-unordered_set-c-stl/" />
-<Card title="Why Would Anyone Use Set Instead Of Unordered Set"  url="[https://stackoverflow.com/questions/1349734/why-would-anyone-use-set-instead-of-unordered-set/" />
-:::
+You should know about the advantages of set and unordered_set over one another to be able to use the more appropriate container in your code. Similar to the case with map and unordered_map, set and unordered_set deploy different data structures which yields different time complexity for the insert, delete and search operations, to know about the data structure used, the time complexity of insert, delete and search and other differences, read on.
 
-:::important
-Declaring a set for custom data-type is may be required for solving some problems and you must know how to do so
-
-<Card title="Cpp Set For User Define Data Type"  url="https://www.geeksforgeeks.org/cpp-set-for-user-define-data-type/" />
-:::
+<TabItem value="resource">
+	<Question resource = "true" list={[{name:"Set Vs Unordered_Set C Stl",link:"https://www.geeksforgeeks.org/set-vs-unordered_set-c-stl/"},{name:"Why Would Anyone Use Set Instead Of Unordered Set",link:"https://stackoverflow.com/questions/1349734/why-would-anyone-use-set-instead-of-unordered-set/"},]}/>
+</TabItem>
