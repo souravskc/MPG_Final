@@ -35,7 +35,16 @@ body{
   padding-top:1rem;
   padding-left:2rem;
 }
-
+.admonition-tip{
+  border:0;
+  padding:0px;
+  background-color:#FF8E2B
+}
+.admonition-tip > .admonition-heading{
+  color:black;
+  padding-top:1rem;
+  padding-left:2rem;
+}
 
 .admonition-caution{
   border:0;
