@@ -1,0 +1,61 @@
+/* Question and Resources Styles are there */
+.questionHeading{
+    background-color: #FF8E2B;
+    padding: 12px 10px 1px 13px;
+    border-radius: 10px;
+    color: white;
+}
+.resourcesHeading{
+    background-color: #2E77AE;
+    padding: 12px 10px 1px 13px;
+    border-radius: 10px;
+    color: white;
+}
+.questionContentArea{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 0px 0px 10px 10px;
+    padding: 8px 12px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.questionContentLink a{
+    color: black;
+    font-weight: none;
+}
+
+
+/* Tips and caution Style from Here */ 
+/* Grid Layout */
+
+.tipAndCaution{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 10px auto;
+}
+.tipsColor{
+    background-color: #62E135;
+    border-radius: 10px;
+}
+.cautionsColor{
+    background-color: black;
+    border-radius: 10px;
+}
+.tipsAndCautionContent{
+    padding: 10px 0px 0px 10px;
+}
+
+.tipsAndCautionContent h4 {
+    font-size: 30px;
+}
+
+
+
+
+
