@@ -4,7 +4,7 @@ title: Arrays and Vectors
 sidebar_label: Arrays and Vectors
 ---
 import Card from "../src/components/Card"
-import Question from "../src/components/Question"
+import ResourceQuestion from "../src/components/ResourceQuestion"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TipsCaution from '../src/components/TipsCaution.js';
@@ -12,26 +12,19 @@ import TipsCaution from '../src/components/TipsCaution.js';
 ## Introduction to Array and Vector
 If you are someone not new to CP, a quick overview of the introduction should do, but for a beginner read carefully and understand as arrays and vectors are data structures that you will be using in almost every programming question you solve.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"C Plus Plus Vector",link:"https://www.bitdegree.org/learn/c-plus-plus-vector/"},{name:"Vector In Cpp Stl",link:"https://www.geeksforgeeks.org/vector-in-cpp-stl/"},{name:"C Plus Plus Array",link:"https://www.bitdegree.org/learn/c-plus-plus-array/"},{name:"Arrays",link:"https://www.programiz.com/cpp-programming/arrays/"},]}/>
-</TabItem>
+<ResourceQuestion resource = "true" list={[{name:"C Plus Plus Vector",link:"https://www.bitdegree.org/learn/c-plus-plus-vector/"},{name:"Vector In Cpp Stl",link:"https://www.geeksforgeeks.org/vector-in-cpp-stl/"},{name:"C Plus Plus Array",link:"https://www.bitdegree.org/learn/c-plus-plus-array/"},{name:"Arrays",link:"https://www.programiz.com/cpp-programming/arrays/"},]}/>
 
 
-<TabItem value="resource">
-	<TipsCaution resource = "true" list={[]} content= " Vector compared to array is more versatile and flexible, along with the utilities provided for vectors by STL makes them easy to work with. The following STL utilities for vectors in C++ are a must know : resize(), size(), push_back(), pop_back(), begin(), end(), sort(). Do read about what they do while learning about vectors." />
-</TabItem>
+<TipsCaution tip = "true" content= " Vector compared to array is more versatile and flexible, along with the utilities provided for vectors by STL makes them easy to work with. The following STL utilities for vectors in C++ are a must know : resize(), size(), push_back(), pop_back(), begin(), end(), sort(). Do read about what they do while learning about vectors." />
 
-:::tip
-Vector compared to array is more versatile and flexible, along with the utilities provided for vectors by STL makes them easy to work with. The following STL utilities for vectors in C++ are a must know : resize(), size(), push_back(), pop_back(), begin(), end(), sort(). Do read about what they do while learning about vectors.
-:::
 
 
 ## TC of insert in vectors
 Now you know what a vector is, but do you know about the time complexity of insert operation in a vector. For arrays it is but simple O(1), is it the same case with vectors, what do you think? Well here is a spoiler, the TC is not exactly O(1) but the amortised TC is O(1). So what does it mean and what is the significance, read on and you will find out. First there is introduction of Amortised TC followed by TC of insert in vectors.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Analysis Algorithm Set 5 Amortized Analysis Introduction",link:"https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/"},{name:"Vectors",link:"https://people.engr.tamu.edu/andreas-klappenecker/csce411-s14/csce411-amortized2.pdf"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Analysis Algorithm Set 5 Amortized Analysis Introduction",link:"https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/"},{name:"Vectors",link:"https://people.engr.tamu.edu/andreas-klappenecker/csce411-s14/csce411-amortized2.pdf"},]}/>
+
 
 Q: What is the TC of delete in vectors ?
 If you have understood well enough you should be able to answer this.
@@ -40,29 +33,27 @@ If you have understood well enough you should be able to answer this.
 ## Dynamic declarations of arrays 
 From what you have learnt so far about arrays, you can declare arrays and vectors if you know the size, but in many real life scenarios and programming problems, you will not know the size beforehand not until the runtime, so you will need to allocate memory to arrays dynamically using the new keyword.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Dynamic Memory Allocation",link:"https://www.techiedelight.com/dynamic-memory-allocation-in-c-for-2d-3d-array/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Dynamic Memory Allocation",link:"https://www.techiedelight.com/dynamic-memory-allocation-in-c-for-2d-3d-array/"},]}/>
+
 
 
 ## Declarations and Initialising a vector 
 This may seem very trivial, but doing this trivial thing properly will reduce your multiple lines of code to a single line, and improve your coding speed, unless you don’t want to be left behind in a competition it is advised to go through and read about the various ways of vector initialisation.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Initialize A Vector In Cpp Different Ways",link:"https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/"},{name:"C How To Initialize Two Dimensional Vector Initializing 2D Vectors Matrix",link:"https://thispointer.com/c-how-to-initialize-two-dimensional-vector-initializing-2d-vectors-matrix/"},]}/>
-</TabItem>
 
-:::tip
-Initialise the vector with default values during its declaration, whenever possible.
-:::
+<ResourceQuestion resource = "true" list={[{name:"Initialize A Vector In Cpp Different Ways",link:"https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/"},{name:"C How To Initialize Two Dimensional Vector Initializing 2D Vectors Matrix",link:"https://thispointer.com/c-how-to-initialize-two-dimensional-vector-initializing-2d-vectors-matrix/"},]}/>
+
+<TipsCaution tip = "true" content= "Initialise the vector with default values during its declaration, whenever possible." />
+
 
 
 ## Pass by reference vs value vs pointers
 Passing parameters to functions is something you will do all the time, to be able to do it correctly and obtain the correct result from your method you will need to know and understand this fundamental concept. Here you will learn about these concepts from C++ point of view.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Pass By Value Vs Pass By Reference",link:"https://www.educative.io/edpresso/pass-by-value-vs-pass-by-reference/"},{name:"Pass by Value",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_value.htm"},{name:"Pass by Pointer",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_pointer.htm"},{name:"IBM Knowledge Center",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/cplr233.htm"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Pass By Value Vs Pass By Reference",link:"https://www.educative.io/edpresso/pass-by-value-vs-pass-by-reference/"},{name:"Pass by Value",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_value.htm"},{name:"Pass by Pointer",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/pass_by_pointer.htm"},{name:"IBM Knowledge Center",link:"https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.cbclx01/cplr233.htm"},]}/>
+
 
 Q. What will happen when you pass an array to a function by value?
 Ponder over this, find the answer and remember it.
@@ -70,17 +61,16 @@ Ponder over this, find the answer and remember it.
 ## Passing of Array and Vectors into methods
 Now that you have learnt about the differences between pass by reference, value and pointer, here you will learn about passing of arrays and vectors into methods.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"How Arrays Are Passed To Functions In Cpp",link:"https://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/"},{name:"Pass 2D Array Function Parameter Cpp",link:"https://www.techiedelight.com/pass-2d-array-function-parameter-cpp/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"How Arrays Are Passed To Functions In Cpp",link:"https://www.geeksforgeeks.org/how-arrays-are-passed-to-functions-in-cc/"},{name:"Pass 2D Array Function Parameter Cpp",link:"https://www.techiedelight.com/pass-2d-array-function-parameter-cpp/"},]}/>
+
 
 Passing an array by value is a little tricky so understand clearly what happens when you pass an array by value, well at least you think you are passing by value, but is it really being passed by value? [Read on to find out](https://www.techiedelight.com/pass-array-by-value-to-function/)
 
 Most of the time you will be using vectors instead of array, so do not miss out on learning how to pass a vector to a method. [Binge here](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
 
-:::caution
-When you do not pass an array by reference to a function, it decays into pointers, so the changes that you do in the function will be reflected back, the same is not true for vectors
-:::
+<TipsCaution tip = "false" content= "When you do not pass an array by reference to a function, it decays into pointers, so the changes that you do in the function will be reflected back, the same is not true for vectors" />
+
 
 Q: How are pointers similar to arrays?
 [One click away](https://www.quora.com/In-C++-functions-why-are-arrays-passed-by-reference-by-default)
@@ -93,7 +83,7 @@ Q: How are pointers similar to arrays?
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Rotate Matrix",link:"https://www.interviewbit.com/problems/rotate-matrix/"},]}/>
+		<ResourceQuestion  list={[{name:"Rotate Matrix",link:"https://www.interviewbit.com/problems/rotate-matrix/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -104,10 +94,10 @@ Q: How are pointers similar to arrays?
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Partitions",link:"https://www.interviewbit.com/problems/partitions/"},]}/>
+		<ResourceQuestion  list={[{name:"Partitions",link:"https://www.interviewbit.com/problems/partitions/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Max Distance",link:"https://www.interviewbit.com/problems/max-distance/"},{name:"Maximum Sum Triplet",link:"https://www.interviewbit.com/problems/maximum-sum-triplet/"},]}/>
+		<ResourceQuestion  list={[{name:"Max Distance",link:"https://www.interviewbit.com/problems/max-distance/"},{name:"Maximum Sum Triplet",link:"https://www.interviewbit.com/problems/maximum-sum-triplet/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -118,16 +108,16 @@ Q: How are pointers similar to arrays?
 	defaultValue="basic"
 	values={[{label: "Basic", value: "basic"},{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="basic">
-		<Question  list={[{name:"Remove Duplicates From Sorted Array Ii",link:"https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array-ii/"},]}/>
+		<ResourceQuestion  list={[{name:"Remove Duplicates From Sorted Array Ii",link:"https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array-ii/"},]}/>
 	</TabItem>
 	<TabItem value="easy">
-		<Question  list={[{name:"Intersection Of Sorted Arrays",link:"https://www.interviewbit.com/problems/intersection-of-sorted-arrays/"},{name:"Diffk",link:"https://www.interviewbit.com/problems/diffk/"},]}/>
+		<ResourceQuestion  list={[{name:"Intersection Of Sorted Arrays",link:"https://www.interviewbit.com/problems/intersection-of-sorted-arrays/"},{name:"Diffk",link:"https://www.interviewbit.com/problems/diffk/"},]}/>
 	</TabItem>
 	<TabItem value="medium">
-		<Question  list={[{name:"3 Sum",link:"https://www.interviewbit.com/problems/3-sum/"},{name:"Max Continuous Series Of 1S",link:"https://www.interviewbit.com/problems/max-continuous-series-of-1s/"},{name:"Array 3 Pointers",link:"https://www.interviewbit.com/problems/array-3-pointers/"},{name:"Container With Most Water",link:"https://www.interviewbit.com/problems/container-with-most-water/"},{name:"Window String",link:"https://www.interviewbit.com/problems/window-string/"},]}/>
+		<ResourceQuestion  list={[{name:"3 Sum",link:"https://www.interviewbit.com/problems/3-sum/"},{name:"Max Continuous Series Of 1S",link:"https://www.interviewbit.com/problems/max-continuous-series-of-1s/"},{name:"Array 3 Pointers",link:"https://www.interviewbit.com/problems/array-3-pointers/"},{name:"Container With Most Water",link:"https://www.interviewbit.com/problems/container-with-most-water/"},{name:"Window String",link:"https://www.interviewbit.com/problems/window-string/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Subarrays With Distinct Integers",link:"https://www.interviewbit.com/problems/subarrays-with-distinct-integers/"},]}/>
+		<ResourceQuestion  list={[{name:"Subarrays With Distinct Integers",link:"https://www.interviewbit.com/problems/subarrays-with-distinct-integers/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -138,10 +128,10 @@ Q: How are pointers similar to arrays?
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Max Sum Contiguous Subarray",link:"https://www.interviewbit.com/problems/max-sum-contiguous-subarray/"},]}/>
+		<ResourceQuestion  list={[{name:"Max Sum Contiguous Subarray",link:"https://www.interviewbit.com/problems/max-sum-contiguous-subarray/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Flip",link:"https://www.interviewbit.com/problems/flip/"},]}/>
+		<ResourceQuestion  list={[{name:"Flip",link:"https://www.interviewbit.com/problems/flip/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -152,7 +142,7 @@ Q: How are pointers similar to arrays?
 	defaultValue="hard"
 	values={[{label: "Hard", value: "hard"},]}>
 	<TabItem value="hard">
-		<Question  list={[{name:"Maximum Consecutive Gap",link:"https://www.interviewbit.com/problems/maximum-consecutive-gap/"},]}/>
+		<ResourceQuestion  list={[{name:"Maximum Consecutive Gap",link:"https://www.interviewbit.com/problems/maximum-consecutive-gap/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -163,10 +153,10 @@ Q: How are pointers similar to arrays?
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},]}>
 	<TabItem value="easy">
-		<Question  list={[{name:"Wave Array",link:"https://www.interviewbit.com/problems/wave-array/"},]}/>
+		<ResourceQuestion  list={[{name:"Wave Array",link:"https://www.interviewbit.com/problems/wave-array/"},]}/>
 	</TabItem>
 	<TabItem value="medium">
-		<Question  list={[{name:"Largest Number",link:"https://www.interviewbit.com/problems/largest-number/"},{name:"Arrange",link:"https://www.spoj.com/problems/ARRANGE/"},]}/>
+		<ResourceQuestion  list={[{name:"Largest Number",link:"https://www.interviewbit.com/problems/largest-number/"},{name:"Arrange",link:"https://www.spoj.com/problems/ARRANGE/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -177,13 +167,13 @@ Q: How are pointers similar to arrays?
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="easy">
-		<Question  list={[{name:"Anti Diagonals",link:"https://www.interviewbit.com/problems/anti-diagonals/"},{name:"Sorted Matrix2333",link:"https://practice.geeksforgeeks.org/problems/sorted-matrix2333/1"},]}/>
+		<ResourceQuestion  list={[{name:"Anti Diagonals",link:"https://www.interviewbit.com/problems/anti-diagonals/"},{name:"Sorted Matrix2333",link:"https://practice.geeksforgeeks.org/problems/sorted-matrix2333/1"},]}/>
 	</TabItem>
 	<TabItem value="medium">
-		<Question  list={[{name:"Maximum Absolute Difference",link:"https://www.interviewbit.com/problems/maximum-absolute-difference/"},{name:"Hotel Bookings Possible",link:"https://www.interviewbit.com/problems/hotel-bookings-possible/"},{name:"Find Permutation",link:"https://www.interviewbit.com/problems/find-permutation/"},{name:"Merge Intervals",link:"https://www.interviewbit.com/problems/merge-intervals/"},{name:"Set Matrix Zeros",link:"https://www.interviewbit.com/problems/set-matrix-zeros/"},]}/>
+		<ResourceQuestion  list={[{name:"Maximum Absolute Difference",link:"https://www.interviewbit.com/problems/maximum-absolute-difference/"},{name:"Hotel Bookings Possible",link:"https://www.interviewbit.com/problems/hotel-bookings-possible/"},{name:"Find Permutation",link:"https://www.interviewbit.com/problems/find-permutation/"},{name:"Merge Intervals",link:"https://www.interviewbit.com/problems/merge-intervals/"},{name:"Set Matrix Zeros",link:"https://www.interviewbit.com/problems/set-matrix-zeros/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Triplets With Sum Between Given Range",link:"https://www.interviewbit.com/problems/triplets-with-sum-between-given-range/"},{name:"Find Duplicate In Array",link:"https://www.interviewbit.com/problems/find-duplicate-in-array/"},{name:"Maximum Unsorted Subarray",link:"https://www.interviewbit.com/problems/maximum-unsorted-subarray/"},{name:"Set Matrix Zeros",link:"https://www.interviewbit.com/problems/set-matrix-zeros/"},{name:"N3 Repeat Number",link:"https://www.interviewbit.com/problems/n3-repeat-number/"},]}/>
+		<ResourceQuestion  list={[{name:"Triplets With Sum Between Given Range",link:"https://www.interviewbit.com/problems/triplets-with-sum-between-given-range/"},{name:"Find Duplicate In Array",link:"https://www.interviewbit.com/problems/find-duplicate-in-array/"},{name:"Maximum Unsorted Subarray",link:"https://www.interviewbit.com/problems/maximum-unsorted-subarray/"},{name:"Set Matrix Zeros",link:"https://www.interviewbit.com/problems/set-matrix-zeros/"},{name:"N3 Repeat Number",link:"https://www.interviewbit.com/problems/n3-repeat-number/"},]}/>
 	</TabItem>
 	
 </Tabs>

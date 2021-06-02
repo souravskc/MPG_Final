@@ -4,8 +4,9 @@ title: Searching and Sorting
 sidebar_label: Searching and Sorting
 ---
 import Card from "../src/components/Card"
-import Question from "../src/components/Question"
+import ResourceQuestion from "../src/components/ResourceQuestion"
 import Tabs from '@theme/Tabs';
+import TipsCaution from '../src/components/TipsCaution.js';
 import TabItem from '@theme/TabItem';
 
 
@@ -16,9 +17,9 @@ Binary Search, it is one of the underdog algorithms that is about to become one 
 Go through the step1 to step5 of binary search lessons of the codeforces article to learn in depth about the use cases of binary search outside of the box. The main theorem in the topcoder article is a gem, read it and own it
 :::
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Code Forces",link:"https://codeforces.com/edu/course/2/lesson/6"},{name:"Topcoder Article",link:"https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Code Forces",link:"https://codeforces.com/edu/course/2/lesson/6"},{name:"Topcoder Article",link:"https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/"},]}/>
+
 
 :::tip
 Learn to identify the pattern of questions and scenarios where a particular algorithm or data structure can be applied, in this case binary search. Many of the binary search questions at first look like a DP question, but if you look closer and if you have read and understood the main theorem, you won’t have a hard time discovering that BS can be applied instead of wasting time on DP. The same goes for other data structures and algorithms.
@@ -28,21 +29,21 @@ Learn to identify the pattern of questions and scenarios where a particular algo
 ## Lower Bound and Upper Bound concepts
 In C++, using the STL you can easily apply binary search to find the lower bound and upper bound of an element in a container. So what is lower bound and upper bound, you ask, don’t ask just read on.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Binary Search Functions In C Stl Binary_Search Lower_Bound And Upper_Bound",link:"https://www.geeksforgeeks.org/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Binary Search Functions In C Stl Binary_Search Lower_Bound And Upper_Bound",link:"https://www.geeksforgeeks.org/binary-search-functions-in-c-stl-binary_search-lower_bound-and-upper_bound/"},]}/>
+
 
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="easy">
-		<Question  list={[{name:"Square Root Of Integer",link:"https://www.interviewbit.com/problems/square-root-of-integer/"},]}/>
+		<ResourceQuestion  list={[{name:"Square Root Of Integer",link:"https://www.interviewbit.com/problems/square-root-of-integer/"},]}/>
 	</TabItem>
 	<TabItem value="medium">
-		<Question  list={[{name:"Matrix Median",link:"https://www.interviewbit.com/problems/matrix-median/"},{name:"Eko",link:"https://www.spoj.com/problems/EKO/"},{name:"Aggrcow",link:"https://www.spoj.com/problems/AGGRCOW/"},{name:"Search In Rotated Sorted Array",link:"https://leetcode.com/problems/search-in-rotated-sorted-array/"},]}/>
+		<ResourceQuestion  list={[{name:"Matrix Median",link:"https://www.interviewbit.com/problems/matrix-median/"},{name:"Eko",link:"https://www.spoj.com/problems/EKO/"},{name:"Aggrcow",link:"https://www.spoj.com/problems/AGGRCOW/"},{name:"Search In Rotated Sorted Array",link:"https://leetcode.com/problems/search-in-rotated-sorted-array/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Painters Partition Problem",link:"https://www.interviewbit.com/problems/painters-partition-problem/"},{name:"Simple Queries",link:"https://www.interviewbit.com/problems/simple-queries/"},{name:"Subsums",link:"https://www.spoj.com/problems/SUBSUMS/"},{name:"Prata",link:"https://www.spoj.com/problems/PRATA/"},{name:"Weighted Job Scheduling Log N Time",link:"https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/"},]}/>
+		<ResourceQuestion  list={[{name:"Painters Partition Problem",link:"https://www.interviewbit.com/problems/painters-partition-problem/"},{name:"Simple Queries",link:"https://www.interviewbit.com/problems/simple-queries/"},{name:"Subsums",link:"https://www.spoj.com/problems/SUBSUMS/"},{name:"Prata",link:"https://www.spoj.com/problems/PRATA/"},{name:"Weighted Job Scheduling Log N Time",link:"https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/"},]}/>
 	</TabItem>
 </Tabs>
 
@@ -56,62 +57,61 @@ Remember that sorting algorithms that run in O(n*n) time is not entirely useless
 ### Merge Sort
 Merge Sort algorithm will not just teach you how to sort but you will also learn the application of another fundamental concept of Divide and Conquer. It has a dependable time complexity of O(nlogn), but can you prove it ? No you cannot, not until you have learnt the algorithm, so what are you waiting for, jump into some  action and start reading.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Merge Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Merge Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial"},]}/>
+
 
 
 ### Quick Sort
 As an alternative to merge sorting is quick sort, the algorithm is quite unique and surely worth your efforts. Like merge sort it also applies Divide and Conquer, but unlike merge sort whose worst case time complexity is O(nlogn) , quick sort has a worst case time complexity of  O(n*n), but wait it's only a rare case and mostly it’s time complexity is O(nlogn). I am sure you must be curious how can this be, you can dwell on it after you have read the algorithm, so go on read ahead.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Quick Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Quick Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial"},]}/>
+
 
 
 ### Counting Sort
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Counting Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Counting Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial"},]}/>
+
 
 ### Radix Sort
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Radix Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Radix Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/tutorial"},]}/>
+
 
 
 ### Bubble Sort
 Now that you have learnt about the faster sorting algorithms, you will be able to appreciate the simplicity of the slower sorting algorithms, and have an apprehension of all the algorithms you never know which one might come in handy. So go ahead and read the O(n*n) sorting algorithms
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Bubble Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Bubble Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial"},]}/>
+
 
 
 ### Insertion Sort
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Insertion Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Insertion Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial"},]}/>
+
 
 
 ### Selection Sort
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Selection Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Selection Sort",link:"https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial"},]}/>
+
 
 
 ## Declaring your own custom comparison function for sorting using STL
 So far you have seen sorting applied to primitive data types but what if you have a custom data type declared, can you use the STL sort() method then? The answer is YES , you can, but you will have to read on to find out how.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Sorting A Vector Of Custom Objects Using Cplusplus Stl",link:"https://www.tutorialspoint.com/Sorting-a-vector-of-custom-objects-using-Cplusplus-STL/"},{name:"Sorting A Vector In C",link:"https://www.geeksforgeeks.org/sorting-a-vector-in-c/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Sorting A Vector Of Custom Objects Using Cplusplus Stl",link:"https://www.tutorialspoint.com/Sorting-a-vector-of-custom-objects-using-Cplusplus-STL/"},{name:"Sorting A Vector In C",link:"https://www.geeksforgeeks.org/sorting-a-vector-in-c/"},]}/>
 
 <Tabs
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Inversion Of Array 1587115620",link:"https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1"},{name:"Minimum Swaps",link:"https://practice.geeksforgeeks.org/problems/minimum-swaps/1"},]}/>
+		<ResourceQuestion  list={[{name:"Inversion Of Array 1587115620",link:"https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1"},{name:"Minimum Swaps",link:"https://practice.geeksforgeeks.org/problems/minimum-swaps/1"},]}/>
 	</TabItem>
 	
 </Tabs>
