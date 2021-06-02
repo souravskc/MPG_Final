@@ -26,7 +26,6 @@ export default function TipsCaution(props) {
                                 <div className="tipsAndCautionContent">
                                     <h4> <b>{heading}</b> </h4>
                                     <p>{content}</p>
-
                                 </div>
                             </div>
                     </div>
