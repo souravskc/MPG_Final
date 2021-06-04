@@ -1,0 +1,39 @@
+[
+    {
+      "titlesm":"Free Resources",
+      "bgcolor": "#E9EAFF",
+      "title": "Learn for FREE from FREE resources",
+      "imgUrl": "https://mypathguider.com/assets/images/learning-2dfa05f1eb1d94f91ebf160d14a6b1cd.webp",
+      "description":"( <div> We empower you to learn from good quality resources available for FREE on the web. Now, there is no more need to spend your hard-earned money for buying that course or that book .  </div>)",
+      "id":true,
+      "more":"( <div> Lack of money won’t be a problem anymore, so you never have to stop your learning. We at MPG always strive to provide you with the best learning experience for free. </div> )"
+    },
+    {
+      "titlesm":"Advancement",
+      "bgcolor":"#FCC79A",
+      "title": "Step by Step advancement",
+      "imgUrl": "https://mypathguider.com/assets/images/step-71bb40d2f7962981c257e339c166bbfd.webp",
+      "description": "(<div>Our pathway of learning has been designed by experienced professionals, who have selectively chosen the best resources and curated the pathway to make your learning journey smoother and easier.<br/><br/>You learn to face bigger challenges and solve tough problems by breaking them down into smaller easier ones.</div>)",
+      "id":false,
+      "more":"(<div>We take care of the smallest critical details so that you don’t hassle up, step by step taking your skills from beginner to advanced level .</div> )"
+    },
+    {
+      "titlesm":"Mentor",
+      "bgcolor": "#E9EAFF",
+      "title": "Mentor like Guidance",
+      "imgUrl": "https://mypathguider.com/assets/images/mentor-e32793ed46de6116398fa52ef71e6e75.webp",
+      "description": "( <div>Having a mentor is valuable and we know it. That’s why we provide you with mentor-like guidance, to help you keep track of your progress.<br /><br/>Just as a good mentor,we become your partner to help you overcome roadblocks in your journey and highlight the important points you should always keep in mind, to be the best.</div>)",
+      "id":true,
+      "more":"(<div>We take into consideration psychological aspects of learning to retain your interest. We address your doubts so you never stop moving forward.</div>)"
+  
+    },
+    {
+      "titlesm":"Improvement",
+      "bgcolor":"#FCC79A",
+      "title": "Tried, Tested and constantly Improving",
+      "imgUrl": "https://mypathguider.com/assets/images/improv-ceb22da1beb641eb32d80610a98aaf7e.webp",
+      "description":"( <div>We aim for becoming better and better each day, so our methods are constantly evolving to best suit the needs of our learners.We curate our paths to best cater to the requirements of the constantly-evolving tech industry.</div>)",
+      "id":false,
+      "more":"(<div> We appreciate and review every feedback in our efforts to bring out the best in you.We set new perfection goals for ourselves as we follow the mantra -  “Iterate until perfect”.</div>)"
+    }
+  ]

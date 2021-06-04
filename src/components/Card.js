@@ -4,6 +4,7 @@ export class Card extends Component {
     render() {
                 return (
                     <div className="border-8 border-blue-600">
+                        <h1>Heading</h1>
                         <div className={this.props.link ?"h-2 bg-blue-600":"none"}></div>
                         <div className={this.props.link ?"p-5 font-semibold bg-blue-900 rounded-lg rounded-t-none text-white" : "p-2 font-semibold bg-gray-800 rounded-md text-white"}>
                         <div className="flex">

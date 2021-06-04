@@ -13,6 +13,7 @@ export class FeatureCard extends Component {
               
                 return (
                     <div className={" mx-0 bg-gray-200 rounded-2xl" } style={{backgroundColor : this.props.bgcolor}}>
+                        <h1>Features Card</h1>
                         <div className={`mb-3 lg:mx-52`}>
                             <div className="m-0 lg:m-auto">
                                 <div className={this.props.id ? "lg:flex  lg:flex-row" : "lg:flex  lg:flex-row-reverse"}>

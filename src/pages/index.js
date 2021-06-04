@@ -21,6 +21,7 @@ import PopupCard from '../components/PopupCard'
 import FeatureCard from '../components/FeatureCard'
 import Feedback from '../components/Feedback'
 import Footer from '../components/Footer'
+import HomePage from '../components/Home/HomePage';
 
 const features = [
   {
@@ -93,8 +94,11 @@ export default function Home() {
       
       {/* Hero Start */}
       
-
+      <div>
+        <HomePage></HomePage>
+      </div>
       <div className="lg:flex lg:ml-36 lg:mr-10 lg:py-24 px-10 py-8 ">
+        <h1>Heading</h1>
         <div className="text-center lg:text-left lg:w-1/2">
           <div className="mt-10">
           <h1 className="font-medium text-3xl lg:text-5xl lg:leading-tight align-middle pb-8 ">Exclusive guide for your <span className="text-blue-500 ">learning journey.</span></h1>
