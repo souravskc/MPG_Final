@@ -4,24 +4,25 @@ title: Trees
 sidebar_label: Trees
 ---
 import Card from "../src/components/Card"
-import Question from "../src/components/Question"
+import ResourceQuestion from "../src/components/ResourceQuestion"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import TipsCaution from '../src/components/TipsCaution.js';
 
 ## Concept
 Tree is a data structure very similar to a tree that you see in the real world. It is a non-linear data structure as compared to arrays and linked lists, heaps as you have studied is a tree based data structure. So, what is the structure of a tree? How is it implemented ? What are the advantages of a nonlinear tree data structure ? Answer to all of these you will find only if read on.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Dsa",link:"https://www.programiz.com/dsa/trees"},{name:"Trees In Data Structure",link:"https://www.tutorialride.com/data-structures/trees-in-data-structure.htm"},{name:"Binary And Nary Trees",link:"https://www.hackerearth.com/practice/data-structures/trees/binary-and-nary-trees/tutorial"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Dsa",link:"https://www.programiz.com/dsa/trees"},{name:"Trees In Data Structure",link:"https://www.tutorialride.com/data-structures/trees-in-data-structure.htm"},{name:"Binary And Nary Trees",link:"https://www.hackerearth.com/practice/data-structures/trees/binary-and-nary-trees/tutorial"},]}/>
+
 
 
 ## Tree Traversal
 By now you know about a tree and its basic structure, here is a basic recursion based tree traversal technique that you ought to know to be able to solve more complex tree questions.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Tree Traversal",link:"https://www.programiz.com/dsa/tree-traversal/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Tree Traversal",link:"https://www.programiz.com/dsa/tree-traversal/"},]}/>
+
 
 Do It Yourself : The recursive approach to tree traversals is easy but now that you know what tree traversal is, can you write an iterative approach for the same? [Verify your answer HERE](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
 
@@ -34,21 +35,21 @@ There are different variations of trees, each having their own importance and ap
 ### Binary Tree
 It is a type of tree where any node in the tree can only have at max 2 child nodes.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Binary Tree",link:"https://www.programiz.com/dsa/binary-tree/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Binary Tree",link:"https://www.programiz.com/dsa/binary-tree/"},]}/>
+
 
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="easy">
-		<Question  list={[{name:"Max Depth Of Binary Tree",link:"https://www.interviewbit.com/problems/max-depth-of-binary-tree/"},{name:"Root To Leaf Paths With Sum",link:"https://www.interviewbit.com/problems/root-to-leaf-paths-with-sum/"},{name:"Find Largest Subtree Sum Tree",link:"https://www.geeksforgeeks.org/find-largest-subtree-sum-tree/"},]}/>
+		<ResourceQuestion  list={[{name:"Max Depth Of Binary Tree",link:"https://www.interviewbit.com/problems/max-depth-of-binary-tree/"},{name:"Root To Leaf Paths With Sum",link:"https://www.interviewbit.com/problems/root-to-leaf-paths-with-sum/"},{name:"Find Largest Subtree Sum Tree",link:"https://www.geeksforgeeks.org/find-largest-subtree-sum-tree/"},]}/>
 	</TabItem>
 	<TabItem value="medium">
-		<Question  list={[{name:"Recover Binary Search Tree",link:"https://www.interviewbit.com/problems/recover-binary-search-tree/"},{name:"Vertical Order Traversal Of Binary Tree",link:"https://www.interviewbit.com/problems/vertical-order-traversal-of-binary-tree/"},{name:"Diagonal Traversal",link:"https://www.interviewbit.com/problems/diagonal-traversal/"},{name:"Right View Of Binary Tree",link:"https://www.interviewbit.com/problems/right-view-of-binary-tree/"},{name:"Cousins In Binary Tree",link:"https://www.interviewbit.com/problems/cousins-in-binary-tree/"},]}/>
+		<ResourceQuestion  list={[{name:"Recover Binary Search Tree",link:"https://www.interviewbit.com/problems/recover-binary-search-tree/"},{name:"Vertical Order Traversal Of Binary Tree",link:"https://www.interviewbit.com/problems/vertical-order-traversal-of-binary-tree/"},{name:"Diagonal Traversal",link:"https://www.interviewbit.com/problems/diagonal-traversal/"},{name:"Right View Of Binary Tree",link:"https://www.interviewbit.com/problems/right-view-of-binary-tree/"},{name:"Cousins In Binary Tree",link:"https://www.interviewbit.com/problems/cousins-in-binary-tree/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"2Sum Binary Tree",link:"https://www.interviewbit.com/problems/2sum-binary-tree/"},{name:"Burn A Tree",link:"https://www.interviewbit.com/problems/burn-a-tree/"},{name:"Duplicate Subtree In Binary Tree",link:"https://practice.geeksforgeeks.org/problems/duplicate-subtree-in-binary-tree/1"},]}/>
+		<ResourceQuestion  list={[{name:"2Sum Binary Tree",link:"https://www.interviewbit.com/problems/2sum-binary-tree/"},{name:"Burn A Tree",link:"https://www.interviewbit.com/problems/burn-a-tree/"},{name:"Duplicate Subtree In Binary Tree",link:"https://practice.geeksforgeeks.org/problems/duplicate-subtree-in-binary-tree/1"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -57,21 +58,21 @@ It is a type of tree where any node in the tree can only have at max 2 child nod
 ### Binary Search Tree
 Does the term "Binary Search" ring a bell? Binary Search Tree is exactly what it sounds, binary search applied on a tree, but if you are wondering how is that possible, we have found a good resource for you to learn from.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Binary Search Tree",link:"https://www.programiz.com/dsa/binary-search-tree/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Binary Search Tree",link:"https://www.programiz.com/dsa/binary-search-tree/"},]}/>
+
 
 <Tabs
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},{label: "Expert", value: "expert"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Valid Bst From Preorder",link:"https://www.interviewbit.com/problems/valid-bst-from-preorder/"},{name:"Kth Smallest Element In Tree",link:"https://www.interviewbit.com/problems/kth-smallest-element-in-tree/"},{name:"Brothers From Different Root",link:"https://practice.geeksforgeeks.org/problems/brothers-from-different-root/1"},{name:"Merge Two Balanced Binary Search Trees",link:"https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/"},]}/>
+		<ResourceQuestion  list={[{name:"Valid Bst From Preorder",link:"https://www.interviewbit.com/problems/valid-bst-from-preorder/"},{name:"Kth Smallest Element In Tree",link:"https://www.interviewbit.com/problems/kth-smallest-element-in-tree/"},{name:"Brothers From Different Root",link:"https://practice.geeksforgeeks.org/problems/brothers-from-different-root/1"},{name:"Merge Two Balanced Binary Search Trees",link:"https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Minimum Swap Required Convert Binary Tree Binary Search Tree",link:"https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/#:~:text=Given%20the%20array%20representation%20of,it%20into%20Binary%20Search%20Tree.&text=Swap%201%3A%20Swap%20node%208,node%209%20with%20node%2010"},{name:"Given N Appointments Find Conflicting Appointments",link:"https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/"},{name:"Find Median Bst Time O1 Space",link:"https://www.geeksforgeeks.org/find-median-bst-time-o1-space/"},]}/>
+		<ResourceQuestion  list={[{name:"Minimum Swap Required Convert Binary Tree Binary Search Tree",link:"https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/#:~:text=Given%20the%20array%20representation%20of,it%20into%20Binary%20Search%20Tree.&text=Swap%201%3A%20Swap%20node%208,node%209%20with%20node%2010"},{name:"Given N Appointments Find Conflicting Appointments",link:"https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/"},{name:"Find Median Bst Time O1 Space",link:"https://www.geeksforgeeks.org/find-median-bst-time-o1-space/"},]}/>
 	</TabItem>
 	<TabItem value="expert">
-		<Question  list={[{name:"Largest Bst",link:"https://practice.geeksforgeeks.org/problems/largest-bst/1"},]}/>
+		<ResourceQuestion  list={[{name:"Largest Bst",link:"https://practice.geeksforgeeks.org/problems/largest-bst/1"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -80,9 +81,9 @@ Does the term "Binary Search" ring a bell? Binary Search Tree is exactly what it
 ### Balanced Tree
 The basic and most important property of a balanced tree is that it's height is always logn where n is the number of nodes in the tree. Here you will learn only the basics of balanced tree, the implementation of a balanced tree such as AVL Tree, Red-Black Tree etc is an advanced level topic and you will learn about them later. 
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Balanced Binary Tree",link:"https://www.programiz.com/dsa/balanced-binary-tree/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Balanced Binary Tree",link:"https://www.programiz.com/dsa/balanced-binary-tree/"},]}/>
+
 
 Q : What makes a self balancing BST the appropriate data structure for implementing maps and sets?
 
@@ -93,18 +94,18 @@ From your basic understanding of the two topics you should be easily able to ans
 ## LCA
 Finding LCA or the Least Common Ancestor is an intermediate step to solving more challenging and difficult tree problems, you are going to learn the different approaches to finding the LCA. You must be asking what is LCA ? Once you read the following articles not only will you be able to answer this question but also know the optimised approach to finding LCA in O(logn) which is super useful and mind boggling, so what are you waiting for, go ahead and start reading.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Lowest Common Ancestor - GFG",link:"https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/"},{name:"Find Lowest Common Ancestor Lca - Techie Delight",link:"https://www.techiedelight.com/find-lowest-common-ancestor-lca-two-nodes-binary-tree/"},{name:"Lca_Binary_Lifting : O(Logn) approach",link:"https://cp-algorithms.com/graph/lca_binary_lifting.html"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Lowest Common Ancestor - GFG",link:"https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/"},{name:"Find Lowest Common Ancestor Lca - Techie Delight",link:"https://www.techiedelight.com/find-lowest-common-ancestor-lca-two-nodes-binary-tree/"},{name:"Lca_Binary_Lifting : O(Logn) approach",link:"https://cp-algorithms.com/graph/lca_binary_lifting.html"},]}/>
+
 
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="easy">
-		<Question  list={[{name:"Least Common Ancestor",link:"https://www.interviewbit.com/problems/least-common-ancestor/"},]}/>
+		<ResourceQuestion  list={[{name:"Least Common Ancestor",link:"https://www.interviewbit.com/problems/least-common-ancestor/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Max Edge Queries",link:"https://www.interviewbit.com/problems/max-edge-queries/"},]}/>
+		<ResourceQuestion  list={[{name:"Max Edge Queries",link:"https://www.interviewbit.com/problems/max-edge-queries/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -113,31 +114,31 @@ Finding LCA or the Least Common Ancestor is an intermediate step to solving more
 ## Tree Flattening
 The concept of tree flattening is very interesting, representing a tree efficiently as an array. Euler Tour of trees is a general approach for tree flattening that has many applications. What is an euler tour of a tree? What are the advantages of tree flattening? To know the answers to these questions you have to but read on, you better get back to reading.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Entry",link:"https://codeforces.com/blog/entry/18369"},{name:"Euler Tour Tree",link:"https://www.geeksforgeeks.org/euler-tour-tree/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Entry",link:"https://codeforces.com/blog/entry/18369"},{name:"Euler Tour Tree",link:"https://www.geeksforgeeks.org/euler-tour-tree/"},]}/>
+
 
 
 ## Segment Trees 
 Segment Tree(ST) is one of the popular tree based data structure that lets you answer range queries efficiently. Suppose you are told to find the sum of all numbers from one index to another index in an array, then your basic implementation will have a time complexity of O(n), but after building a ST from the array, you can answer this query efficiently in O(logn). Caught your interest, didn’t it? Segment Tree is a super useful tool to have at your disposal and pretty easy to understand and build. So what is a Segment Tree? and how does it help you in answering range queries? What kind of range queries can it answer ? and how can you implement it ? Spend your time reading carefully and understanding the basic concepts of segment tree from these great articles. Post reading you should be able the questions on your own.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Best Segment Tree Article on Medium",link:"https://medium.com/@ojhasaurabh2099/segment-trees-ccf461b73964/"},{name:"A Simple Approach To Segment Tree",link:"https://kartikkukreja.wordpress.com/2014/11/09/a-simple-approach-to-segment-trees/"},{name:"Learn Segment Tree",link:"https://www.iarcs.org.in/inoi/online-study-material/topics/segment-tree.php"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Best Segment Tree Article on Medium",link:"https://medium.com/@ojhasaurabh2099/segment-trees-ccf461b73964/"},{name:"A Simple Approach To Segment Tree",link:"https://kartikkukreja.wordpress.com/2014/11/09/a-simple-approach-to-segment-trees/"},{name:"Learn Segment Tree",link:"https://www.iarcs.org.in/inoi/online-study-material/topics/segment-tree.php"},]}/>
+
 
 
 ### Practice and Learn
 To take your understanding of segment trees to next level, practice and learn some of the common patterns of problems that can be solved by segment trees. Read this awesome tutorials on codeforces segment trees part 1 and part 2
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"CodeForces Tutorial Segment Tree",link:"https://codeforces.com/edu/course/2/lesson/6"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"CodeForces Tutorial Segment Tree",link:"https://codeforces.com/edu/course/2/lesson/6"},]}/>
+
 
 <Tabs
 	defaultValue="hard"
 	values={[{label: "Hard", value: "hard"},]}>
 	<TabItem value="hard">
-		<Question  list={[{name:"Order Of People Heights",link:"https://www.interviewbit.com/problems/order-of-people-heights/"},]}/>
+		<ResourceQuestion  list={[{name:"Order Of People Heights",link:"https://www.interviewbit.com/problems/order-of-people-heights/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -146,6 +147,6 @@ To take your understanding of segment trees to next level, practice and learn so
 ## LCA using RMQ
 Here you will learn another approach to finding LCA using euler tour and segment tree. Already told you that they are very useful data structures available at your disposal.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Find Lca In Binary Tree Using Rmq",link:"https://www.geeksforgeeks.org/find-lca-in-binary-tree-using-rmq/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Find Lca In Binary Tree Using Rmq",link:"https://www.geeksforgeeks.org/find-lca-in-binary-tree-using-rmq/"},]}/>
+

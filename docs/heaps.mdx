@@ -4,21 +4,18 @@ title: Heaps and Priority Queues
 sidebar_label: Heaps and Priority Queues
 ---
 import Card from "../src/components/Card"
-import Question from "../src/components/Question"
+import ResourceQuestion from "../src/components/ResourceQuestion"
 import Tabs from '@theme/Tabs';
+import TipsCaution from '../src/components/TipsCaution.js';
 import TabItem from '@theme/TabItem';
 
 ## Heapify, TC of insert , delete and search
 Heap is a tree based data structure , where all the child and parent nodes follow a special condition between them, which will enable you to retrieve the element with either the smallest or the largest value in O(1) time. But what is this special condition? Is there any other special condition ? How is it implemented ? If any of these questions come to your curioud mind, all you have to do is just read on to find out. Similar to heaps, there is another advanced data structure but in order that you are able to appreciate it, it’s important you have a clear understanding of heaps here and now.
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Heap Data Structure",link:"https://www.programiz.com/dsa/heap-data-structure/"},{name:"Heaps And Priority Queues",link:"https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/"},{name:"Heap Details",link:"https://www.iarcs.org.in/inoi/online-study-material/topics/heap-details.php"},{name:"Building Heap From Array",link:"https://www.geeksforgeeks.org/building-heap-from-array/?ref=rp"},]}/>
-</TabItem>
 
-:::caution
-If you are not able to visualize how the insert, delete operations work in heaps, take your time working out a few inputs, follow the algorithm line by line and build a heap then try performing the operations in detail. Do not proceed further if you are not able to visualise just yet. Following link might help you visualise 
-<Card title="Visualize Heap"  url="https://visualgo.net/en/heap/" />
-:::
+<ResourceQuestion resource = "true" list={[{name:"Heap Data Structure",link:"https://www.programiz.com/dsa/heap-data-structure/"},{name:"Heaps And Priority Queues",link:"https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/"},{name:"Heap Details",link:"https://www.iarcs.org.in/inoi/online-study-material/topics/heap-details.php"},{name:"Building Heap From Array",link:"https://www.geeksforgeeks.org/building-heap-from-array/?ref=rp"},]}/>
+
+<TipsCaution tip = "false"  list={[{name: 'Visualize Heap',link: 'https://visualgo.net/en/heap/'}]} content= "If you are not able to visualize how the insert, delete operations work in heaps, take your time working out a few inputs, follow the algorithm line by line and build a heap then try performing the operations in detail. Do not proceed further if you are not able to visualise just yet. Following link might help you visualise" />
 
 Q : Can you workout the time complexity of building a heap. Is it O(n) or O(nlogn)? [KNOW HERE!!](https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/)
 
@@ -28,13 +25,13 @@ Q: Can you answer why to use heap, when the purpose of heap can also be served b
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="easy">
-		<Question  list={[{name:"Minimum Cost Of Ropes 1587115620",link:"https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1"},{name:"Magician And Chocolates",link:"https://www.interviewbit.com/problems/magician-and-chocolates/"},{name:"Minimum Sum Squares Characters Counts Given String Removing K Characters",link:"https://www.geeksforgeeks.org/minimum-sum-squares-characters-counts-given-string-removing-k-characters/"},]}/>
+		<ResourceQuestion  list={[{name:"Minimum Cost Of Ropes 1587115620",link:"https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1"},{name:"Magician And Chocolates",link:"https://www.interviewbit.com/problems/magician-and-chocolates/"},{name:"Minimum Sum Squares Characters Counts Given String Removing K Characters",link:"https://www.geeksforgeeks.org/minimum-sum-squares-characters-counts-given-string-removing-k-characters/"},]}/>
 	</TabItem>
 	<TabItem value="medium">
-		<Question  list={[{name:"N Max Pair Combinations",link:"https://www.interviewbit.com/problems/n-max-pair-combinations/"},{name:"Merge K Sorted Lists",link:"https://www.interviewbit.com/problems/merge-k-sorted-lists/"},{name:"K Largest Elements",link:"https://www.interviewbit.com/problems/k-largest-elements/"},{name:"Convert Bst Min Heap",link:"https://www.geeksforgeeks.org/convert-bst-min-heap/"},{name:"Find Smallest Range Containing Elements From K Lists",link:"https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1"},]}/>
+		<ResourceQuestion  list={[{name:"N Max Pair Combinations",link:"https://www.interviewbit.com/problems/n-max-pair-combinations/"},{name:"Merge K Sorted Lists",link:"https://www.interviewbit.com/problems/merge-k-sorted-lists/"},{name:"K Largest Elements",link:"https://www.interviewbit.com/problems/k-largest-elements/"},{name:"Convert Bst Min Heap",link:"https://www.geeksforgeeks.org/convert-bst-min-heap/"},{name:"Find Smallest Range Containing Elements From K Lists",link:"https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Ways To Form Max Heap",link:"https://www.interviewbit.com/problems/ways-to-form-max-heap/"},{name:"Find Median In A Stream 1587115620",link:"https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1"},]}/>
+		<ResourceQuestion  list={[{name:"Ways To Form Max Heap",link:"https://www.interviewbit.com/problems/ways-to-form-max-heap/"},{name:"Find Median In A Stream 1587115620",link:"https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -43,15 +40,10 @@ Q: Can you answer why to use heap, when the purpose of heap can also be served b
 ## Priority Queue
 To save you the time of implementing heap and prevent you from making unnecessary mistakes, STL in C++ provides Priority Queue which is by default a max heap. Keep on reading and see for yourself what priority queue is all about.
 
-:::caution
-The following STL utilities for Priority Queues in C++ is a must know : empty(), size(), push(), pop(), top()
-:::
+<TipsCaution tip = "false" content= "The following STL utilities for Priority Queues in C++ is a must know : empty(), size(), push(), pop(), top()." />
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Priority Queue In Cpp Stl",link:"https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/"},]}/>
-</TabItem>
 
-:::tip
-The STL default Priority Queue is a max heap, to make use of it as a min heap simply store the negative of the original value in the heap, this way the negative of the max elemnet in the heap will be the smallest value. Additionally, you can define priority queues for your own custom data type which is very very handy to know.<br/>
- <Card title="Priority Queue For User Defined Types"  url="https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types/" description="Read upto the third answer in this post" />
-:::
+<ResourceQuestion resource = "true" list={[{name:"Priority Queue In Cpp Stl",link:"https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/"},]}/>
+
+<TipsCaution tip = "true" list={[{name:"Priority Queue For User Defined Types", link:"https://stackoverflow.com/questions/9178083/priority-queue-for-user-defined-types/", desc:"Read upto the third answer in this post"}]} content= "The STL default Priority Queue is a max heap, to make use of it as a min heap simply store the negative of the original value in the heap, this way the negative of the max elemnet in the heap will be the smallest value. Additionally, you can define priority queues for your own custom data type which is very very handy to know." />
+
