@@ -5,6 +5,7 @@ import '../css/customContainer.css';
 
 export default function TipsCaution(props) {
 
+    console.log(props.list)
 
     var heading;
     if(props.tip == "true"){
@@ -26,8 +27,21 @@ export default function TipsCaution(props) {
                                 <div className="tipsAndCautionContent">
                                     <h4> <b>{heading}</b> </h4>
                                     <p>{content}</p>
+                                        {
+                                            list?.map((value, index) =>{
+                                                return(
+                                                    <div id={index} className="questionContent">
+                                                        <div className="">
+                                                            <div className="questionAndResourceContentLink"><a href={value.link}>{value.name}</a></div>
+                                                            <div className="" ><p>{value.desc}</p></div>
+                                                        </div>
+                                                    </div>
+                                                )
+                                            })
+                                        }
                                 </div>
                             </div>
+
                     </div>
                 </div>
             )
