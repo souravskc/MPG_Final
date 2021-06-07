@@ -73,79 +73,13 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      {/* <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
-        </div>
-      </header> */}
-
-      {/* <PopupCard /> */}
       
       {/* Hero Start */}
       
       <div>
         <HomePage></HomePage>
       </div>
-      <div className="lg:flex lg:ml-36 lg:mr-10 lg:py-24 px-10 py-8 ">
-        <h1>Heading</h1>
-        <div className="text-center lg:text-left lg:w-1/2">
-          <div className="mt-10">
-          <h1 className="font-medium text-3xl lg:text-5xl lg:leading-tight align-middle pb-8 ">Exclusive guide for your <span className="text-blue-500 ">learning journey.</span></h1>
-            <div className="grid">
-              <div className=" text-sm lg:text-2xl font-medium pb-4"><Stepby className="fill-current align-middle text-blue-300 h-5 lg:h-8 w-auto mr-2 text-2xl" />Learn competitive coding <span className="text-blue-500 ">step by step</span> </div>
-              <div className=" text-sm lg:text-2xl font-medium pb-4"><Handpick className="fill-current align-middle text-blue-300 h-5 lg:h-8 w-auto mr-2 text-2xl" /><span className="text-blue-500 ">Handpicked </span>practice problems</div>
-              <div className=" text-sm lg:text-2xl font-medium pb-4"><Master className="fill-current align-middle text-blue-300 h-5 lg:h-8 w-auto mr-2 text-2xl" />Master the basics from <span className="text-blue-500 ">beginner to advanced</span> </div>
-            </div>
-            {/*  <h1 className="header-h1">Get your sstructured path for <span className="free-word">free</span> resources now.</h1>
-              <div className="flex"> 
-                <h3 className="header-h3"> 
-                  <Typist style={{width:"75%"}} key={count} avgTypingDelay={100} cursor={{show:false}} onTypingDone={() => setCount(0)}>
-                    Get <span style={{color:"rgb(50,137,199)"}}>curated path</span>
-                    <Typist.Backspace count={12} delay={600} style={{color:"blue"}} />
-                    <span style={{color:"rgb(50,137,199)"}}>best resources</span>
-                    <Typist.Backspace count={14} delay={600}  />
-                    <span style={{color:"rgb(50,137,199)"}}>virtual mentoring</span>
-                    <Typist.Backspace count={17} delay={600}  />
-                    <span style={{color:"rgb(50,137,199)"}}>programming guidance </span>
-                    <Typist.Backspace count={21} delay={800}  />
-                  </Typist>
-                  </h3>
-                  <h3 className="free">&nbsp;for free</h3>
-                </div>  */}
-            <div>
-            <div className="text-center lg:float-left py-10">
-            
-              {/* <a href="/docs/ml"><Button className="header-button" size="lg">
-                Learn Development
-              </Button></a> */}
 
-              
-              <a href="/docs/compi">
-                <button className="bg-blue-600 text-white p-2 px-3 border-none rounded-lg text-xl hover:bg-blue-700" size="lg">
-                Learn Programming
-                </button>
-              </a>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div className="lg:w-2/3 h-full">
-          <div>
-          <img className="imgsize" alt="Hero" src={Hero}></img>
-          </div>
-        </div>
-      </div>
 
       {/* Hero End */}
 

@@ -15,10 +15,10 @@ module.exports = {
     //   defaultMode: 'dark'
     // },
     navbar: {
-      title: 'MyPathGuider',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/mpglogo.png'
+        src: 'https://i.ibb.co/P5LGcf2/m-logo.png'
       },
       items: [
         {

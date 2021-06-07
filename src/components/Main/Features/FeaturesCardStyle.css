@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+.featureCardContainer{
+    background-color: #E9EAFF;
+    border-radius: 0.5em;
+}
+.featureCard{
+    display: grid;
+    grid-template-columns: 70% 25%;
+    margin-top: 20px;
+}
+.featureCardPro{
+    display: grid;
+    grid-template-columns: 25% 70%;
+    margin-top: 20px;
+}
+.featureCardContentHeading{
+    padding: 50px 40px 20px 40px;
+    font-weight: 900;
+    font-family: 'Karma', serif;
+}
+.featureCardContentParagraph{
+    padding: 0 40px;
+}

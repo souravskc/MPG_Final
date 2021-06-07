@@ -1,4 +1,5 @@
 import React from 'react';
+import FeatureHomeCard from '../Main/Features/FeatureHomeCard';
 import HeaderMain from '../Main/Header/HeaderMain';
 
 const HomePage = () => {
@@ -7,7 +8,9 @@ const HomePage = () => {
             <div>
                 <HeaderMain></HeaderMain>
             </div>
-            <h2>Features Card</h2>
+            <div>
+                <FeatureHomeCard></FeatureHomeCard>
+            </div>
         </>
     );
 };
