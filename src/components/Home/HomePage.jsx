@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactPage from '../Main/Contact/ContactPage';
 import FeatureHomeCard from '../Main/Features/FeatureHomeCard';
 import HeaderMain from '../Main/Header/HeaderMain';
 
@@ -10,6 +11,9 @@ const HomePage = () => {
             </div>
             <div>
                 <FeatureHomeCard></FeatureHomeCard>
+            </div>
+            <div>
+                <ContactPage></ContactPage>
             </div>
         </>
     );

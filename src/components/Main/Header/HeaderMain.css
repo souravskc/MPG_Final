@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.mainHeading h1{
+    font-family: 'Karma', serif;
+    font-weight: bold;
+    font-size: 300%;
+    padding: 40px 0;
+}
+.mainHeading h2{
+    font-family: 'Inter', sans-serif;
+    padding: 15px 0px;
+}
+.mainHeadingContent{
+    font-family: 'Inter', sans-serif;
+    padding: 0px 0px 36px 0;
+}
+.mainHeadingBtn{
+    background-color: #2C6EEF;
+    border: none;
+    padding: 20px 70px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 5%;
+}

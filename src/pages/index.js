@@ -85,7 +85,7 @@ export default function Home() {
 
 
       {/* Feature Section Start*/}
-      <div className="w-full text-center">
+      {/* <div className="w-full text-center">
               <h1 className="font-medium text-3xl lg:text-5xl lg:leading-tight align-middle pt-16" >Our <span className="text-blue-500 ">Features</span></h1>
       </div>
       {
@@ -96,13 +96,13 @@ export default function Home() {
             </div>
           )
         })
-      }
+      } */}
       {/* Feature Section End*/}
 
       
       {/* Discord Start */}
 
-      <div className="p-1 text-center pb-2 px-10 py-10">
+      {/* <div className="p-1 text-center pb-2 px-10 py-10">
         <div className="m-0 lg:px-32">
           <div className="lg:flex flex-col-reverse lg:flex-row ">
             <div className="lg:w-1/2" >
@@ -121,11 +121,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Discord End */}
 
-      <Feedback />
+      {/* <Feedback /> */}
       <Footer />
     </Layout>
   );
