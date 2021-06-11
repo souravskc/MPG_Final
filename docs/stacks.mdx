@@ -4,20 +4,20 @@ title: Stacks and Queues
 sidebar_label: Stacks and Queues
 ---
 import Card from "../src/components/Card"
-import Question from "../src/components/Question"
+import ResourceQuestion from "../src/components/ResourceQuestion"
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import TipsCaution from '../src/components/TipsCaution.js';
 
 ## Stack 
 It is time to learn about some more basic data structures that have a wide range of applications. Stack is a data structure that follows the LIFO or Last In First Out principle. You would find the use of stack extremely critical to solving some problems which otherwise would have become a nightmare, so before you are ready to use it, first learn about it.
 
-:::caution
-The following STL utilities for Stack in C++ are a must know : empty(), size(), pop(), push(), top()
-:::
+<TipsCaution tip = "false" content= "The following STL utilities for Stack in C++ are a must know : empty(), size(), pop(), push(), top()." />
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Stack Data Structure",link:"https://www.studytonight.com/data-structures/stack-data-structure/"},{name:"Stack",link:"https://www.programiz.com/dsa/stack/"},{name:"Stack STL",link:"https://www.geeksforgeeks.org/stack-in-cpp-stl/"},]}/>
-</TabItem>
+
+
+<ResourceQuestion resource = "true" list={[{name:"Stack Data Structure",link:"https://www.studytonight.com/data-structures/stack-data-structure/"},{name:"Stack",link:"https://www.programiz.com/dsa/stack/"},{name:"Stack STL",link:"https://www.geeksforgeeks.org/stack-in-cpp-stl/"},]}/>
+
 
 
 ### Try It Yourself
@@ -27,10 +27,10 @@ Can you implement basic Stack operations using linked lists ? What is the TC of 
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Maxspprod",link:"https://www.interviewbit.com/problems/maxspprod/"},{name:"Nearest Smaller Element",link:"https://www.interviewbit.com/problems/nearest-smaller-element/"},{name:"Largest Rectangle In Histogram",link:"https://www.interviewbit.com/problems/largest-rectangle-in-histogram/"},{name:"Redundant Braces",link:"https://www.interviewbit.com/problems/redundant-braces/"},{name:"Evaluate Expression",link:"https://www.interviewbit.com/problems/evaluate-expression/"},]}/>
+		<ResourceQuestion  list={[{name:"Maxspprod",link:"https://www.interviewbit.com/problems/maxspprod/"},{name:"Nearest Smaller Element",link:"https://www.interviewbit.com/problems/nearest-smaller-element/"},{name:"Largest Rectangle In Histogram",link:"https://www.interviewbit.com/problems/largest-rectangle-in-histogram/"},{name:"Redundant Braces",link:"https://www.interviewbit.com/problems/redundant-braces/"},{name:"Evaluate Expression",link:"https://www.interviewbit.com/problems/evaluate-expression/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Rain Water Trapped",link:"https://www.interviewbit.com/problems/rain-water-trapped/"},]}/>
+		<ResourceQuestion  list={[{name:"Rain Water Trapped",link:"https://www.interviewbit.com/problems/rain-water-trapped/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -38,14 +38,12 @@ Can you implement basic Stack operations using linked lists ? What is the TC of 
 
 ## Queue 
 Queue is another useful and a must know data structure, that you will be applying in several other algorithms that you will study later, so it is important that you have a clear cut understanding of the First In First Out principle of queue and its basic operations.
+<TipsCaution tip = "false" content= "The following STL utilities for Queue in C++ are a must know : empty(), size(), pop(), push(), top()." />
 
-:::caution
-The following STL utilities for Queue in C++ are a must know : empty(), size(), pop(), push(), top()
-:::
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Queue",link:"https://www.programiz.com/dsa/queue/"},{name:"Queue Data Structure",link:"https://www.studytonight.com/data-structures/queue-data-structure/"},{name:"Queue STL",link:"https://www.geeksforgeeks.org/queue-cpp-stl/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Queue",link:"https://www.programiz.com/dsa/queue/"},{name:"Queue Data Structure",link:"https://www.studytonight.com/data-structures/queue-data-structure/"},{name:"Queue STL",link:"https://www.geeksforgeeks.org/queue-cpp-stl/"},]}/>
+
 
 
 ### Try It Yourself :
@@ -55,7 +53,7 @@ Can you implement basic Queue operations using linked lists ? What is the TC of 
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Circular Tour",link:"https://practice.geeksforgeeks.org/problems/circular-tour/1"},{name:"Queue Based Approach For First Non Repeating Character In A Stream",link:"https://www.geeksforgeeks.org/queue-based-approach-for-first-non-repeating-character-in-a-stream/"},]}/>
+		<ResourceQuestion  list={[{name:"Circular Tour",link:"https://practice.geeksforgeeks.org/problems/circular-tour/1"},{name:"Queue Based Approach For First Non Repeating Character In A Stream",link:"https://www.geeksforgeeks.org/queue-based-approach-for-first-non-repeating-character-in-a-stream/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -64,22 +62,20 @@ Can you implement basic Queue operations using linked lists ? What is the TC of 
 ## Dequeue
 Dequeue comes as a variation to Queue, compared to Queue which is single ended meaning that elements can be pushed only from the back, Dequeue is designed to allow pushing of elements both from the front and from the back, this speciality of dequeue can be utilised in solving some tricky questions, but first learn in depth about it.
 
-:::caution
-The following STL utilities for Deque in C++ are a must know : empty(), size(), front(),back(),pop_back(), push_back(), pop_front(), push_front()
-:::
+<TipsCaution tip = "false" content= "The following STL utilities for Deque in C++ are a must know : empty(), size(), front(),back(),pop_back(), push_back(), pop_front(), push_front()." />
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Deque Cpp Stl",link:"https://www.geeksforgeeks.org/deque-cpp-stl/"},{name:"Deque",link:"https://www.programiz.com/dsa/deque/"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Deque Cpp Stl",link:"https://www.geeksforgeeks.org/deque-cpp-stl/"},{name:"Deque",link:"https://www.programiz.com/dsa/deque/"},]}/>
+
 
 <Tabs
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Sliding Window Maximum",link:"https://www.interviewbit.com/problems/sliding-window-maximum/"},{name:"First Negative Integer In Every Window Of Size K3345",link:"https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1"},]}/>
+		<ResourceQuestion  list={[{name:"Sliding Window Maximum",link:"https://www.interviewbit.com/problems/sliding-window-maximum/"},{name:"First Negative Integer In Every Window Of Size K3345",link:"https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<Question  list={[{name:"Sum Minimum Maximum Elements Subarrays Size K",link:"https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/"},]}/>
+		<ResourceQuestion  list={[{name:"Sum Minimum Maximum Elements Subarrays Size K",link:"https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/"},]}/>
 	</TabItem>
 	
 </Tabs>
@@ -88,15 +84,15 @@ The following STL utilities for Deque in C++ are a must know : empty(), size(), 
 ## Minimum Stack / Minimum Queue
 Variety comes with everything even with Stack and Queue, here are other useful variations. Knowing these would definitely come in handy, so what are you waiting for, aren’t you a little bit curious?
 
-<TabItem value="resource">
-	<Question resource = "true" list={[{name:"Stack_Queue_Modification",link:"https://cp-algorithms.com/data_structures/stack_queue_modification.html"},]}/>
-</TabItem>
+
+<ResourceQuestion resource = "true" list={[{name:"Stack_Queue_Modification",link:"https://cp-algorithms.com/data_structures/stack_queue_modification.html"},]}/>
+
 
 <Tabs
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},]}>
 	<TabItem value="medium">
-		<Question  list={[{name:"Min Stack",link:"https://www.interviewbit.com/problems/min-stack/"},]}/>
+		<ResourceQuestion  list={[{name:"Min Stack",link:"https://www.interviewbit.com/problems/min-stack/"},]}/>
 	</TabItem>
 	
 </Tabs>

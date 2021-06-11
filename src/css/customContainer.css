@@ -1,4 +1,4 @@
-/* Question and Resources Styles are there */
+/* ResourceQuestion and Resources Styles are there */
 .questionHeading{
     background-color: #FF8E2B;
     padding: 12px 10px 1px 13px;
@@ -11,7 +11,7 @@
     border-radius: 10px;
     color: white;
 }
-.questionContentArea{
+.questionAndResourceContentArea{
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -22,7 +22,7 @@
     color: black;
     text-decoration: none;
 }
-.questionContentLink a{
+.questionAndResourceContentLink a{
     color: black;
     font-weight: none;
 }
@@ -44,15 +44,15 @@
     border-radius: 10px;
 }
 .cautionsColor{
-    background-color: black;
+    background-color: #0D2237;
     border-radius: 10px;
 }
 .tipsAndCautionContent{
-    padding: 10px 0px 0px 10px;
+    padding: 10px 0px 0px 20px;
 }
 
 .tipsAndCautionContent h4 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 

@@ -1,13 +1,13 @@
 import React, { Component, useState} from 'react'
 import FeatureCard from './FeatureCard';
-import '../css/question.css';
+import '../css/customContainer.css';
 /* const list = [
     { link : 'hello', desc : 'there'},
     { link : 'hello', desc : 'there'}
 ] */
 
-export default function Question(props) {
-    // console.log("Question.JS",props.list);
+export default function ResourceQuestion(props) {
+    // console.log("ResourceQuestion.JS",props.list);
     var heading;
     if(props.resource){
         heading='RESOURCES';
@@ -24,13 +24,13 @@ export default function Question(props) {
                             <div className={props.resource? 'resourcesHeading' : 'questionHeading' }>
                                 <h3>{heading}</h3>
                             </div>
-                            <div className="questionContentArea">
+                            <div className="questionAndResourceContentArea">
                                 {
                                         list.map((value, index) =>{
                                             return(
                                                 <div id={index} className="questionContent">
                                                         <div className="">
-                                                                <div className="questionContentLink"><a href={value.link}>{value.name}</a></div>
+                                                                <div className="questionAndResourceContentLink"><a href={value.link}>{value.name}</a></div>
                                                                 <div className="" ><p>{value.desc}</p></div>
                                                         </div>
                                                 </div>
