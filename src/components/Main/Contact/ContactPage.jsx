@@ -19,7 +19,7 @@ const ContactPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="contactImages">
                     <img src="https://i.ibb.co/BnswDWd/m-contactus.png" alt="" />
                 </div>
             </div>

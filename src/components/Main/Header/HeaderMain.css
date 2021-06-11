@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+.mainHeaderBody{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0 0px;
+}
 .mainHeading h1{
     font-family: 'Karma', serif;
     font-weight: bold;
     font-size: 300%;
-    padding: 40px 0;
+    padding: 0 0;
 }
 .mainHeading h2{
     font-family: 'Inter', sans-serif;
-    padding: 15px 0px;
+    padding: 10px 0px;
+    font-size: 28px;
+}
+.mainHeadingImagesMobile{
+    display: none;
 }
 .mainHeadingContent{
     font-family: 'Inter', sans-serif;
@@ -24,3 +33,49 @@
     border-radius: 10px;
     margin-left: 5%;
 }
+
+@media (max-width: 780px) {
+
+    .mainHeaderBody{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .mainHeading h1{
+        font-family: 'Karma', serif;
+        font-weight: bold;
+        font-size: 300%;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .mainHeading h2{
+        display: none;
+    }
+    .mainHeadingImagesMobile{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .mainHeadingContent{
+        font-family: 'Inter', sans-serif;
+        padding: 0px 0px 36px 0;
+        margin-left: 5%;
+    }
+    .mainHeadingBtnDiv{
+        text-align: center;
+    }
+    .mainHeadingImage{
+        display: none;
+    }
+}
+
+
+@media (max-width: 680px){
+    .sec-photos{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mainHeading h1{
+        font-family: 'Karma', serif;
+        font-weight: bold;
+        font-size: 300%;
+        padding: 40px 0;
+    }
+    }

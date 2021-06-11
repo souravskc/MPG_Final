@@ -7,7 +7,7 @@ const SingleFreaturesCard = ({featureData}) => {
               {
                   featureData.id ? 
                   <div className='featureCard'>
-                    <div className="">
+                    <div className="featureCardFullContent">
                         <div className="featureCardContentHeading">
                             <h1>{featureData.title}</h1>
                         </div>
@@ -15,18 +15,18 @@ const SingleFreaturesCard = ({featureData}) => {
                             <p>{featureData.description}</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="featureCardImages">
                         <img src={featureData.imgUrl} alt="" style={{width: '100%'}} />
                     </div>
                 </div> 
                 :
                 <div className='featureCardPro'>
                 <div className="">
-                    <div>
+                    <div className="featureCardImages">
                         <img src={featureData.imgUrl} alt="" style={{width: '100%'}} />
                     </div>
                 </div>
-                    <div className="">
+                    <div className="featureCardFullContent">
                         <div className="featureCardContentHeading">
                             <h1>{featureData.title}</h1>
                         </div>
