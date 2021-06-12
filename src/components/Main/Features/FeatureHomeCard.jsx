@@ -7,12 +7,12 @@ const FeatureHomeCard = () => {
     // console.log(featureCardData);
     return (
         <div>
-            <div className="container">
-                <div>
+            <div className="">
+                <div className= "mainContainer">
                     <h1>Our Features</h1>
                 </div>
 
-                <div className="container">
+                <div className="featureCardFullContainer">
                     {
                         featureData.map( data => <SingleFreaturesCard key={data.title} featureData={data}></SingleFreaturesCard>)
                     }           

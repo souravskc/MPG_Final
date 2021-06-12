@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+.featureCardFullContainer{
+    margin: 10px 1.93%;
+}
 .featureCardContainer{
     background-color: #E9EAFF;
     border-radius: 0.5em;
@@ -11,8 +14,8 @@
     /* text-align: center; */
 }
 .featureCardFullContent{
-    margin: auto 60px;
-    padding: 0 auto;
+    margin: auto 7.1%;
+    padding: 0;
     /* margin-left: 60px */
 }
 .featureCardPro{
@@ -24,11 +27,11 @@
 .featureCardContentHeading{
     /* padding: 50px 40px 20px 40px; */
     font-weight: 900;
+    font-size: 60px;
     font-family: 'Karma', serif;
 }
 .featureCardContentParagraph{
     padding: 0 0;
-    margin: 0 auto;
     text-align: justify;
 }
 .featureCardImages{
