@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* XXL Laptop */
+.mainContainer{
+    background: #E9EAFF;
+    width: 40%;
+    padding: 2px 20px;
+    border-radius: 0 10px 10px 0;
+}
+.mainContainer h1{
+    margin: 5px 5%;
+    font-size: 46px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
 .featureCardFullContainer{
     margin: 10px 1.93%;
 }
@@ -11,37 +26,52 @@
     grid-template-columns: 50% 50%;
     margin-top: 20px;
     margin-left: 10px;
-    /* text-align: center; */
 }
 .featureCardFullContent{
     margin: auto 7.1%;
     padding: 0;
-    /* margin-left: 60px */
 }
 .featureCardPro{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 20px; 
-    /* text-align: center; */
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .featureCardContentHeading{
-    /* padding: 50px 40px 20px 40px; */
     font-weight: 900;
-    font-size: 60px;
+    font-size: 26px;
     font-family: 'Karma', serif;
+    margin: 0;
 }
 .featureCardContentParagraph{
-    padding: 0 0;
     text-align: justify;
+}
+.featureCardContentParagraph p{
+    margin: 0;
 }
 .featureCardImages{
     /* border: 1px solid red; */
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
+    padding-top: 22px;
 
 }
 
+/* Tab Pro */
+
 @media (max-width: 780px) {
+    .mainContainer {
+        background: #E9EAFF;
+        width: 40%;
+        padding: 12px 0px;
+        border-radius: 0 10px 10px 0;
+    }
+    .mainContainer h1{
+        margin: 0 25px;
+        font-weight: 900;
+        font-size: 28px;
+        font-family: 'Lato', sans-serif;
+    }
     .featureCard{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -52,13 +82,43 @@
         grid-template-columns: repeat(1, 1fr);
         margin-top: 20px;
     }
+    .featureCardFullContent{
+        padding: 22px 0;
+    }
     .featureCardImages{
         display: none;
     }
+
 }
 
 
+/* Phone */
 
+@media (max-width: 680px){
+    .mainContainer{
+        width: 50%;
+        padding: 10px 14px;
+    }
+    .mainContainer h1{
+        font-size: 17px;
+        font-family: 'Lato', sans-serif;
+    }
+    .featureCardContentHeading h1{
+        margin: 1%;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .featureCardContentParagraph{
+        text-align: left;
+        font-size: 9px;
+        font-weight: 300;
+    }
+    .featureCardContentParagraph p{
+        margin: 0;
+    }
+
+}
 
 
 

@@ -3,7 +3,7 @@
       "titlesm":"Free Resources",
       "bgcolor": "#E9EAFF",
       "title": "Learn from FREE resources",
-      "imgUrl": "https://i.ibb.co/sHShYNy/m-hero.png",
+      "imgUrl": "https://i.ibb.co/0qLHbfR/MPG-1.png",
       "description":"We empower you to learn from good quality resources available for FREE on the web. Now, there is no more need to spend your hard-earned money for buying that course or that book.",
       "id":true
     },
@@ -11,7 +11,7 @@
       "titlesm":"Advancement",
       "bgcolor":"#FCC79A",
       "title": "Step by Step advancement",
-      "imgUrl": "https://i.ibb.co/F69yRrC/m-free.png",
+      "imgUrl": "https://i.ibb.co/zhGCyC3/MPG-2.png",
       "description": " Our pathway of learning has been designed by experienced professionals, who have selectively chosen the best resources and curated the pathway to make your learning journey smoother and easier.",
       "id":false
     },
@@ -19,7 +19,7 @@
       "titlesm":"Mentor",
       "bgcolor": "#E9EAFF",
       "title": "Mentor like Guidance",
-      "imgUrl": "https://i.ibb.co/F69yRrC/m-free.png",
+      "imgUrl": "https://i.ibb.co/MBdb0dG/MPG-3.png",
       "description": "Having a mentor is valuable and we know it. That’s why we provide you with mentor-like guidance, to help you keep track of your progress.",
       "id":true
     },
@@ -27,7 +27,7 @@
       "titlesm":"Improvement",
       "bgcolor":"#FCC79A",
       "title": "Tried, Tested and constantly Improving",
-      "imgUrl": "https://i.ibb.co/F69yRrC/m-free.png",
+      "imgUrl": "https://i.ibb.co/yFCLp1p/MPG-4.png",
       "description":"We aim for becoming better and better each day, so our methods are constantly evolving to best suit the needs of our learners.We curate our paths to best cater to the requirements of the constantly-evolving tech industry.",
       "id":false
     }

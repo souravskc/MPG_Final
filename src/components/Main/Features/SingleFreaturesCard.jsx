@@ -1,7 +1,7 @@
 import React from 'react';
 import './FeaturesCardStyle.css';
 const SingleFreaturesCard = ({featureData}) => {
-    console.log('FeatureData:',featureData.id)
+    console.log('FeatureData:',featureData)
     return (
         <div className="featureCardContainer" style={{backgroundColor : featureData.bgcolor}}>
               {
@@ -16,14 +16,14 @@ const SingleFreaturesCard = ({featureData}) => {
                         </div>
                     </div>
                     <div className="featureCardImages">
-                        <img src={featureData.imgUrl} alt="" style={{width: '100%'}} />
+                        <img src={featureData.imgUrl} alt="" />
                     </div>
                 </div> 
                 :
                 <div className='featureCardPro'>
                 <div className="">
                     <div className="featureCardImages">
-                        <img src={featureData.imgUrl} alt="" style={{width: '100%'}} />
+                        <img src={featureData.imgUrl} alt="" />
                     </div>
                 </div>
                     <div className="featureCardFullContent">

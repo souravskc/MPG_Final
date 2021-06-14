@@ -1,0 +1,72 @@
+.loginContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: #A6EBD7;
+}
+.loginImageContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FF8E2B;
+}
+.loginImage{
+    width: 100%;
+    border-radius: 10px;
+}
+.formContainer{
+    padding: 50px 30px;
+    background-color: #A6EBD7;
+    border-radius: 0px 10px 10px 0px;
+}
+.formInputs{
+    text-align: center;
+}
+.formInputs input{
+    width: 75%;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: none;
+}
+
+.loginBtn{
+    background: #2E77AE;
+    color: white;
+    font-weight: 900;
+    border: none;
+    padding: 3px 14px;
+    border-radius: 5px;
+}
+.signInBtn{
+    text-align: center;
+}
+.signInContent{
+    margin: 15px 0;
+    font-weight: 900;
+}
+.googleSignIn{
+    width: 60%;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: #01B2EB;
+    color: white;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.facebookSignIn{
+    width: 60%;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: #1B486A;
+    color: white;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
