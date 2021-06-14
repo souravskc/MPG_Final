@@ -85,6 +85,12 @@
     .featureCardFullContent{
         padding: 22px 0;
     }
+    .featureCardContentHeading h1{
+        text-align: center;
+        margin: 0;
+        font-size: 22px;
+        font-weight: 700;
+    }
     .featureCardImages{
         display: none;
     }
