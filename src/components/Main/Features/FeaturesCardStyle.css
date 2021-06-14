@@ -15,11 +15,11 @@
 }
 
 .featureCardFullContainer{
-    margin: 10px 1.93%;
+    margin: 10px 1.04%;
 }
 .featureCardContainer{
     background-color: #E9EAFF;
-    border-radius: 0.5em;
+    border-radius: 20px;
 }
 .featureCard{
     display: grid;
@@ -39,12 +39,18 @@
 }
 .featureCardContentHeading{
     font-weight: 900;
-    font-size: 26px;
-    font-family: 'Karma', serif;
+    font-style: normal;
+    font-family: 'Karma';
     margin: 0;
 }
+.featureCardContentHeading h1{
+    font-size: 60px;
+}
 .featureCardContentParagraph{
-    text-align: justify;
+    font-size: 29px;
+    font-weight: 300;
+    font-family: 'Karma';
+    font-style: normal;
 }
 .featureCardContentParagraph p{
     margin: 0;
@@ -53,7 +59,7 @@
     /* border: 1px solid red; */
     margin: 0 auto;
     width: 80%;
-    padding-top: 22px;
+    padding-top: 32px;
 
 }
 
@@ -72,6 +78,9 @@
         font-size: 28px;
         font-family: 'Lato', sans-serif;
     }
+    .featureCardFullContainer{
+        margin: 10px 2.47%;
+    }
     .featureCard{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -82,14 +91,31 @@
         grid-template-columns: repeat(1, 1fr);
         margin-top: 20px;
     }
+    .featureCardContainer{
+        background-color: #E9EAFF;
+        border-radius: 6px;
+    }
     .featureCardFullContent{
-        padding: 22px 0;
+        margin: 20px 0;
+    }
+    .featureCardContentHeading{
+        margin: 0;
     }
     .featureCardContentHeading h1{
         text-align: center;
-        margin: 0;
+        margin-top: 0;
         font-size: 22px;
         font-weight: 700;
+        font-family: 'Karma';
+    }
+    .featureCardContentParagraph{
+        font-size: 17.66px;
+        font-weight: 300;
+        font-family: 'Karma';
+        font-style: normal;
+    }
+    .featureCardContentParagraph p{
+        margin: 0 3.34%;
     }
     .featureCardImages{
         display: none;
@@ -109,19 +135,27 @@
         font-size: 17px;
         font-family: 'Lato', sans-serif;
     }
+    .featureCardContentHeading{
+        margin: 0;
+    }
     .featureCardContentHeading h1{
-        margin: 1%;
-        font-size: 15px;
+        font-size: 13px;
+        margin-bottom: 7px;
         text-align: center;
+        font-family: 'Karma';
         font-weight: 700;
     }
     .featureCardContentParagraph{
+        margin: 0;
+        padding: 0;
         text-align: left;
         font-size: 9px;
         font-weight: 300;
+        font-family: 'Karma';
     }
     .featureCardContentParagraph p{
-        margin: 0;
+        margin: 0 3.34%;
+        padding: 0;
     }
 
 }
