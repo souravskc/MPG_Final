@@ -44,10 +44,10 @@
     margin: 0;
 }
 .featureCardContentHeading h1{
-    font-size: 60px;
+    font-size: 3.5vw;
 }
 .featureCardContentParagraph{
-    font-size: 29px;
+    font-size: 1.5vw;
     font-weight: 300;
     font-family: 'Karma';
     font-style: normal;
