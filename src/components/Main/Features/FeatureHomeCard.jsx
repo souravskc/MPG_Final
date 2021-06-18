@@ -8,8 +8,13 @@ const FeatureHomeCard = () => {
     return (
         <div>
             <div className="">
-                <div className= "mainContainer">
-                    <h1>Our Features</h1>
+                <div className="cardContainer">
+                <div>
+                        <h1>Our Feature</h1>
+                </div>
+                <div>
+                        <img src="https://i.ibb.co/H2j7Grf/feature-icon.png" alt="Feature" />
+                </div>
                 </div>
 
                 <div className="featureCardFullContainer">

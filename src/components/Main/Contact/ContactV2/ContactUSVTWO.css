@@ -1,0 +1,85 @@
+/* Laptop XXL */
+
+/* Main Content */
+.contactUsMainContainer{
+    /* border: 2px solid red;    */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1em;
+}
+
+.contactUsContentContainer{
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("https://i.ibb.co/mvqny7M/Feedback-minimalist.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2%;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.formInputField{
+    width: 100%;
+    padding: 20% 20% 0% 20%;
+}
+
+.formInputField input{
+    width: 100%;
+    border: none;
+    background: white;
+    border-radius: 6px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 3px gray;
+    margin: 5px 0px;
+}
+.formInputField textarea{
+    width: 100%;
+    border: none;
+    background: white;
+    border-radius: 12px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 3px gray;
+    margin: 5px 0px;
+}
+.formFooter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sendBtnContainer{
+    text-align: right;
+}
+.sendBtn{
+    background: #0556F3;
+    color: white;
+    padding: 7px 35px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    size: 28px;
+    
+}
+
+.contactUsImageContainer{
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* tab */
+@media (max-width: 780px) {
+
+    
+}
+
+/* Phone responsive */
+
+@media (max-width: 680px){
+    .contactUsMainContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contactUsImageContainer{
+        display: none;
+    }
+}
+

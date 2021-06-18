@@ -4,6 +4,8 @@ import ContactPage from '../Main/Contact/ContactPage';
 import FeatureHomeCard from '../Main/Features/FeatureHomeCard';
 import HeaderMain from '../Main/Header/HeaderMain';
 import Signup from '../Auth/Signup/Signup';
+import ContactUSVTWO from '../Main/Contact/ContactV2/ContactUSVTWO';
+import Community from '../Main/Community/Community';
 
 const HomePage = () => {
     return (
@@ -15,7 +17,11 @@ const HomePage = () => {
                 <FeatureHomeCard></FeatureHomeCard>
             </div>
             <div>
-                <ContactPage></ContactPage>
+                <Community></Community>
+            </div>
+            <div>
+                {/* <ContactPage></ContactPage> */}
+                <ContactUSVTWO></ContactUSVTWO>
             </div>
             <div className="mt-5 mb-5">
                 {/* <Login></Login> */}

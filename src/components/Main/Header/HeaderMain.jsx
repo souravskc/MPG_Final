@@ -8,7 +8,7 @@ import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 const HeaderMain = () => {
     return (
         <>
-            <div class="container">
+            <div class="mainHeadingContainer">
                 <div class="mainHeaderBody">
                     <div class="mainHeading">
                         <h1>Exclusive guide for your  <br /> <span style={{color: '#2C6EEF'}}>Learning Journey.</span></h1>
