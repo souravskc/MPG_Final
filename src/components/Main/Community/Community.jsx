@@ -17,8 +17,7 @@ const Community = () => {
                 </div>
                 <div className="communityContentContainer">
                     <div>
-                        <h1>Join Our Discord Server to</h1>
-                        <h1><span style={{color:'#2C6EEF'}}>interact and grow</span> now.</h1>
+                        <h1>Join Our Discord Server to <span style={{color:'#2C6EEF'}}>interact and grow</span> now.</h1>
                         <h3 style={{color:'#2C6EEF'}}>Where Community meets Guides</h3>
                     </div>
                     <div className="comingSoonBtn">

@@ -9,7 +9,7 @@ const FeatureHomeCard = () => {
         <div>
             <div className="">
                 <div className="cardContainer">
-                <div>
+                <div className="cardValue">
                         <h1>Our Feature</h1>
                 </div>
                 <div>

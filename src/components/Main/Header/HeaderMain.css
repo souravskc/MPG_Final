@@ -3,7 +3,7 @@
 
 /* Laptop */
 .mainHeadingContainer{
-    padding: 5%;
+    padding: 0 5%;
 }
 .mainHeaderBody{
     display: grid;
@@ -13,21 +13,26 @@
 .mainHeading h1{
     font-family: 'Karma', serif;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 4.5vw;
+    margin: 0;
     font-weight: 700;
-    padding: 46px 0 0 0;
+    padding: 34px 0 0 0;
 }
 .mainHeading h2{
-    font-family: 'Inter', sans-serif;
+    font-family: Karma;
+    margin: 0;
+    padding: 10px 0 0 0;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 .mainHeadingImagesMobile{
     display: none;
 }
 .mainHeadingContent{
-    font-family: 'Inter', sans-serif;
-    padding: 40px 0px 36px 0;
+    font-family: Karma;
+    font-width: 400;
+    font-size: 1vw;
+    padding: 20px 0px 26px 0;
 }
 .mainHeadingImage img{
     padding: 60px 0 0 0;
@@ -36,12 +41,16 @@
 .mainHeadingBtn{
     background-color: #2C6EEF;
     border: none;
-    padding: 20px 70px;
+    padding: 25px 35px;
     color: white;
-    font-size: 20px;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Inter;
     border-radius: 10px;
     margin-bottom: 40px;
+    box-shadow: 5px 5px 5px grey;
 }
+
 
 /* Tab Pro */
 
@@ -51,8 +60,9 @@
         grid-template-columns: repeat(1,1fr);
     }
     .mainHeading h1{
-        font-family: 'lato', serif;
+        font-family: Karma;
         font-weight: 700;
+        font-size: 4vw;
         text-align: center;
         padding: 40px 0;
     }
@@ -60,14 +70,12 @@
         display: none;
     }
     .mainHeadingImagesMobile{
-        display: block;
-        width: 50%;
-        margin: 0 auto;
+        display: none;
     }
     .mainHeadingContent{
-        font-family: 'Inter', sans-serif;
-        padding: 0px 0px 36px 0;
-        margin-left: 5%;
+        font-size: 2vw;
+        font-family: Karma;
+        font-weight: 700;
     }
     .mainHeadingBtnDiv{
         text-align: center;
@@ -87,7 +95,7 @@
     .mainHeading h1{
         font-family: 'Karma', serif;
         font-weight: bold;
-        font-size: 160%;
+        font-size: 4vw;
         padding: 26px 0;
         text-align: center;
         margin: 0;
@@ -99,8 +107,8 @@
         display: none;
     }
     .mainHeadingContent{
-        font-size: 9px;
-        font-family: inter;
+        font-size: 2vw;
+        font-family: Karma;
         font-weight: 700;
     }
     .mainHeadingBtnDiv button{

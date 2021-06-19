@@ -6,11 +6,12 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 1em;
+    margin-bottom: 3%;
 }
 
 .contactUsContentContainer{
     /* border: 1px solid blue; */
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     background-image: url("https://i.ibb.co/mvqny7M/Feedback-minimalist.png");
     background-repeat: no-repeat;

@@ -11,9 +11,6 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
-    // colorMode: {
-    //   defaultMode: 'dark'
-    // },
     navbar: {
       title: '',
       logo: {
@@ -35,6 +32,13 @@ module.exports = {
           to: 'docs/bootcamp',
           activeBasePath: 'docs',
         },
+        {
+          label:"Login",
+          docId: 'login',
+          position:"right",
+          to: 'docs/login',
+          activeBasePath: 'docs',
+        }
       ],
     },
   },
