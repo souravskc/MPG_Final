@@ -7,6 +7,7 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 1em;
     margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 .contactUsContentContainer{
@@ -22,7 +23,7 @@
 
 .formInputField{
     width: 100%;
-    padding: 20% 20% 0% 20%;
+    padding: 20% 15% 0% 15%;
 }
 
 .formInputField input{

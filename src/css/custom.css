@@ -151,6 +151,9 @@ body{
 }
 @media only screen and (max-width: 500px) {
 
+  .cardContainer{
+    margin: 10px 0;
+  }
     .p5{
       padding-bottom: 3rem;
     }

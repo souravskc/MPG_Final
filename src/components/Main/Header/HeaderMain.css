@@ -4,6 +4,7 @@
 /* Laptop */
 .mainHeadingContainer{
     padding: 0 5%;
+    margin: 2% 0;
 }
 .mainHeaderBody{
     display: grid;
@@ -45,6 +46,9 @@
     padding: 60px 0 0 0;
     width : 100%;
 }
+.mainHeadingBtnDiv{
+    margin-top: 10px;
+}
 .mainHeadingBtn{
     background-color: #2C6EEF;
     border: none;
@@ -52,7 +56,7 @@
     color: white;
     font-size: 2vw;
     font-weight: 600;
-    font-family: Inter;
+    font-family: Karma;
     border-radius: 10px;
     margin-bottom: 40px;
     box-shadow: 5px 5px 5px grey;
@@ -69,7 +73,7 @@
     .mainHeading h1{
         font-family: Karma;
         font-weight: 700;
-        font-size: 4vw;
+        font-size: 4.2vw;
         text-align: center;
         padding: 40px 0;
     }
@@ -82,11 +86,11 @@
         padding: 0px 0px 26px 0;
     }
     .mainHeadingContent p{
-        font-size: 1.5vw;
+        font-size: 2vw;
         margin: 0 20%;
     }
     .mainHeadingContent p img{
-        width: 2.5%;
+        width: 3%;
         height: auto;
     }
     .mainHeadingImagesMobile{
@@ -97,6 +101,12 @@
     }
     .mainHeadingImage{
         display: none;
+    }
+    .mainHeadingBtn{
+        font-size: 3vw;
+        font-weight: 600;
+        font-family: Karma;
+        padding: 20px 40px;
     }
 }
 
@@ -123,14 +133,15 @@
     .mainHeadingContent{
         font-family: Karma;
         font-weight: 400;
+        font-size: 3vw;
         padding: 2% 0px 2% 0;
     }
     .mainHeadingContent p{
         font-size: 2vw;
-        margin: 0 20%;
+        margin: 0 20% 0 10%;
     }
     .mainHeadingContent p img{
-        width: 2.5%;
+        width: 4%;
         height: auto;
     }
     .mainHeadingBtnDiv button{
@@ -138,7 +149,7 @@
         border: none;
         padding: 12px 50px;
         color: white;
-        font-size: 10px;
+        font-size: 3vw;
         border-radius: 8px;
         margin: 20px 0;
     }
