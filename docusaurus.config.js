@@ -11,6 +11,12 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
+    gtag: {
+      // You can also use your "G-" Measurement ID here.
+      trackingID: 'G-XY23EX86R6',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: '',
       logo: {
@@ -32,14 +38,8 @@ module.exports = {
           to: 'docs/bootcamp',
           activeBasePath: 'docs',
         },
-        {
-          label:"Login",
-          docId: 'login',
-          position:"right",
-          to: 'docs/login',
-          activeBasePath: 'docs',
-        }
       ],
+      
     },
   },
   presets: [
@@ -57,8 +57,9 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        
       },
     ],
   ],
-  plugins: ['my-loaders'],
+  plugins: ['my-loaders','@docusaurus/plugin-google-gtag'],
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import './FeaturesCardStyle.css';
 const SingleFreaturesCard = ({featureData}) => {
-    console.log('FeatureData:',featureData)
+    // console.log('FeatureData:',featureData)
     return (
         <div className="featureCardContainer" style={{backgroundColor : featureData.bgcolor}}>
               {

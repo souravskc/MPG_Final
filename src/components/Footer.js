@@ -9,9 +9,9 @@ import Instagram from "../img/footer/instagram.webp"
 
 function Footer() {
     return (
-        <div class="footer">
-            <div class="contain">
-                {/*<div class="col">
+        <div className="footer">
+            <div className="contain">
+                {/*<div className="col">
                     <h1>Company</h1>
                     <ul>
                         <li>About</li>
@@ -21,17 +21,17 @@ function Footer() {
                         <li>Get in touch</li>
                     </ul>
                 </div>*/}
-                {/* <div class="col">
+                {/* <div className="col">
                     <h1>Domains</h1>
                     <ul>
                         <a href="/docs/ml"><li>Machine Learning</li></a>
                         <a href="/docs/webd"><li>Web Development</li></a>
                     </ul>
                 </div> */}
-                <div class="col">
+                <div className="col">
                     <h1>Competitive Coding</h1>
                     <ul>
-                        <li><a style={{color: 'white'}} href="/docs/compi">Documentation</a></li>
+                        <li><a style={{ color: 'white' }} href="/docs/compi">Documentation</a></li>
                         {/* <li>Arrays</li>
                         <li>Strings</li>
                         <li>Searching and Sorting</li>
@@ -42,23 +42,23 @@ function Footer() {
                         <li>Get in touch</li> */}
                     </ul>
                 </div>
-                <div class="col">
+                <div className="col">
                     <h1>Bootcamp</h1>
                     <ul>
-                        <li><a style={{color: 'white'}} href="/docs/bootcamp">Details</a></li>
+                        <li><a style={{ color: 'white' }} href="/docs/bootcamp">Details</a></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div className="col">
                     <h1>Support</h1>
                     <ul>
-                        <li><a style={{color: 'white'}} href="mailto:mypathguider@gmail.com">Contact us</a></li>
+                        <li><a style={{ color: 'white' }} href="mailto:mypathguider@gmail.com">Contact us</a></li>
                         {/* <li>Web chat</li> */}
                     </ul>
                 </div>
-                <div class="col social">
+                <div className="col social">
                     <h1>Social</h1>
                     <ul>
-                        <li><a href="https://www.facebook.com/Mypathguider-111127487744228"><img src={Facebook}  className="htry"/></a></li>
+                        <li><a href="https://www.facebook.com/Mypathguider-111127487744228"><img src={Facebook} className="htry" /></a></li>
                         <li><a href="https://twitter.com/guider_my"><img src={Twitter} className="htry" /></a></li>
                         {/* <li><a href=""><img src={GitHub}  className="htry" /></a></li> */}
                         <li><a href="https://www.linkedin.com/company/mypathguider"><img src={Linkedin} className="htry" /></a></li>
@@ -66,8 +66,8 @@ function Footer() {
                         <li><a className="footer-icon" href="mailto:mypathguider@gmail.com"><img src={Gmail} className="htry" /></a></li>
                     </ul>
                 </div>
-                
-                <div class="clearfix">
+
+                <div className="clearfix">
                     <h6>Copyright © 2021 MyPathGuider</h6>
                 </div>
             </div>
