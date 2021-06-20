@@ -81,9 +81,13 @@
 
 @media (max-width: 680px){
     /* Responsive main Container */
+    .communityContentContainer{
+        text-align: center;
+    }
     .communityContentContainer h1{
         font-size: 5vw;
         align-content: center;
+        margin: 0;
     }
 
     .communityContentContainer h3{
@@ -92,17 +96,19 @@
         padding: 10px 0;
         font-weight: 600;
         font-size: 3vw;
+        text-align: center;
     }
     .comingSoonBtn button {
         border: none;
-        padding: 3% 9%;
+        padding: 5% 12%;
         border-radius: 10px;
         background-color: #2C6EEF;
         color: white;
         font-weight: 600;
-        font-size: 2vw;
+        font-size: 3vw;
         box-shadow: 5px 5px 5px grey;
-        margin: 40px 0;
+        margin: 0 0;
+        text-align: center;
     }
     
 }

@@ -45,20 +45,28 @@
 }
 .formFooter{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 30% 70%;
+}
+.formFooterIcons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.formFooterIcons img{
+    width: 100%;
 }
 .sendBtnContainer{
     text-align: right;
+    margin: 0;
+    padding: 0;
 }
 .sendBtn{
     background: #0556F3;
     color: white;
-    padding: 7px 35px;
+    padding: 3% 13%;
     border: none;
+    font-size: 1vw;
     border-radius: 20px;
-    font-family: 'Lato', sans-serif;
-    size: 28px;
-    
+    font-family: 'Lato', sans-serif;    
 }
 
 .contactUsImageContainer{
@@ -69,8 +77,10 @@
 
 /* tab */
 @media (max-width: 780px) {
-
-    
+    .formFooter{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
 }
 
 /* Phone responsive */
@@ -82,5 +92,18 @@
     .contactUsImageContainer{
         display: none;
     }
-}
+    .formFooter{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .sendBtn{
+        background: #0556F3;
+        color: white;
+        padding: 3% 13%;
+        border: none;
+        font-size: 3vw;
+        border-radius: 20px;
+        font-family: 'Lato', sans-serif;    
+    }
+}    
 

@@ -21,8 +21,11 @@ const ContactUSVTWO = () => {
                             <input type="text" placeholder="Email" /> <br />
                             <textarea name="" id="" cols="30" rows="10" placeholder=" Description or any help" ></textarea>
                             <div className="formFooter">
-                                <div>
-                                    <p>ICON ICON ICON</p>
+                                <div className="formFooterIcons">
+                                    <a href=""><img src="https://i.ibb.co/3ch8h34/final3.png" alt="ICON" /></a>
+                                    <a href=""><img src="https://i.ibb.co/fnXb66N/final4.png" alt="ICON" /></a>
+                                    <a href=""><img src="https://i.ibb.co/NTbw0Bz/final5.png" alt="ICON" /></a>
+
                                 </div>
                                 <div className="sendBtnContainer">
                                     <button className="sendBtn">SEND</button>

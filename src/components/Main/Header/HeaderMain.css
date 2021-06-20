@@ -30,9 +30,16 @@
 }
 .mainHeadingContent{
     font-family: Karma;
-    font-width: 400;
-    font-size: 1vw;
+    font-weight: 400;
     padding: 20px 0px 26px 0;
+}
+.mainHeadingContent p{
+    margin: 0;
+    font-size: 1.5vw;
+}
+.mainHeadingContent p img{
+    width: 2.5%;
+    height: auto;
 }
 .mainHeadingImage img{
     padding: 60px 0 0 0;
@@ -69,13 +76,21 @@
     .mainHeading h2{
         display: none;
     }
+    .mainHeadingContent{
+        font-family: Karma;
+        font-weight: 400;
+        padding: 0px 0px 26px 0;
+    }
+    .mainHeadingContent p{
+        font-size: 1.5vw;
+        margin: 0 20%;
+    }
+    .mainHeadingContent p img{
+        width: 2.5%;
+        height: auto;
+    }
     .mainHeadingImagesMobile{
         display: none;
-    }
-    .mainHeadingContent{
-        font-size: 2vw;
-        font-family: Karma;
-        font-weight: 700;
     }
     .mainHeadingBtnDiv{
         text-align: center;
@@ -95,8 +110,7 @@
     .mainHeading h1{
         font-family: 'Karma', serif;
         font-weight: bold;
-        font-size: 4vw;
-        padding: 26px 0;
+        padding: 20px 0 10px 0;
         text-align: center;
         margin: 0;
     }
@@ -107,9 +121,17 @@
         display: none;
     }
     .mainHeadingContent{
-        font-size: 2vw;
         font-family: Karma;
-        font-weight: 700;
+        font-weight: 400;
+        padding: 2% 0px 2% 0;
+    }
+    .mainHeadingContent p{
+        font-size: 2vw;
+        margin: 0 20%;
+    }
+    .mainHeadingContent p img{
+        width: 2.5%;
+        height: auto;
     }
     .mainHeadingBtnDiv button{
         background-color: #2C6EEF;
@@ -118,7 +140,7 @@
         color: white;
         font-size: 10px;
         border-radius: 8px;
-        margin-bottom: 30px;
+        margin: 20px 0;
     }
 }
 
