@@ -1,0 +1,118 @@
+/* Laptop Design Big Screen */
+
+
+/* Community Image and Content and Btn Style */
+.communityMainContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.communityImageContainer img{
+    width: 100%;
+    text-align: right;
+}
+.communityContentContainer{
+    padding: 7% 14%;
+}
+.communityContentContainer h1{
+    font-size: 3vw;
+}
+
+.communityContentContainer h3{
+    margin: 0;
+    font-family: Karma;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+
+.comingSoonBtn button {
+    border: none;
+    padding: 3% 9%;
+    border-radius: 10px;
+    background-color: #2C6EEF;
+    color: white;
+    font-weight: 600;
+    font-size: 2vw;
+    box-shadow: 5px 5px 5px grey;
+    margin: 40px 0;
+}
+
+/* Tab  */
+
+@media (max-width: 750px) {
+        /* Responsive main Container */
+    
+        .communityMainContainer{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .communityContainer{
+            width: 40%;
+            display: grid;
+            grid-template-columns: 80% 20%;
+            margin: 50px 0;
+        }
+    .communityContentContainer h1{
+        font-size: 4vw;
+        font-family: Karma;
+    }
+
+    .communityContentContainer h3{
+        margin: 0;
+        font-family: Karma;
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: 2vw;
+    }
+    .comingSoonBtn button {
+        border: none;
+        padding: 3% 9%;
+        border-radius: 10px;
+        background-color: #2C6EEF;
+        color: white;
+        font-weight: 600;
+        font-size: 2.5vw;
+        box-shadow: 5px 5px 5px grey;
+        margin: 40px 0;
+    }
+}
+
+/* Phone Responsive Site */
+
+
+@media (max-width: 680px){
+    /* Responsive main Container */
+    .communityContentContainer{
+        text-align: center;
+    }
+    .communityContentContainer h1{
+        font-size: 5vw;
+        align-content: center;
+        margin: 0;
+    }
+
+    .communityContentContainer h3{
+        margin: 0;
+        font-family: Karma;
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .comingSoonBtn button {
+        border: none;
+        padding: 5% 12%;
+        border-radius: 10px;
+        background-color: #2C6EEF;
+        color: white;
+        font-weight: 600;
+        font-size: 3vw;
+        box-shadow: 5px 5px 5px grey;
+        margin: 0 0;
+        text-align: center;
+    }
+    
+}
+
+
+

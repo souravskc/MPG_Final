@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Laptop */
+.mainHeadingContainer{
+    padding: 0 5%;
+    margin: 2% 0;
+}
+.mainHeaderBody{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0 0px;
+}
+.mainHeading h1{
+    font-family: 'Karma', serif;
+    font-weight: bold;
+    font-size: 4.5vw;
+    margin: 0;
+    font-weight: 700;
+    padding: 34px 0 0 0;
+}
+.mainHeading h2{
+    font-family: Karma;
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-weight: 400;
+    font-size: 2.5vw;
+}
+.mainHeadingImagesMobile{
+    display: none;
+}
+.mainHeadingContent{
+    font-family: Karma;
+    font-weight: 400;
+    padding: 20px 0px 26px 0;
+}
+.mainHeadingContent p{
+    margin: 0;
+    font-size: 1.5vw;
+}
+.mainHeadingContent p img{
+    width: 2.5%;
+    height: auto;
+}
+.mainHeadingImage img{
+    padding: 60px 0 0 0;
+    width : 100%;
+}
+.mainHeadingBtnDiv{
+    margin-top: 10px;
+}
+.mainHeadingBtn{
+    background-color: #2C6EEF;
+    border: none;
+    padding: 25px 35px;
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Karma;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+/* Tab Pro */
+
+@media (max-width: 780px) {
+
+    .mainHeaderBody{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .mainHeading h1{
+        font-family: Karma;
+        font-weight: 700;
+        font-size: 4.2vw;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .mainHeading h2{
+        display: none;
+    }
+    .mainHeadingContent{
+        font-family: Karma;
+        font-weight: 400;
+        padding: 0px 0px 26px 0;
+    }
+    .mainHeadingContent p{
+        font-size: 2vw;
+        margin: 0 20%;
+    }
+    .mainHeadingContent p img{
+        width: 3%;
+        height: auto;
+    }
+    .mainHeadingImagesMobile{
+        display: none;
+    }
+    .mainHeadingBtnDiv{
+        text-align: center;
+    }
+    .mainHeadingImage{
+        display: none;
+    }
+    .mainHeadingBtn{
+        font-size: 3vw;
+        font-weight: 600;
+        font-family: Karma;
+        padding: 20px 40px;
+    }
+}
+
+
+/* Phone */
+
+@media (max-width: 680px){
+    .sec-photos{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mainHeading h1{
+        font-family: 'Karma', serif;
+        font-weight: bold;
+        padding: 20px 0 10px 0;
+        text-align: center;
+        margin: 0;
+    }
+    .mainHeading h2{
+        display: none;
+    }
+    .mainHeadingImagesMobile{
+        display: none;
+    }
+    .mainHeadingContent{
+        font-family: Karma;
+        font-weight: 400;
+        font-size: 3vw;
+        padding: 2% 0px 2% 0;
+    }
+    .mainHeadingContent p{
+        font-size: 2vw;
+        margin: 0 20% 0 10%;
+    }
+    .mainHeadingContent p img{
+        width: 4%;
+        height: auto;
+    }
+    .mainHeadingBtnDiv button{
+        background-color: #2C6EEF;
+        border: none;
+        padding: 12px 50px;
+        color: white;
+        font-size: 3vw;
+        border-radius: 8px;
+        margin: 20px 0;
+    }
+}
+

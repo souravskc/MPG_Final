@@ -5,7 +5,7 @@ import '../css/customContainer.css';
 
 export default function TipsCaution(props) {
 
-    console.log(props.list)
+    // console.log(props.list)
 
     var heading;
     if(props.tip == "true"){

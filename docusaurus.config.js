@@ -11,14 +11,11 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
-    // colorMode: {
-    //   defaultMode: 'dark'
-    // },
     navbar: {
-      title: 'MyPathGuider',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/mpglogo.png'
+        src: 'https://i.ibb.co/P5LGcf2/m-logo.png'
       },
       items: [
         {
@@ -36,6 +33,7 @@ module.exports = {
           activeBasePath: 'docs',
         },
       ],
+      
     },
   },
   presets: [
@@ -53,6 +51,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        
       },
     ],
   ],

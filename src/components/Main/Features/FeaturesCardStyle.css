@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* XXL Laptop */
+.mainContainer{
+    background: #E9EAFF;
+    width: 40%;
+    padding: 2px 20px;
+    border-radius: 0 10px 10px 0;
+}
+.mainContainer h1{
+    margin: 5px 5%;
+    font-size: 46px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.featureCardFullContainer{
+    margin: 0 1.04%;
+    margin-bottom: 60px;
+}
+.featureCardContainer{
+    background-color: #E9EAFF;
+    border-radius: 20px;
+}
+.featureCard{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.featureCardFullContent{
+    margin: auto 7.1%;
+    padding: 0;
+}
+.featureCardPro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.featureCardContentHeading{
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Karma';
+    margin: 0;
+}
+.featureCardContentHeading h1{
+    font-size: 3.5vw;
+}
+.featureCardContentParagraph{
+    font-size: 1.5vw;
+    font-weight: 300;
+    font-family: 'Karma';
+    font-style: normal;
+}
+.featureCardContentParagraph p{
+    margin: 0;
+}
+.featureCardImages{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 32px;
+
+}
+/*  */
+
+/* Tab  */
+
+@media (max-width: 780px) {
+    .mainContainer {
+        background: #E9EAFF;
+        width: 40%;
+        padding: 12px 0px;
+        border-radius: 0 10px 10px 0;
+    }
+    .mainContainer h1{
+        margin: 0 25px;
+        font-weight: 900;
+        font-size: 28px;
+        font-family: 'Lato', sans-serif;
+    }
+    .featureCardFullContainer{
+        margin: 0 2.47%;
+        margin-bottom: 40px;
+    }
+    .featureCard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+    .featureCardPro{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+    .featureCardContainer{
+        background-color: #E9EAFF;
+        border-radius: 6px;
+    }
+    .featureCardFullContent{
+        margin: 20px 0;
+    }
+    .featureCardContentHeading{
+        margin: 0;
+    }
+    .featureCardContentHeading h1{
+        text-align: center;
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'Karma';
+    }
+    .featureCardContentParagraph{
+        font-size: 17.66px;
+        font-weight: 300;
+        font-family: 'Karma';
+        font-style: normal;
+    }
+    .featureCardContentParagraph p{
+        margin: 0 3.34%;
+    }
+    .featureCardImages{
+        display: none;
+    }
+
+}
+
+
+/* Phone */
+
+@media (max-width: 680px){
+    .mainContainer{
+        width: 50%;
+        padding: 10px 14px;
+    }
+    .mainContainer h1{
+        font-size: 17px;
+        font-family: 'Lato', sans-serif;
+    }
+    .featureCardContentHeading{
+        margin: 0;
+    }
+    .featureCardFullContainer{
+        margin-bottom: 0%;
+    }
+    .featureCard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+    .featureCardPro{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+    .featureCardContentHeading h1{
+        font-size: 13px;
+        margin-bottom: 7px;
+        text-align: center;
+        font-family: 'Karma';
+        font-weight: 700;
+    }
+    .featureCardContentParagraph{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 9px;
+        font-weight: 300;
+        font-family: 'Karma';
+    }
+    .featureCardContentParagraph p{
+        margin: 0 3.34%;
+        padding: 0;
+    }
+
+}
+
+
+
