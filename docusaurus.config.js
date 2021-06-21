@@ -55,5 +55,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['my-loaders','@docusaurus/plugin-google-gtag'],
+  plugins: ['my-loaders'],
 };
