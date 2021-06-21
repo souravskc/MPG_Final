@@ -11,13 +11,6 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
-    gtag: {
-      id: "random",
-      // You can also use your "G-" Measurement ID here.
-      trackingID: 'G-XY23EX86R6',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     navbar: {
       title: '',
       logo: {
