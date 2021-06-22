@@ -32,7 +32,7 @@ export default function TipsCaution(props) {
                                                 return(
                                                     <div id={index} className="questionContent">
                                                         <div className="">
-                                                            <div className="questionAndResourceContentLink"><a href={value.link}>{value.name}</a></div>
+                                                            <div className="tipsAndCautionLink"><a href={value.link}>{value.name}</a></div>
                                                             <div className="" ><p>{value.desc}</p></div>
                                                         </div>
                                                     </div>
