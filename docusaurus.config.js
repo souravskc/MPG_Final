@@ -15,7 +15,7 @@ module.exports = {
       title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'https://i.ibb.co/P5LGcf2/m-logo.png'
+        src: 'https://i.ibb.co/ZN13jCX/logo.png'
       },
       items: [
         {
