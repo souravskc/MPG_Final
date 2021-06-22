@@ -11,6 +11,9 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
+    colorMode:{
+      disableSwitch: true,
+    },
     navbar: {
       title: '',
       logo: {
