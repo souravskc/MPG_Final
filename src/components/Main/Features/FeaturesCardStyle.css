@@ -81,7 +81,7 @@
         font-family: 'Lato', sans-serif;
     }
     .featureCardFullContainer{
-        margin: 0 2.47%;
+        margin: 0 1.47%;
         margin-bottom: 40px;
     }
     .featureCard{
@@ -142,7 +142,7 @@
         margin: 0;
     }
     .featureCardFullContainer{
-        margin-bottom: 0%;
+        margin-bottom: 26px;
     }
     .featureCard{
         display: grid;
@@ -156,7 +156,7 @@
     }
     .featureCardContentHeading h1{
         font-size: 13px;
-        margin-bottom: 7px;
+        margin-bottom: 4vw;
         text-align: center;
         font-family: 'Karma';
         font-weight: 700;
@@ -165,7 +165,7 @@
         margin: 0;
         padding: 0;
         text-align: left;
-        font-size: 9px;
+        font-size: 3vw;
         font-weight: 300;
         font-family: 'Karma';
     }

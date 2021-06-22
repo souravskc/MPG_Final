@@ -35,7 +35,7 @@ body{
   margin: 0;
 }
 .cardContainer h1{
-  font-family: Lato;
+  font-family: Karma;
   background-color: #E9EAFF;
   padding: 5% 10%;
   font-weight: bold;
@@ -153,6 +153,14 @@ body{
 
   .cardContainer{
     margin: 10px 0;
+  }
+  .cardContainer h1{
+    font-weight: bold;
+    font-family: Karma;
+    font-size: 4vw;
+  }
+  .cardContainer img{
+    width: 65%;
   }
     .p5{
       padding-bottom: 3rem;
