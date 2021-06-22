@@ -27,14 +27,14 @@ module.exports = {
           position:"right",
           to: 'docs/compi',
           activeBasePath: 'docs',
-        },
-        {
-          label:"Boot Camp",
-          docId: 'bootcamp',
-          position:"right",
-          to: 'docs/bootcamp',
-          activeBasePath: 'docs',
-        },
+        }
+//         {
+//           label:"Boot Camp",
+//           docId: 'bootcamp',
+//           position:"right",
+//           to: 'docs/bootcamp',
+//           activeBasePath: 'docs',
+//         },
       ],
       
     },
