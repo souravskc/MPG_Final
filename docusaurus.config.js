@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: 'https://i.ibb.co/NK6yHnc/Group-218.png',
   organizationName: 'souravskc', // Usually your GitHub org/user name.
   projectName: 'MPG_Final',
 
