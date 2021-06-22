@@ -22,9 +22,9 @@ const ContactUSVTWO = () => {
                             <textarea name="" id="" cols="30" rows="10" placeholder=" Description or any help" ></textarea>
                             <div className="formFooter">
                                 <div className="formFooterIcons">
-                                    <a href=""><img src="https://i.ibb.co/3ch8h34/final3.png" alt="ICON" /></a>
-                                    <a href=""><img src="https://i.ibb.co/fnXb66N/final4.png" alt="ICON" /></a>
-                                    <a href=""><img src="https://i.ibb.co/NTbw0Bz/final5.png" alt="ICON" /></a>
+                                    <a href="mailto:mypathguider@gmail.com"><img src="https://i.ibb.co/3ch8h34/final3.png" alt="ICONEmail" /></a>
+                                    <a href="https://www.instagram.com/mpg_mypathguider/"><img src="https://i.ibb.co/fnXb66N/final4.png" alt="Iconinsta" /></a>
+                                    <a href="https://www.linkedin.com/company/mypathguider"><img src="https://i.ibb.co/NTbw0Bz/final5.png" alt="ICONLinekdIn" /></a>
 
                                 </div>
                                 <div className="sendBtnContainer">
