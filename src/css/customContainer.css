@@ -26,6 +26,24 @@
     color: black;
     font-weight: none;
 }
+.tipsAndCautionLink a{
+    color: #007AFC;
+    font-weight: none;
+}
+.tipsAndCautionLink a:hover{
+    color: #007AFC;
+    border-bottom: #007AFC 0.025em solid;
+    font-weight: none;
+    text-decoration: none;
+}
+.tipsAndCautionLink a:after{
+    content: '';
+    background-size:cover;
+    position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
+}
 
 
 /* Tips and caution Style from Here */ 
