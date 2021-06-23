@@ -15,7 +15,7 @@ const HeaderMain = () => {
                         <h2>Become proficient in coding</h2>
                         <img className="mainHeadingImagesMobile" src="https://i.ibb.co/sHShYNy/m-hero.png" alt="" />
                         <div className="mainHeadingContent">
-                            <p><img src="https://i.ibb.co/cbbQH8r/size2.png" alt="icon" /> Learn Competitive Coding and Ace <span style={{ color: 'black', fontWeight: '900' }}>Technical Interviews</span></p>
+                            <p><img src="https://i.ibb.co/cbbQH8r/size2.png" alt="icon" /> Learn Competitive Programming and Ace <span style={{ color: 'black', fontWeight: '900' }}>Technical Interviews</span></p>
                             <p><img src="https://i.ibb.co/9h8cLL6/size3.png" alt="icon" /> Best Resources at your <span style={{ color: 'black', fontWeight: '900' }}>fingertips</span></p>
                             <p><img src="https://i.ibb.co/GPTNDYQ/size1.png" alt="icon" /> <span style={{ color: 'black', fontWeight: '900' }}>Handpicked</span> exercises to boost up your practise</p>
                             <p><img src="https://i.ibb.co/Kw2hVmw/size4.png" alt="icon" /> Tips from the <span style={{ color: 'black', fontWeight: '900' }}>experts</span> who are already in fortune companies</p>
