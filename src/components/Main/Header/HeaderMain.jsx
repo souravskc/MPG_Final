@@ -18,7 +18,7 @@ const HeaderMain = () => {
                             <p><img src="https://i.ibb.co/cbbQH8r/size2.png" alt="icon" /> Learn Competitive Coding and Ace <span style={{ color: 'black', fontWeight: '900' }}>Technical Interviews</span></p>
                             <p><img src="https://i.ibb.co/9h8cLL6/size3.png" alt="icon" /> Best Resources at your <span style={{ color: 'black', fontWeight: '900' }}>fingertips</span></p>
                             <p><img src="https://i.ibb.co/GPTNDYQ/size1.png" alt="icon" /> <span style={{ color: 'black', fontWeight: '900' }}>Handpicked</span> exercises to boost up your practise</p>
-                            <p><img src="https://i.ibb.co/Kw2hVmw/size4.png" alt="icon" /> Tips from the <span style={{ color: 'black', fontWeight: '900' }}>expert</span> who are already in fortune companies</p>
+                            <p><img src="https://i.ibb.co/Kw2hVmw/size4.png" alt="icon" /> Tips from the <span style={{ color: 'black', fontWeight: '900' }}>experts</span> who are already in fortune companies</p>
                         </div>
                         <div className="mainHeadingBtnDiv">
                             <a href="docs/compi"><button className="mainHeadingBtn">Learn Programming</button></a>
