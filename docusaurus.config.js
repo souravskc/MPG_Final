@@ -54,7 +54,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        gtag: {
+        googleAnalytics: {
           trackingID: 'G-XY23EX86R6',
           anonymizeIP: true,
         },
@@ -62,5 +62,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['my-loaders', '@docusaurus/plugin-google-gtag'],
+  plugins: ['my-loaders', '@docusaurus/plugin-google-analytics'],
 };
