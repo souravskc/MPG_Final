@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
-    googleAnalytics: {
+    gtag: {
       trackingID: 'G-XY23EX86R6',
       anonymizeIP: true,
     },
@@ -58,9 +58,12 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        
+      },
+      "@docusaurus/plugin-google-gtag",
+      {
+        id: "plugin-google-gtag-1",
       },
     ],
   ],
-  plugins: ['my-loaders', '@docusaurus/plugin-google-analytics'],
+  plugins: ['my-loaders', '@docusaurus/plugin-google-gtag'],
 };
