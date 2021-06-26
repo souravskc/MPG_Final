@@ -59,11 +59,12 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
-      "@docusaurus/plugin-google-gtag",
-      {
-        id: "plugin-google-gtag-1",
-      },
     ],
   ],
-  plugins: ['my-loaders', '@docusaurus/plugin-google-gtag'],
+  plugins: ['my-loaders', [
+    "@docusaurus/plugin-google-gtag",
+    {
+      id: "plugin-google-gtag-1",
+    }
+  ]],
 };
