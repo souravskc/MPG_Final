@@ -11,6 +11,10 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'G-XY23EX86R6',
+      anonymizeIP: true,
+    },
     colorMode:{
       disableSwitch: true,
     },
@@ -53,10 +57,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        googleAnalytics: {
-          trackingID: 'G-XY23EX86R6',
-          anonymizeIP: true,
         },
         
       },
