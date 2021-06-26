@@ -11,10 +11,6 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
-    gtag: {
-      trackingID: 'G-XY23EX86R6',
-      anonymizeIP: true,
-    },
     colorMode:{
       disableSwitch: true,
     },
@@ -57,6 +53,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-XY23EX86R6',
+          anonymizeIP: true,
         },
         
       },
