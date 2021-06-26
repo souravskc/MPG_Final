@@ -12,7 +12,7 @@ module.exports = {
 
   themeConfig: {
     gtag: {
-      trackingID: 'G-XY23EX86R6',
+      trackingID: 'G-RHGTPTXCBL',
       anonymizeIP: true,
     },
     colorMode:{
