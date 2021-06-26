@@ -11,6 +11,10 @@ module.exports = {
   projectName: 'MPG_Final',
 
   themeConfig: {
+    gtag: {
+      trackingID: 'G-XY23EX86R6',
+      anonymizeIP: true,
+    },
     colorMode:{
       disableSwitch: true,
     },
@@ -58,5 +62,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['my-loaders'],
+  plugins: ['my-loaders', '@docusaurus/plugin-google-gtag'],
 };
