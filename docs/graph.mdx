@@ -10,36 +10,36 @@ import TabItem from '@theme/TabItem';
 import TipsCaution from '../src/components/TipsCaution.js';
 
 ## Concept
-Graph is an extension of trees, where there is no root node, and is used to represent real world connections and scenarios, for ex: connections on facebook or linkedin is a graph where you are a node and you are connected to other nodes in the graph. In order to get started with graphs you must first know the basic terminology of graphs and build a visual picture of what a graph looks like, the following articles will help you do so.
+Graph is an extension of trees, where there is no root node, and is used to represent real world connections and scenarios, for example, connections on facebook or linkedin is a graph where you are a node and you are connected to other nodes in the graph. In order to get started with graph you must first know the basic terminology of graph and build a visual picture of what a graph looks like, the following articles will help you do so.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Terminology And Representations Of Graphs",link:"https://www.techiedelight.com/terminology-and-representations-of-graphs/"},{name:"Graph",link:"https://www.programiz.com/dsa/graph/"},]}/>
-
-
-
-## Representating a Graph
-There are 2 ways to represent graphs, you will have to learn about them in detail, each having their own advantage and disadvantage. To know you must read on, be sure to learn the basics properly.
-
-
-<ResourceQuestion resource = "true" list={[{name:"Graph Adjacency Matrix",link:"https://www.programiz.com/dsa/graph-adjacency-matrix/"},{name:"Graph Adjacency List",link:"https://www.programiz.com/dsa/graph-adjacency-list/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Terminology And Representations Of Graphs",link:"https://www.techiedelight.com/terminology-and-representations-of-graphs/"},{name:"Graph Programiz Guide",link:"https://www.programiz.com/dsa/graph/"},]}/>
 
 
 
-## DFS
-DFS or depth first search is an algorithm for graph traversal, just like you have learnt tree traversal previously, this time you will learn about graph traversals, which are a must know because they help in solving more difficult advance level graph questions. So what is DFS? What is the basic principle behind DFS? How is it implemented? What is the time complexity? What are the applications of DFS? All of these are important questions you should be able to answer once you have read about it from these good articles.
+## Graph Representation
+There are 2 ways to represent graphs, you will have to learn about them in detail, each having their own advantages and disadvantages. To know you must read on, be sure to learn the basics properly.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Depth First Search",link:"https://cp-algorithms.com/graph/depth-first-search.html"},{name:"Graph DFS",link:"https://www.programiz.com/dsa/graph-dfs/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Graph Adjacency Matrix Representation",link:"https://www.programiz.com/dsa/graph-adjacency-matrix/"},{name:"Graph Adjacency List Representation",link:"https://www.programiz.com/dsa/graph-adjacency-list/"},]}/>
+
+
+
+## Depth First Search aka DFS
+Depth First Search or DFS is an algorithm for graph traversal, just like you have learnt about tree traversal previously, this time you will learn about graph traversals, which is a must know because they help in solving more difficult advance level graph problems. So what is DFS? What is the basic principle behind DFS? How is it implemented? What is the time complexity? What are the applications of DFS? All of these are important questions you should be able to answer once you have read about it from these good articles.
+
+
+<ResourceQuestion resource = "true" list={[{name:"Depth First Search In Graph",link:"https://cp-algorithms.com/graph/depth-first-search.html"},{name:"Graph DFS Algorithm",link:"https://www.programiz.com/dsa/graph-dfs/"},]}/>
 
 
 Q: Can you use implement DFS using stack?
 
 
-## Types of edges in DFS 
-While performing DFS, you can store the arrival and departure times of a node/vertex which can be used to explore the type of edge between two vertices, this perspective of DFS will be critical and useful to your problem solving analysis.
+## Types of Edges in DFS 
+While performing DFS, you can store the arrival and departure times of a node/vertex which can be used to identify the type of edge between two vertices, this perspective of DFS will be critical and useful to your problem solving analysis.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Arrival Departure Time Vertices DFS",link:"https://www.techiedelight.com/arrival-departure-time-vertices-dfs/"},{name:"Types Edges Involved DFS Relation",link:"https://www.techiedelight.com/types-edges-involved-dfs-relation/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Arrival Departure Time Of Vertices In DFS",link:"https://www.techiedelight.com/arrival-departure-time-vertices-dfs/"},{name:"Types Of Edges Involved In DFS",link:"https://www.techiedelight.com/types-edges-involved-dfs-relation/"},]}/>
 
 
 <Tabs
@@ -58,24 +58,24 @@ While performing DFS, you can store the arrival and departure times of a node/ve
 </Tabs>
 
 
-## BFS
+## Breadth First Search aka BFS
 You have studied about DFS, now you are going to study about BFS which is another graph traversal algorithm. The questions that you have answered for DFS, the same questions must be answered for BFS, which are, what is BFS? What is the basic principle behind BFS? How is it implemented? What is the time complexity? What are the applications of BFS? So you better start reading.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Breadth First Search",link:"https://cp-algorithms.com/graph/breadth-first-search.html"},{name:"Graph Bfs",link:"https://www.programiz.com/dsa/graph-bfs/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Breadth First Search In Graph",link:"https://cp-algorithms.com/graph/breadth-first-search.html"},{name:"Graph BFS Algorithm",link:"https://www.programiz.com/dsa/graph-bfs/"},]}/>
 
 
 <Tabs
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="easy">
-		<ResourceQuestion  list={[{name:"Knight On Chess Board",link:"https://www.interviewbit.com/problems/knight-on-chess-board/"},{name:"Steps By Knight5927",link:"https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1"},]}/>
+		<ResourceQuestion  list={[{name:"Knight On Chess Board",link:"https://www.interviewbit.com/problems/knight-on-chess-board/"},{name:"Steps By Knight",link:"https://practice.geeksforgeeks.org/problems/steps-by-knight5927/1"},]}/>
 	</TabItem>
 	<TabItem value="medium">
 		<ResourceQuestion  list={[{name:"Capture Regions On Board",link:"https://www.interviewbit.com/problems/capture-regions-on-board/"},{name:"Clone Graph",link:"https://www.interviewbit.com/problems/clone-graph/"},{name:"Description",link:"https://leetcode.com/problems/cheapest-flights-within-k-stops/description/"},]}/>
 	</TabItem>
 	<TabItem value="hard">
-		<ResourceQuestion  list={[{name:"Smallest Multiple With 0 And 1",link:"https://www.interviewbit.com/problems/smallest-multiple-with-0-and-1/"},{name:"Word Ladder I",link:"https://www.interviewbit.com/problems/word-ladder-i/"},{name:"Snake Ladder Problem",link:"https://www.interviewbit.com/problems/snake-ladder-problem/"},{name:"Water Jug Problem Using Bfs",link:"https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"},{name: "Min Cost Path" , link: "https://www.interviewbit.com/problems/min-cost-path/"}]}/>
+		<ResourceQuestion  list={[{name:"Smallest Multiple With 0 And 1",link:"https://www.interviewbit.com/problems/smallest-multiple-with-0-and-1/"},{name:"Word Ladder I",link:"https://www.interviewbit.com/problems/word-ladder-i/"},{name:"Snake Ladder Problem",link:"https://www.interviewbit.com/problems/snake-ladder-problem/"},{name:"Water Jug Problem Using BFS",link:"https://www.geeksforgeeks.org/water-jug-problem-using-bfs/"},{name: "Min Cost Path" , link: "https://www.interviewbit.com/problems/min-cost-path/"}]}/>
 	</TabItem>
 	
 </Tabs>
@@ -86,50 +86,48 @@ You have studied about DFS, now you are going to study about BFS which is anothe
 
 <ResourceQuestion resource = "true" list={[{name:"Search For Connected Components",link:"https://cp-algorithms.com/graph/search-for-connected-components.html"},]}/>
 
-
-<br/>
 <Tabs
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},]}>
 	<TabItem value="medium">
-		<ResourceQuestion  list={[{name:"Permutation Swaps",link:"https://www.interviewbit.com/problems/permutation-swaps/"},{name:"Strongly Connected Components Kosarajus Algo",link:"https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"},]}/>
+		<ResourceQuestion  list={[{name:"Permutation Swaps",link:"https://www.interviewbit.com/problems/permutation-swaps/"},{name:"Strongly Connected Components",link:"https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1"},]}/>
 	</TabItem>
 	
 </Tabs>
 
 
-## Finding Bridges
+## Bridges
 
 
 <ResourceQuestion resource = "true" list={[{name:"Bridge Searching",link:"https://cp-algorithms.com/graph/bridge-searching.html"},]}/>
 
 
 
-## Finding Bridges Online
+## Bridges Online
 
 
 <ResourceQuestion resource = "true" list={[{name:"Bridge Searching Online",link:"https://cp-algorithms.com/graph/bridge-searching-online.html"},]}/>
 
 
 
-## Finding Articulation Points
+## Articulation Points
 
 
 <ResourceQuestion resource = "true" list={[{name:"Articulation Points And Bridges",link:"https://www.hackerearth.com/practice/algorithms/graphs/articulation-points-and-bridges/tutorial"},{name:"Cutpoints",link:"https://cp-algorithms.com/graph/cutpoints.html"},]}/>
 
 
 
-## Finding Strongly Connected Component
+## Strongly Connected Component
 
 
-<ResourceQuestion resource = "true" list={[{name:"Strongly Connected Components",link:"https://cp-algorithms.com/graph/strongly-connected-components.html"},{name:"Strongly Connected Components",link:"https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/tutorial"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Strongly Connected Components In Graph",link:"https://cp-algorithms.com/graph/strongly-connected-components.html"},{name:"Strongly Connected Components Hackerearth Tutorial",link:"https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/tutorial"},]}/>
 
 
 ## Union-Find
-The basic use case of an edge is to connect two vertices, but if observe closely it is not just connecting two vertices but all other vertices connected to these two vertices are now connected to each other via this edge, as if a union has happened. Suppose given two vertices with no direct edge between them, you are asked to find if the two vertices are connected in O(1) time, one approach is to use DFS/BFS but it will give you O(n) time complexity, the solution lies in the concept of Union-Find which helps in solving a specific pattern of questions very easily, just like this one. So what is this union-find algorithm? What is the time complexity? and how is it implemented? All of these questions you must be able to answer after reading these wonderful articles .
+The basic use case of an edge is to connect two vertices, but if you observe closely it is not just connecting two vertices but all other vertices connected to these two vertices are now connected to each other via this edge, as if a union has happened. Suppose given two vertices with no direct edge between them, you are asked to find if the two vertices are connected in O(1) time, one approach is to use DFS/BFS but it will give you O(n) time complexity, the solution lies in the concept of Union-Find which helps in solving a specific pattern of problems very easily, just like this one. So what is this union-find algorithm? What is the time complexity? How is it implemented? All of these questions you must be able to answer after reading these wonderful articles .
 
 
-<ResourceQuestion resource = "true" list={[{name:"Disjoint_Set_Union",link:"https://cp-algorithms.com/data_structures/disjoint_set_union.html", desc: "Read upto time complexity inclusive"},{name:"Course",link:"https://codeforces.com/edu/course/2"},{name:"Disjoint Set Union Union Find",link:"https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Disjoint Set Union",link:"https://cp-algorithms.com/data_structures/disjoint_set_union.html"},{name:"Union Find Codeforces Lessons",link:"https://codeforces.com/edu/course/2"},{name:"Union Find Hackerearth Tutorial",link:"https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/"},]}/>
 
 
 <Tabs
@@ -142,11 +140,11 @@ The basic use case of an edge is to connect two vertices, but if observe closely
 </Tabs>
 
 
-## Dijkstra Algorithm
-Dijkstra’s algorithm is used to find the shortest distance path from the source or starting vertex to all other vertices in the graph. Using Dijkstra's uber knows the shortest distance between your pick up point and your drop off point. Now that you know what Dijkstra is there are few other questions left to answer. What is the basic principle behind dijkstra? How is it implemented? What is the time complexity? All of these questions you must be able to answer after reading these wonderful articles. Make sure you are able to visualise this algorithm to understand completely how it functions.
+## Dijkstra's Algorithm
+Dijkstra’s algorithm is used to find the shortest distance path from the source or starting vertex to all other vertices in the graph. Using dijkstra's uber knows the shortest distance between your pick up point and your drop off point. Now that you have a faint idea of what dijkstra's algorithm is there are few other questions left to answer. What is the basic principle behind dijkstra's algorithm? How is it implemented? What is the time complexity? All of these questions you must be able to answer after reading these wonderful articles. Make sure you are able to visualise this algorithm to understand completely how it functions.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Dijkstras Shortest Path Algorithm Greedy Algo 7",link:"https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"},{name:"Dijkstra",link:"https://cp-algorithms.com/graph/dijkstra.html"},{name:"Single Source Shortest Paths Dijkstras Algorithm",link:"https://www.techiedelight.com/single-source-shortest-paths-dijkstras-algorithm/"},{name:"Visualise Dijkstra",link:"https://visualgo.net/en/sssp/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Dijkstra's Shortest Path Algorithm",link:"https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"},{name:"Dijkstra's Algorithm In Graph",link:"https://cp-algorithms.com/graph/dijkstra.html"},{name:"Single Source Shortest Path Dijkstra's Algorithm",link:"https://www.techiedelight.com/single-source-shortest-paths-dijkstras-algorithm/"},{name:"Visualise Dijkstra's Algorithm",link:"https://visualgo.net/en/sssp/"},]}/>
 
 <TipsCaution tip = "false" content= "Dijkstra’s algorithm does not work when the edge weights have negative values." />
 
@@ -155,17 +153,17 @@ Dijkstra’s algorithm is used to find the shortest distance path from the sourc
 	defaultValue="hard"
 	values={[{label: "Hard", value: "hard"},]}>
 	<TabItem value="hard">
-		<ResourceQuestion  list={[{name:"Useful Extra Edges",link:"https://www.interviewbit.com/problems/useful-extra-edges/"},{name:"Minimum Edges Reverse Make Path Source Destination",link:"https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/"},]}/>
+		<ResourceQuestion  list={[{name:"Useful Extra Edges",link:"https://www.interviewbit.com/problems/useful-extra-edges/"},{name:"Minimum Edges To Reverse",link:"https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/"},]}/>
 	</TabItem>
 	
 </Tabs>
 
 
 ## 0-1 BFS
-It so happens that finding the single source shortest path using dijkstra’s can be an overkill if the edge weights contain one of the only two possible values. For this special scenario 0-1 BFS can be deployed to find the Single Source Shortest Path(SSSP), which is easier to understand and code. So why does having this one special condition make it possible to use BFS? The answer you will find in this article but you must read on.
+It so happens that finding the single source shortest path using dijkstra’s algorithm can be an overkill if the edge weights contain one of the only two possible values. For this special scenario 0-1 BFS can be deployed to find the Single Source Shortest Path aka SSSP, which is easier to understand and code. So why does having this one special condition make it possible to use BFS? The answer you will find in this article but you must read on.
 
 
-<ResourceQuestion resource = "true" list={[{name:"01_Bfs",link:"https://cp-algorithms.com/graph/01_bfs.html"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"0-1 BFS In Graph",link:"https://cp-algorithms.com/graph/01_bfs.html"},]}/>
 
 
 <Tabs
@@ -178,38 +176,38 @@ It so happens that finding the single source shortest path using dijkstra’s ca
 </Tabs>
 
 
-## Dijkstra on sparse graphs
-When it comes to graphs based on its representation adjacency matrix or adjacency list, the dijkstra’s algorithm has different time complexity, here you will learn about the time complexity and implementation of dijkstra for sparse graphs which are represented using adjacency lists.
+## Dijkstra's on Sparse Graph
+When it comes to graphs based on its representation adjacency matrix or adjacency list, the dijkstra’s algorithm has different time complexity, here you will learn about the time complexity and implementation of dijkstra's algorithm for sparse graph which is represented using adjacency list.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Dijkstra Sparse",link:"https://cp-algorithms.com/graph/dijkstra_sparse.html"},{name:"Dijkstras Algorithm For Adjacency List Representation Greedy Algo",link:"https://www.geeksforgeeks.org/dijkstras-algorithm-for-adjacency-list-representation-greedy-algo-8/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Dijkstra's In Sparse Graph",link:"https://cp-algorithms.com/graph/dijkstra_sparse.html"},{name:"Dijkstras Algorithm For Adjacency List Representation",link:"https://www.geeksforgeeks.org/dijkstras-algorithm-for-adjacency-list-representation-greedy-algo-8/"},]}/>
 
 
 The Dijkstra’s algorithm can be implemented using either set or priority queue, with proper understanding of both the containers you can use the more appropriate container for your implementation. It is recommended you go through both the implementations.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Dijkstras Shortest Path Algorithm Using Set In Stl",link:"https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-set-in-stl/"},{name:"Dijkstras Shortest Path Algorithm Using Priority_Queue Stl",link:"https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-priority_queue-stl/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Dijkstra's Shortest Path Algorithm Using STL Set",link:"https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-set-in-stl/"},{name:"Dijkstra's Shortest Path Algorithm Using STL Priority_Queue",link:"https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-priority_queue-stl/"},]}/>
 
 
 
 ## Bellman Ford Algorithm
-Bellman Ford algorithm overcomes the shortcoming of Dijkstra algorithm, it enables you to find the SSSP when the graph has negative edge weights. So the question that arises, what is the basic principle behind Bellman Ford algorithm? How is it implemented? What is the time complexity? All of these questions you must be able to answer after reading these wonderful articles.
+Bellman Ford algorithm overcomes the shortcoming of dijkstra's algorithm, it enables you to find the single source shortest path when the graph has negative edge weights. So the question that arises, what is the basic principle behind Bellman Ford algorithm? How is it implemented? What is the time complexity? All of these questions you must be able to answer after reading these wonderful articles.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Bellman Ford",link:"https://cp-algorithms.com/graph/bellman_ford.html"},{name:"Bellman Ford Algorithm",link:"https://www.programiz.com/dsa/bellman-ford-algorithm/"},{name:"Single Source Shortest Paths Bellman Ford Algorithm",link:"https://www.techiedelight.com/single-source-shortest-paths-bellman-ford-algorithm/"},{name:"Bellman Ford Algorithm Dp 23",link:"https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Bellman Ford Algorithm In Graph",link:"https://cp-algorithms.com/graph/bellman_ford.html"},{name:"Bellman Ford Algorithm Programiz Guide",link:"https://www.programiz.com/dsa/bellman-ford-algorithm/"},{name:"Bellman Ford Algorithm Techie Delight",link:"https://www.techiedelight.com/single-source-shortest-paths-bellman-ford-algorithm/"},{name:"Bellman Ford Algorith",link:"https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/"},]}/>
 
 
 
 ## Floyd-Warshall Algorithm
-So far you have learned about algorithms that find the shortest path from a single source vertex to all other vertices, but what if you have to find the shortest path from every vertex to every other vertex, is there any algorithm better than dijkstra's? Fortunately there is, Floyd-Warshall’s is a DP based approach that will help you to find the all pair shortest path easily. You know the principle behind this approach, DP, but do you know how it is implemented or what is the time complexity? If you don’t you must read these wonderful articles to find out.
+So far you have learned about algorithms that find the shortest path from a single source vertex to all other vertices, but what if you have to find the shortest path from every vertex to every other vertex, is there any algorithm better than dijkstra's? Fortunately there is, Floyd-Warshall algorithm is a dynamic programming based approach that will help you to find the all pair shortest path easily. You know that dynamic programming is behind this approach, but do you know how it is implemented or what is the time complexity? If you don’t you must read these wonderful articles to find out.
 
 
-<ResourceQuestion resource = "true" list={[{name:"All Pair Shortest Path Floyd Warshall",link:"https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"},{name:"Floyd Warshall Algorithm Dp 16",link:"https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"All Pair Shortest Path Floyd Warshall",link:"https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"},{name:"Floyd Warshall Algorithm Dp",link:"https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/"},]}/>
 
 
 
 ## Spanning Tree
-Spanning Tree is a type of graph which is a tree, all the vertices will be connected and the number of edges will be one less than the vertex, building a spanning tree is usually a sub-problem to more difficult and challenging problems, but how do you build a spanning tree? Is there any other useful variation to a spanning tree? all  these questions will be answered, you have to just read on, stay on track.
+Spanning Tree is a type of graph which is a tree, all the vertices will be connected and the number of edges will be one less than the number of vertices, building a spanning tree is usually a sub-problem to more difficult and challenging problems, but how do you build a spanning tree? Is there any other useful variation to a spanning tree? All  these questions will be answered, you have to just read on, stay on track.
 
 
 <ResourceQuestion resource = "true" list={[{name:"Spanning Tree And Minimum Spanning Tree",link:"https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree/"},]}/>
@@ -219,33 +217,33 @@ Spanning Tree is a type of graph which is a tree, all the vertices will be conne
 	defaultValue="easy"
 	values={[{label: "Easy", value: "easy"},]}>
 	<TabItem value="easy">
-		<ResourceQuestion  list={[{name:"Commutable Islands",link:"https://www.interviewbit.com/problems/commutable-islands/"},]}/>
+		<ResourceQuestion  list={[{name:"Commutable Islands",link:"https://www.interviewbit.com/problems/commutable-islands/"},{name:"Minimum Spanning Tree",link:"https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial"},]}/>
 	</TabItem>
 	
 </Tabs>
 
 
-## Kruskal Algorithm
+## Kruskal's Algorithm
 Kruskal's Agorithm helps you create a minimum spanning tree from a graph, it follows a greedy approach to do so. So what is the principle behind Kruskal’s algorithm? How is it implemented? What is the time complexity? All these questions you must be able to answer after reading these wonderful articles. As a spoiler, Kruskal’s algorithm uses a greedy approach alongside union-find to find the minimum spanning tree. 
 
 
-<ResourceQuestion resource = "true" list={[{name:"Kruskal Algorithm",link:"https://www.programiz.com/dsa/kruskal-algorithm/"},{name:"Mst Kruskal",link:"https://cp-algorithms.com/graph/mst_kruskal.html"},{name:"Mst Kruskal With Dsu",link:"https://cp-algorithms.com/graph/mst_kruskal_with_dsu.html"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Kruskal's Algorithm Guide",link:"https://www.programiz.com/dsa/kruskal-algorithm/"},{name:"MST Using Kruskal's Algorithm",link:"https://cp-algorithms.com/graph/mst_kruskal.html"},{name:"Kruskal's Algorithm Using DSU",link:"https://cp-algorithms.com/graph/mst_kruskal_with_dsu.html"},]}/>
 
 
 
-## Prim Algorithm
-As an alternative to Kruskal’s algorithm to find the minimum spanning tree, you can use Prim’s Algorithm which also follows a greedy approach. So what is different about Prim’s algorithm? How is it implemented? What is the time complexity ? All these questions you must be able to answer after reading these wonderful articles.
+## Prim's Algorithm
+As an alternative to Kruskal’s algorithm to find the minimum spanning tree, you can use Prim’s algorithm which also follows a greedy approach. So what is different about Prim’s algorithm? How is it implemented? What is the time complexity? All these questions you must be able to answer after reading these wonderful articles.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Mst Prim",link:"https://cp-algorithms.com/graph/mst_prim.html"},{name:"Prim Algorithm",link:"https://www.programiz.com/dsa/prim-algorithm/"},{name:"Minimum Spanning Tree",link:"https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"MST Using Prim's Algorithm",link:"https://cp-algorithms.com/graph/mst_prim.html"},{name:"Prim Algorithm Guide",link:"https://www.programiz.com/dsa/prim-algorithm/"},]}/>
 
 
 
-## Topological sort
-For DAG, or Directed Acyclic Graph there a special ordering of the vertices such that there is no backward edge. This ordering is a special condition that exists in many day to day scenarios, so it is very useful to learn about Topological sort which will help you to find this ordering of vertices. But remember that a graph must be a DAG. So what is a Topological sort? How is it implemented? What is the time complexity? All these questions you must be able to answer after reading these wonderful articles.
+## Topological Sort
+For Directed Acyclic Graph aka DAG there is a special ordering of the vertices such that there is no backward edge. This ordering is a special condition that exists in many day to day scenarios, so it is very useful to learn about topological sort which will help you to find this ordering of vertices. But remember that a graph must be a DAG. So what is a topological sort? How is it implemented? What is the time complexity? All these questions you must be able to answer after reading these wonderful articles.
 
 
-<ResourceQuestion resource = "true" list={[{name:"Topological Sort HackerEarth Tutorial",link:"https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/tutorial"},{name:"Topological Sort CP Algo",link:"https://cp-algorithms.com/graph/topological-sort.html"},{name:"Learn Topological Sort",link:"https://www.interviewcake.com/concept/java/topological-sort/"},{name:"Topological Sorting Indegree Based Solution",link:"https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/"},]}/>
+<ResourceQuestion resource = "true" list={[{name:"Topological Sort HackerEarth Tutorial",link:"https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/tutorial"},{name:"Topological Sort CP Algo",link:"https://cp-algorithms.com/graph/topological-sort.html"},{name:"Learn Topological Sort",link:"https://www.interviewcake.com/concept/java/topological-sort/"},{name:"Topological Sorting Indegree Based Approach",link:"https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/"},]}/>
 
 
 <Tabs
@@ -263,7 +261,7 @@ For DAG, or Directed Acyclic Graph there a special ordering of the vertices such
 
 ## Questions
 
-### BIPARTITE
+### Bipartite Graph
 
 <Tabs
 	defaultValue="medium"
@@ -281,7 +279,7 @@ For DAG, or Directed Acyclic Graph there a special ordering of the vertices such
 	defaultValue="medium"
 	values={[{label: "Medium", value: "medium"},{label: "Hard", value: "hard"},]}>
 	<TabItem value="medium">
-		<ResourceQuestion  list={[{name:"Largest Distance Between Nodes Of A Tree",link:"https://www.interviewbit.com/problems/largest-distance-between-nodes-of-a-tree/"},{name:"Rat In A Maze Problem",link:"https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"},{name:"M Coloring Problem 1587115620",link:"https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"},{name:"The Celebrity Problem",link:"https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1"},]}/>
+		<ResourceQuestion  list={[{name:"Largest Distance Between Nodes Of A Tree",link:"https://www.interviewbit.com/problems/largest-distance-between-nodes-of-a-tree/"},{name:"Rat In A Maze Problem",link:"https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1"},{name:"M Coloring Problem",link:"https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1"},{name:"The Celebrity Problem",link:"https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1"},]}/>
 	</TabItem>
 	<TabItem value="hard">
 		<ResourceQuestion  list={[{name:"Sum Of Fibonacci Numbers",link:"https://www.interviewbit.com/problems/sum-of-fibonacci-numbers/"},{name:"Minimize Cash Flow Among Given Set Friends Borrowed Money",link:"https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"},]}/>
