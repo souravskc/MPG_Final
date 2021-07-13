@@ -61,6 +61,12 @@
     margin-bottom: 40px;
     box-shadow: 5px 5px 5px grey;
 }
+.mainHeadingBtn:hover{
+    text-decoration: none;
+    color: rgb(208, 245, 2);
+    background-color: #2C6EEF;
+}
+
 
 
 /* Tab Pro */
@@ -107,7 +113,9 @@
         font-weight: 600;
         font-family: Karma;
         padding: 20px 40px;
+        
     }
+    
 }
 
 
