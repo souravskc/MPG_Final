@@ -26,16 +26,17 @@
 }
 
 
-.comingSoonBtn button {
+.comingSoonBtn a {
     border: none;
     padding: 3% 9%;
+    margin-top: 150px;
+    text-decoration: none;
     border-radius: 10px;
     background-color: #2C6EEF;
     color: white;
     font-weight: 600;
     font-size: 2vw;
     box-shadow: 5px 5px 5px grey;
-    margin: 40px 0;
 }
 
 /* Tab  */

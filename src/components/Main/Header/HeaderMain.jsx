@@ -33,7 +33,7 @@ const HeaderMain = () => {
                             <p><img src="https://i.ibb.co/Kw2hVmw/size4.png" alt="icon" /> Tips from the <span style={{ color: 'black', fontWeight: '900' }}>experts</span> who are already in fortune companies</p>
                         </div>
                         <div className="mainHeadingBtnDiv">
-                            <a href="docs/compi"><button className="mainHeadingBtn">Learn Programming</button></a>
+				            <a href="docs/compi" className="mainHeadingBtn">Learn Programming</a>
                         </div>
                     </div>
                     <div className="mainHeadingImage">
