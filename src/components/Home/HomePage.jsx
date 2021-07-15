@@ -11,7 +11,6 @@ import Community from '../Main/Community/Community';
 const HomePage = () => {
 
     // ReactGA.pageview(window.location.pathname + window.location.search);
-
     return (
         <>
             <div>

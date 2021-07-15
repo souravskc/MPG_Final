@@ -3,15 +3,15 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Footer from '../components/Footer'
 import HomePage from '../components/Home/HomePage';
-
-
+import Popup from '../components/Popup';
+import Fade from 'react-reveal/Fade';
 export default function Home() {
 
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
 
 
-  return (    
+  return (
 
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* <Feedback /> */}
       <Footer />
+      <Popup />
     </Layout>
   );
 }
-

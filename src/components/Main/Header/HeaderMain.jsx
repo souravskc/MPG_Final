@@ -1,4 +1,5 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
+// import {useSpring, animated} from '@react-spring/web';
 import './HeaderMain.css';
 import LibraryAddCheckIcon from '@material-ui/icons/LibraryAddCheck';
 import SettingsApplicationsIcon from '@material-ui/icons/SettingsApplications';
@@ -6,22 +7,17 @@ import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 import Modal from 'react-modal';
 import CloseIcon from '@material-ui/icons/Close';
+import { useHistory } from 'react-router-dom';
+
+// import { motion, AnimatePresence } from "framer-motion";
+import Fade from 'react-reveal/Fade';
+import gmail from './gmail1.png'
+// import "@font/nunito";
+// import {useSpring, animated} from 'react-spring';
 const HeaderMain = () => {
-  const customStyles = {
-  content : {
-    top                   : '40%',
-    left                  : '40%',
-    right                 : 'auto',
-    bottom                : 'auto',
-    marginRight           : '-40%',
-    transform             : 'translate(-40%, -40%)'
-  }
-};
-  const [openadd,setadd]=useState(true);
-  const [input,setInput]=useState('');
-  const handleSubmit = (e)=>{
-  e.preventDefault();
-}
+
+    
+
     return (
         <>
             <div className="mainHeadingContainer">
@@ -45,16 +41,7 @@ const HeaderMain = () => {
                     </div>
                 </div>
             </div>
-            <Modal style={customStyles} isOpen={openadd} onRequestClose={()=>{setadd(false)}}>
-              <h2>Review Your Resume</h2>
-              <CloseIcon style={{position:"absolute",right:"20",top:"21",cursor:"pointer"}} onClick={()=>{setadd(false)}}></CloseIcon>
-              <p>Provide your mail we will shortly contact you to review your resume and improve it</p>
-              <form onSubmit={handleSubmit}>
-              <input type="text" style={{marginTop:"10px"}} onChange={(e)=>{setInput(e.target.value)}} name="newitem" placeholder = "Enter Email id" value={input}/>
 
-              <button type="submit">Subscribe</button>
-              </form>
-            </Modal>
         </>
     );
 };
