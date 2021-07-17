@@ -9,11 +9,7 @@ import Modal from 'react-modal';
 import CloseIcon from '@material-ui/icons/Close';
 import { useHistory } from 'react-router-dom';
 
-// import { motion, AnimatePresence } from "framer-motion";
-import Fade from 'react-reveal/Fade';
 import gmail from './gmail1.png'
-// import "@font/nunito";
-// import {useSpring, animated} from 'react-spring';
 const HeaderMain = () => {
 
 
