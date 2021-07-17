@@ -16,7 +16,7 @@ import gmail from './gmail1.png'
 // import {useSpring, animated} from 'react-spring';
 const HeaderMain = () => {
 
-    
+
 
     return (
         <>
@@ -32,8 +32,13 @@ const HeaderMain = () => {
                             <p><img src="https://i.ibb.co/GPTNDYQ/size1.png" alt="icon" /> <span style={{ color: 'black', fontWeight: '900' }}>Handpicked</span> exercises to boost up your practise</p>
                             <p><img src="https://i.ibb.co/Kw2hVmw/size4.png" alt="icon" /> Tips from the <span style={{ color: 'black', fontWeight: '900' }}>experts</span> who are already in fortune companies</p>
                         </div>
-                        <div className="mainHeadingBtnDiv">
-				            <a href="docs/compi" className="mainHeadingBtn">Learn Programming</a>
+                        <div className="heading">
+                          <div className="mainHeadingBtnDiv">
+  				                    <a href="docs/compi" className="mainHeadingBtn">Learn Programming</a>
+                          </div>
+                          <div className="mainHeadingBtnDiv2">
+  				                    <a target="_blank" href="https://discord.gg/ucH5UY9xY5" className="mainHeadingBtn2">Join Community</a>
+                          </div>
                         </div>
                     </div>
                     <div className="mainHeadingImage">

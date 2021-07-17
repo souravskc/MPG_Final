@@ -25,6 +25,15 @@
     font-size: 2vw;
 }
 
+.visitbutton:hover{
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  /* transform: scale(1.05); */
+  /* transition-delay: 0.5s; */
+  animation-delay: 2s;
+  font-size: 2.05vw;
+  text-decoration: none;
+  color: white;
+}
 
 .comingSoonBtn a {
     border: none;
@@ -37,13 +46,16 @@
     font-weight: 600;
     font-size: 2vw;
     box-shadow: 5px 5px 5px grey;
-}
 
+}
+.comingSoonBtn{
+  margin-top: 15px;
+}
 /* Tab  */
 
 @media (max-width: 750px) {
         /* Responsive main Container */
-    
+
         .communityMainContainer{
             grid-template-columns: repeat(1, 1fr);
         }
@@ -112,8 +124,5 @@
         margin: 0 0;
         text-align: center;
     }
-    
+
 }
-
-
-

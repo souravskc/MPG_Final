@@ -32,6 +32,11 @@ module.exports = {
           to: 'docs/compi',
           activeBasePath: 'docs',
         },
+        {
+          href:"https://discord.gg/ucH5UY9xY5",
+          position:'right',
+          className:'header-discord-link',
+        }
         // {
         //   label:"Boot Camp",
         //   docId: 'bootcamp',

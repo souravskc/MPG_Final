@@ -6,7 +6,7 @@ const  https = require("https");
 // const Mailchimp = require('mailchimp-api');
 
 require('dotenv').config();
-const port = 4000;
+// const port = 4000;
 
 app.use(bodyParser.urlencoded({
   extended: true
@@ -37,11 +37,11 @@ app.post('/mailchimp', async (req,res) => {
   };
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us6.api.mailchimp.com/3.0/lists/05f848be74";
+  const url =  "https://us6.api.mailchimp.com/3.0/lists/1a3b72f584";
 
   const options = {
     method: "POST",
-    auth: "Vishnu:4b4a99c9204947181a63c9525c34ead0-us6"
+    auth: "Resume:f1a75c1938bf3ad415a8041bee411d1e-us6"
   }
   request = https.request(url,options,function(response){
     response.on("data",function(data){
@@ -53,8 +53,10 @@ app.post('/mailchimp', async (req,res) => {
 })
 
 
-
-
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 4000;
+}
 
 
 
