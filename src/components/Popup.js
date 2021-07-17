@@ -2,15 +2,15 @@ import React,{useState} from 'react';
 import Modal from 'react-modal';
 import CloseIcon from '@material-ui/icons/Close';
 // import {Link} from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 import './Popup.css';
 import gmail from './Main/Header/gmail2.png'
 function Popup(){
-  let history = useHistory();
+  // let history = useHistory();
   const [openadd,setadd]=useState(true);
   const [input,setInput]=useState('');
-  const modal = document.querySelector('.modal');
-  const overlay = document.querySelector('.overlay');
+  // const modal = document.querySelector('.modal');
+  // const overlay = document.querySelector('.overlay');
   const persist = (input)=>{
       // e.preventDefault();
       fetch(`http://mpg-backend.herokuapp.com/mailchimp`,{
@@ -75,12 +75,12 @@ return(<>
       <img className="successimage" src="https://image.flaticon.com/icons/png/512/1828/1828640.png"/>
       <p >Subscribed Successfully</p>
     </div>
-    <CloseIcon style={{position:"absolute",right:"20",top:"21",cursor:"pointer"}} onClick={()=>{close(),history.push('/')}} ></CloseIcon>
+    <CloseIcon style={{position:"absolute",right:"20",top:"21",cursor:"pointer"}} onClick={()=>{close()}} ></CloseIcon>
   </div>
 
 
 
-  <div onClick={()=>{close(),history.push('/')}} class="overlay"></div>
+  <div onClick={()=>{close()}} class="overlay"></div>
 
   </>)
 }

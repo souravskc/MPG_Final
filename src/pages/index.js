@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Footer from '../components/Footer'
 import HomePage from '../components/Home/HomePage';
-// import Popup from '../components/Popup';
+import Popup from '../components/Popup';
 export default function Home() {
 
   const context = useDocusaurusContext();
@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* <Feedback /> */}
       <Footer />
-      // <Popup />
+      <Popup />
     </Layout>
   );
 }
