@@ -1,8 +1,6 @@
 import React,{useState} from 'react';
 import Modal from 'react-modal';
 import CloseIcon from '@material-ui/icons/Close';
-// import {Link} from 'react-router-dom';
-// import { useHistory } from 'react-router-dom';
 import './Popup.css';
 import gmail from './Main/Header/gmail2.png'
 function Popup(){
@@ -72,8 +70,6 @@ return(<>
     </div>
     </form>
     <div className="success hidden">
-      <img className="successimage" src="https://image.flaticon.com/icons/png/512/1828/1828640.png"/>
-      <p >Subscribed Successfully</p>
     </div>
     <CloseIcon style={{position:"absolute",right:"20",top:"21",cursor:"pointer"}} onClick={()=>{close()}} ></CloseIcon>
   </div>
