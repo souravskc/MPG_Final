@@ -31,16 +31,21 @@ module.exports = {
           position:"right",
           to: 'docs/compi',
           activeBasePath: 'docs',
+        },
+        {
+          href:"https://discord.gg/ucH5UY9xY5",
+          position:'right',
+          className:'header-discord-link',
         }
-//         {
-//           label:"Boot Camp",
-//           docId: 'bootcamp',
-//           position:"right",
-//           to: 'docs/bootcamp',
-//           activeBasePath: 'docs',
-//         },
+        // {
+        //   label:"Boot Camp",
+        //   docId: 'bootcamp',
+        //   position:"right",
+        //   to: 'docs/compi',
+        //   activeBasePath: 'docs',
+        // }
       ],
-      
+
     },
   },
   presets: [
@@ -50,7 +55,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-        },  
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
