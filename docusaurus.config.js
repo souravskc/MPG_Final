@@ -41,7 +41,7 @@ module.exports = {
         //   label:"Boot Camp",
         //   docId: 'bootcamp',
         //   position:"right",
-        //   to: 'docs/popup',
+        //   to: 'docs/compi',
         //   activeBasePath: 'docs',
         // }
       ],
