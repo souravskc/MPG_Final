@@ -4,7 +4,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Footer from '../components/Footer'
 import HomePage from '../components/Home/HomePage';
 import Popup from '../components/Popup';
-import Fade from 'react-reveal/Fade';
 export default function Home() {
 
   const context = useDocusaurusContext();
