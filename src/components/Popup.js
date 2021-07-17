@@ -4,8 +4,6 @@ import CloseIcon from '@material-ui/icons/Close';
 // import {Link} from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import './Popup.css';
-// import { motion, AnimatePresence } from "framer-motion";
-import Fade from 'react-reveal/Fade';
 import gmail from './Main/Header/gmail2.png'
 function Popup(){
   let history = useHistory();
