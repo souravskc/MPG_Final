@@ -11,7 +11,7 @@ function Popup(){
   // const overlay = document.querySelector('.overlay');
   const persist = (input)=>{
       // e.preventDefault();
-      fetch(`http://mpg-backend.herokuapp.com/mailchimp`,{
+      fetch(`https://mpg-backend.herokuapp.com/mailchimp`,{
         method: 'POST',
         headers: {"Content-Type":"application/json",
       },
